@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: b70c686cb3187af449fea8a2aa25b4b3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2797783794539611184
+    second: phantom_spritesheet_0
+  - first:
+      213: 3688056446312290019
+    second: phantom_spritesheet_1
+  - first:
+      213: -7186115131844727858
+    second: phantom_spritesheet_2
+  - first:
+      213: -31121521631468211
+    second: phantom_spritesheet_3
+  - first:
+      213: 8291174574426723438
+    second: phantom_spritesheet_4
+  - first:
+      213: 6330130535325410374
+    second: phantom_spritesheet_5
+  - first:
+      213: 7041599647841452183
+    second: phantom_spritesheet_6
+  - first:
+      213: -2910237573296783281
+    second: phantom_spritesheet_7
+  - first:
+      213: 4353053574079002804
+    second: phantom_spritesheet_8
+  - first:
+      213: 2309214285945388429
+    second: phantom_spritesheet_9
+  - first:
+      213: -5969675470043488670
+    second: phantom_spritesheet_10
+  - first:
+      213: -51609063870935297
+    second: phantom_spritesheet_11
+  - first:
+      213: 5501545427104339512
+    second: phantom_spritesheet_12
+  - first:
+      213: 5627059199787104362
+    second: phantom_spritesheet_13
+  - first:
+      213: -5781017992975765840
+    second: phantom_spritesheet_14
+  - first:
+      213: 9025270630182835166
+    second: phantom_spritesheet_15
+  - first:
+      213: -4890864238418563413
+    second: phantom_spritesheet_16
+  - first:
+      213: -902257092510321775
+    second: phantom_spritesheet_17
+  - first:
+      213: -4079206367521464821
+    second: phantom_spritesheet_18
+  - first:
+      213: -4192539495656675728
+    second: phantom_spritesheet_19
+  - first:
+      213: 5575082121287966034
+    second: phantom_spritesheet_20
+  - first:
+      213: 8403844864995456387
+    second: phantom_spritesheet_21
+  - first:
+      213: -6048912647218748001
+    second: phantom_spritesheet_22
+  - first:
+      213: -5021757493688523012
+    second: phantom_spritesheet_23
+  - first:
+      213: 1267426197995973158
+    second: phantom_spritesheet_24
+  - first:
+      213: -117723498850927328
+    second: phantom_spritesheet_25
+  - first:
+      213: 5360669663499298791
+    second: phantom_spritesheet_26
+  - first:
+      213: -1862458160157417087
+    second: phantom_spritesheet_27
+  - first:
+      213: 7808170323775951465
+    second: phantom_spritesheet_28
+  - first:
+      213: 7978929301134644313
+    second: phantom_spritesheet_29
+  - first:
+      213: -8610492444467749579
+    second: phantom_spritesheet_30
+  - first:
+      213: -8326967721873283503
+    second: phantom_spritesheet_31
+  - first:
+      213: -661315741248937973
+    second: phantom_spritesheet_32
+  - first:
+      213: 9214388453820644443
+    second: phantom_spritesheet_33
+  - first:
+      213: 8598813946167778933
+    second: phantom_spritesheet_34
+  - first:
+      213: 5571886385121887710
+    second: phantom_spritesheet_35
+  - first:
+      213: -2939514165364498329
+    second: phantom_spritesheet_36
+  - first:
+      213: 3657301577352335671
+    second: phantom_spritesheet_37
+  - first:
+      213: -3234228160430648528
+    second: phantom_spritesheet_38
+  - first:
+      213: -8916011078153844281
+    second: phantom_spritesheet_39
+  - first:
+      213: 4473540432308402087
+    second: phantom_spritesheet_40
+  - first:
+      213: 7953191632925221207
+    second: phantom_spritesheet_41
+  - first:
+      213: 4397549717084393216
+    second: phantom_spritesheet_42
+  - first:
+      213: 6297921605666321174
+    second: phantom_spritesheet_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: phantom_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 68
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db3f1056764c29d0800000000000000
+      internalID: -2797783794539611184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6980a3ccb9e2330800000000000000
+      internalID: 3688056446312290019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 47
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecbe55b7c5ac54c90800000000000000
+      internalID: -7186115131844727858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 52
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d456946142f619ff0800000000000000
+      internalID: -31121521631468211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64947fc85b201370800000000000000
+      internalID: 8291174574426723438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 47
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644ace3fe2429d750800000000000000
+      internalID: 6330130535325410374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 47
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7900b1c5299c8b160800000000000000
+      internalID: 7041599647841452183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4086af9852cc97d0800000000000000
+      internalID: -2910237573296783281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 47
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b839338927296c30800000000000000
+      internalID: 4353053574079002804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 68
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d3808882afb0020800000000000000
+      internalID: 2309214285945388429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 52
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ed1b7e9c3772da0800000000000000
+      internalID: -5969675470043488670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 47
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe48c074d5a84ff0800000000000000
+      internalID: -51609063870935297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 63
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8369a32ea6a695c40800000000000000
+      internalID: 5501545427104339512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 47
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68776d5784571e40800000000000000
+      internalID: 5627059199787104362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 63
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bea988b3c2b5cfa0800000000000000
+      internalID: -5781017992975765840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 47
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed350d9f1d3304d70800000000000000
+      internalID: 9025270630182835166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 63
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae666853e8202cb0800000000000000
+      internalID: -4890864238418563413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 47
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19378d864f98a73f0800000000000000
+      internalID: -902257092510321775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 66
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e1f5adb6fb367c0800000000000000
+      internalID: -4079206367521464821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 50
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076a69eaa8b11d5c0800000000000000
+      internalID: -4192539495656675728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 65
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d1009b6abae5d40800000000000000
+      internalID: 5575082121287966034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 49
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3857b85116470a470800000000000000
+      internalID: 8403844864995456387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95a821fef1fd0ca0800000000000000
+      internalID: -6048912647218748001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf62a887a222f4ab0800000000000000
+      internalID: -5021757493688523012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ae296796dc69110800000000000000
+      internalID: 1267426197995973158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d364df913cd5ef0800000000000000
+      internalID: -117723498850927328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 49
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7a61b28ace46a40800000000000000
+      internalID: 5360669663499298791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1812acacb283726e0800000000000000
+      internalID: -1862458160157417087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962996e3a813c5c60800000000000000
+      internalID: 7808170323775951465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954161adce9dabe60800000000000000
+      internalID: 7978929301134644313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d905afdb2618880800000000000000
+      internalID: -8610492444467749579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1566991a9faa07c80800000000000000
+      internalID: -8326967721873283503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00ab7e46d882d6f0800000000000000
+      internalID: -661315741248937973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cb0749a7510ef70800000000000000
+      internalID: 9214388453820644443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e510fb9bf155770800000000000000
+      internalID: 8598813946167778933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5860a6521535d40800000000000000
+      internalID: 5571886385121887710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7606839d07fb437d0800000000000000
+      internalID: -2939514165364498329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731df8a486851c230800000000000000
+      internalID: 3657301577352335671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03357feaf96bd13d0800000000000000
+      internalID: -3234228160430648528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c94139d927f34480800000000000000
+      internalID: -8916011078153844281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 13
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7f6144255351e30800000000000000
+      internalID: 4473540432308402087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751ed1ff6a96f5e60800000000000000
+      internalID: 7953191632925221207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f4fe02b2c370d30800000000000000
+      internalID: 4397549717084393216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phantom_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 14
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613bff02556b66750800000000000000
+      internalID: 6297921605666321174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      phantom_spritesheet_0: -2797783794539611184
+      phantom_spritesheet_1: 3688056446312290019
+      phantom_spritesheet_10: -5969675470043488670
+      phantom_spritesheet_11: -51609063870935297
+      phantom_spritesheet_12: 5501545427104339512
+      phantom_spritesheet_13: 5627059199787104362
+      phantom_spritesheet_14: -5781017992975765840
+      phantom_spritesheet_15: 9025270630182835166
+      phantom_spritesheet_16: -4890864238418563413
+      phantom_spritesheet_17: -902257092510321775
+      phantom_spritesheet_18: -4079206367521464821
+      phantom_spritesheet_19: -4192539495656675728
+      phantom_spritesheet_2: -7186115131844727858
+      phantom_spritesheet_20: 5575082121287966034
+      phantom_spritesheet_21: 8403844864995456387
+      phantom_spritesheet_22: -6048912647218748001
+      phantom_spritesheet_23: -5021757493688523012
+      phantom_spritesheet_24: 1267426197995973158
+      phantom_spritesheet_25: -117723498850927328
+      phantom_spritesheet_26: 5360669663499298791
+      phantom_spritesheet_27: -1862458160157417087
+      phantom_spritesheet_28: 7808170323775951465
+      phantom_spritesheet_29: 7978929301134644313
+      phantom_spritesheet_3: -31121521631468211
+      phantom_spritesheet_30: -8610492444467749579
+      phantom_spritesheet_31: -8326967721873283503
+      phantom_spritesheet_32: -661315741248937973
+      phantom_spritesheet_33: 9214388453820644443
+      phantom_spritesheet_34: 8598813946167778933
+      phantom_spritesheet_35: 5571886385121887710
+      phantom_spritesheet_36: -2939514165364498329
+      phantom_spritesheet_37: 3657301577352335671
+      phantom_spritesheet_38: -3234228160430648528
+      phantom_spritesheet_39: -8916011078153844281
+      phantom_spritesheet_4: 8291174574426723438
+      phantom_spritesheet_40: 4473540432308402087
+      phantom_spritesheet_41: 7953191632925221207
+      phantom_spritesheet_42: 4397549717084393216
+      phantom_spritesheet_43: 6297921605666321174
+      phantom_spritesheet_5: 6330130535325410374
+      phantom_spritesheet_6: 7041599647841452183
+      phantom_spritesheet_7: -2910237573296783281
+      phantom_spritesheet_8: 4353053574079002804
+      phantom_spritesheet_9: 2309214285945388429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

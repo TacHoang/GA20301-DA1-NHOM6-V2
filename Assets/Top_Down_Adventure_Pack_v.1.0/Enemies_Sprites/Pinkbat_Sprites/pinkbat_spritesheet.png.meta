@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: e1871f7040b96ab4fa5ce905b45aeae4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2860602156363954999
+    second: pinkbat_spritesheet_0
+  - first:
+      213: -7493331916401221293
+    second: pinkbat_spritesheet_1
+  - first:
+      213: -5467068666799845902
+    second: pinkbat_spritesheet_2
+  - first:
+      213: -1964747101514713524
+    second: pinkbat_spritesheet_3
+  - first:
+      213: -3183338943636574912
+    second: pinkbat_spritesheet_4
+  - first:
+      213: -488244736894628228
+    second: pinkbat_spritesheet_5
+  - first:
+      213: -7558557352960995122
+    second: pinkbat_spritesheet_6
+  - first:
+      213: 9038593847924819224
+    second: pinkbat_spritesheet_7
+  - first:
+      213: -2139077002942830288
+    second: pinkbat_spritesheet_8
+  - first:
+      213: -6521484351652047684
+    second: pinkbat_spritesheet_9
+  - first:
+      213: -3549849152462703122
+    second: pinkbat_spritesheet_10
+  - first:
+      213: 2253470955344598185
+    second: pinkbat_spritesheet_11
+  - first:
+      213: 3452670558517919334
+    second: pinkbat_spritesheet_12
+  - first:
+      213: 2697181528819013256
+    second: pinkbat_spritesheet_13
+  - first:
+      213: -747559127687501493
+    second: pinkbat_spritesheet_14
+  - first:
+      213: -5627836995453815354
+    second: pinkbat_spritesheet_15
+  - first:
+      213: 8581613369673215731
+    second: pinkbat_spritesheet_16
+  - first:
+      213: 188595825202533583
+    second: pinkbat_spritesheet_17
+  - first:
+      213: -2133619423065140875
+    second: pinkbat_spritesheet_18
+  - first:
+      213: -1069297878571047258
+    second: pinkbat_spritesheet_19
+  - first:
+      213: -1208953880459815682
+    second: pinkbat_spritesheet_20
+  - first:
+      213: -7890081906095104528
+    second: pinkbat_spritesheet_21
+  - first:
+      213: 2332486532865695422
+    second: pinkbat_spritesheet_22
+  - first:
+      213: 3715656448457440257
+    second: pinkbat_spritesheet_23
+  - first:
+      213: -4532282352701124535
+    second: pinkbat_spritesheet_24
+  - first:
+      213: -145050046491546330
+    second: pinkbat_spritesheet_25
+  - first:
+      213: -3469866266488547410
+    second: pinkbat_spritesheet_26
+  - first:
+      213: 6152693942776327801
+    second: pinkbat_spritesheet_27
+  - first:
+      213: -6925493118057318788
+    second: pinkbat_spritesheet_28
+  - first:
+      213: -1632882690602678601
+    second: pinkbat_spritesheet_29
+  - first:
+      213: 9124933554516913454
+    second: pinkbat_spritesheet_30
+  - first:
+      213: -2867604029714806695
+    second: pinkbat_spritesheet_31
+  - first:
+      213: 3800602816261327764
+    second: pinkbat_spritesheet_32
+  - first:
+      213: -6678975103457000955
+    second: pinkbat_spritesheet_33
+  - first:
+      213: -6742736831242895717
+    second: pinkbat_spritesheet_34
+  - first:
+      213: -5840934971447602895
+    second: pinkbat_spritesheet_35
+  - first:
+      213: 9175026943271712059
+    second: pinkbat_spritesheet_36
+  - first:
+      213: 1846831583608970773
+    second: pinkbat_spritesheet_37
+  - first:
+      213: 2369376046599853130
+    second: pinkbat_spritesheet_38
+  - first:
+      213: -8127497243983906276
+    second: pinkbat_spritesheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 68
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b3acd4186e2b720800000000000000
+      internalID: 2860602156363954999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 63
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351eecac256520890800000000000000
+      internalID: -7493331916401221293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 63
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd0ab863021124b0800000000000000
+      internalID: -5467068666799845902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 66
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46bcbcbbe0dbb4e0800000000000000
+      internalID: -1964747101514713524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04defd8c81282d3d0800000000000000
+      internalID: -3183338943636574912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e01f5aff76939f0800000000000000
+      internalID: -488244736894628228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0d75a622c9a1790800000000000000
+      internalID: -7558557352960995122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 72
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815079657398f6d70800000000000000
+      internalID: 9038593847924819224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 65
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039a2649cc87052e0800000000000000
+      internalID: -2139077002942830288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 49
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4d283d8880f75a0800000000000000
+      internalID: -6521484351652047684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 63
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee53d35f0076cbec0800000000000000
+      internalID: -3549849152462703122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 68
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a499fcf4efe54f10800000000000000
+      internalID: 2253470955344598185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 68
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ef8e674995aef20800000000000000
+      internalID: 3452670558517919334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88690086f405e6520800000000000000
+      internalID: 2697181528819013256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49e5912fe220a5f0800000000000000
+      internalID: -747559127687501493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 50
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c57c28f118e5e1b0800000000000000
+      internalID: -5627836995453815354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 49
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe6d1374e3081770800000000000000
+      internalID: 8581613369673215731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 56
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4915f57e60e9200800000000000000
+      internalID: 188595825202533583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 56
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571145a607cd362e0800000000000000
+      internalID: -2133619423065140875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 47
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6a1bcae371921f0800000000000000
+      internalID: -1069297878571047258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4dc5dd9dee83fe0800000000000000
+      internalID: -1208953880459815682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 52
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdd6725f4cc08290800000000000000
+      internalID: -7890081906095104528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 61
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe97d2c428ae5020800000000000000
+      internalID: 2332486532865695422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 52
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cf1bd7ad9a09330800000000000000
+      internalID: 3715656448457440257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 62
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9405a7996391a11c0800000000000000
+      internalID: -4532282352701124535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62da73050cdacfdf0800000000000000
+      internalID: -145050046491546330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 47
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7d6d7c30f88dfc0800000000000000
+      internalID: -3469866266488547410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 47
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e61e6ea82c26550800000000000000
+      internalID: 6152693942776327801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76f7c3b3b4b3ef90800000000000000
+      internalID: -6925493118057318788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 49
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b64eb228d5d659e0800000000000000
+      internalID: -1632882690602678601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 47
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2de50cc8b642ae70800000000000000
+      internalID: 9124933554516913454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 47
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958ce5404593438d0800000000000000
+      internalID: -2867604029714806695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b0b9bff147eb430800000000000000
+      internalID: 3800602816261327764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 66
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50284c6b7838f43a0800000000000000
+      internalID: -6678975103457000955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ef2d7939cfc62a0800000000000000
+      internalID: -6742736831242895717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13195be0794d0fea0800000000000000
+      internalID: -5840934971447602895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 15
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35395eb46e345f70800000000000000
+      internalID: 9175026943271712059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e1cf45a8341a910800000000000000
+      internalID: 1846831583608970773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 66
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4457ecf5f6b1e020800000000000000
+      internalID: 2369376046599853130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pinkbat_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a7f536154553f80800000000000000
+      internalID: -8127497243983906276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pinkbat_spritesheet_0: 2860602156363954999
+      pinkbat_spritesheet_1: -7493331916401221293
+      pinkbat_spritesheet_10: -3549849152462703122
+      pinkbat_spritesheet_11: 2253470955344598185
+      pinkbat_spritesheet_12: 3452670558517919334
+      pinkbat_spritesheet_13: 2697181528819013256
+      pinkbat_spritesheet_14: -747559127687501493
+      pinkbat_spritesheet_15: -5627836995453815354
+      pinkbat_spritesheet_16: 8581613369673215731
+      pinkbat_spritesheet_17: 188595825202533583
+      pinkbat_spritesheet_18: -2133619423065140875
+      pinkbat_spritesheet_19: -1069297878571047258
+      pinkbat_spritesheet_2: -5467068666799845902
+      pinkbat_spritesheet_20: -1208953880459815682
+      pinkbat_spritesheet_21: -7890081906095104528
+      pinkbat_spritesheet_22: 2332486532865695422
+      pinkbat_spritesheet_23: 3715656448457440257
+      pinkbat_spritesheet_24: -4532282352701124535
+      pinkbat_spritesheet_25: -145050046491546330
+      pinkbat_spritesheet_26: -3469866266488547410
+      pinkbat_spritesheet_27: 6152693942776327801
+      pinkbat_spritesheet_28: -6925493118057318788
+      pinkbat_spritesheet_29: -1632882690602678601
+      pinkbat_spritesheet_3: -1964747101514713524
+      pinkbat_spritesheet_30: 9124933554516913454
+      pinkbat_spritesheet_31: -2867604029714806695
+      pinkbat_spritesheet_32: 3800602816261327764
+      pinkbat_spritesheet_33: -6678975103457000955
+      pinkbat_spritesheet_34: -6742736831242895717
+      pinkbat_spritesheet_35: -5840934971447602895
+      pinkbat_spritesheet_36: 9175026943271712059
+      pinkbat_spritesheet_37: 1846831583608970773
+      pinkbat_spritesheet_38: 2369376046599853130
+      pinkbat_spritesheet_39: -8127497243983906276
+      pinkbat_spritesheet_4: -3183338943636574912
+      pinkbat_spritesheet_5: -488244736894628228
+      pinkbat_spritesheet_6: -7558557352960995122
+      pinkbat_spritesheet_7: 9038593847924819224
+      pinkbat_spritesheet_8: -2139077002942830288
+      pinkbat_spritesheet_9: -6521484351652047684
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

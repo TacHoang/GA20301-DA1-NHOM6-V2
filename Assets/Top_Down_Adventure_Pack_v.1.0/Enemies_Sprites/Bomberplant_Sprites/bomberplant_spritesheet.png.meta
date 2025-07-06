@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 381a96fc841da7e43a21c92ee8a6b18f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3265455462658754792
+    second: bomberplant_spritesheet_0
+  - first:
+      213: 901830746187946279
+    second: bomberplant_spritesheet_1
+  - first:
+      213: 5106457435009321356
+    second: bomberplant_spritesheet_2
+  - first:
+      213: 7073299224525518235
+    second: bomberplant_spritesheet_3
+  - first:
+      213: 6034132118336282743
+    second: bomberplant_spritesheet_4
+  - first:
+      213: -6687092995703419852
+    second: bomberplant_spritesheet_5
+  - first:
+      213: -1346196500430956918
+    second: bomberplant_spritesheet_6
+  - first:
+      213: -6327703796601921364
+    second: bomberplant_spritesheet_7
+  - first:
+      213: -4299522733546350950
+    second: bomberplant_spritesheet_8
+  - first:
+      213: 8425044081495741050
+    second: bomberplant_spritesheet_9
+  - first:
+      213: -7658943213730938882
+    second: bomberplant_spritesheet_10
+  - first:
+      213: -4469828081697643085
+    second: bomberplant_spritesheet_11
+  - first:
+      213: 2725811207585092958
+    second: bomberplant_spritesheet_12
+  - first:
+      213: 2741734702874476768
+    second: bomberplant_spritesheet_13
+  - first:
+      213: -3647958890059297507
+    second: bomberplant_spritesheet_14
+  - first:
+      213: -5265932567057291237
+    second: bomberplant_spritesheet_15
+  - first:
+      213: 3619322912442520011
+    second: bomberplant_spritesheet_16
+  - first:
+      213: 6256558152470812223
+    second: bomberplant_spritesheet_17
+  - first:
+      213: -7153153539158181257
+    second: bomberplant_spritesheet_18
+  - first:
+      213: 167046841596188336
+    second: bomberplant_spritesheet_19
+  - first:
+      213: 7250968866791525601
+    second: bomberplant_spritesheet_20
+  - first:
+      213: -2417437029178296325
+    second: bomberplant_spritesheet_21
+  - first:
+      213: 9168822371414861172
+    second: bomberplant_spritesheet_22
+  - first:
+      213: 4050955274560991287
+    second: bomberplant_spritesheet_23
+  - first:
+      213: 495121401266440111
+    second: bomberplant_spritesheet_24
+  - first:
+      213: -3489484709402202476
+    second: bomberplant_spritesheet_25
+  - first:
+      213: 4444945254574229369
+    second: bomberplant_spritesheet_26
+  - first:
+      213: -3491899962242597026
+    second: bomberplant_spritesheet_27
+  - first:
+      213: -3890578169771735503
+    second: bomberplant_spritesheet_28
+  - first:
+      213: -1535629694460587236
+    second: bomberplant_spritesheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 161
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817bd5ece85cea2d0800000000000000
+      internalID: -3265455462658754792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 98
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729de0a1942f38c00800000000000000
+      internalID: 901830746187946279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 99
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8902626bf7cdd640800000000000000
+      internalID: 5106457435009321356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 98
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95b3e33b28692260800000000000000
+      internalID: 7073299224525518235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 99
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770a531013b8db350800000000000000
+      internalID: 6034132118336282743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c4813a95ca233a0800000000000000
+      internalID: -6687092995703419852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8650f15a69515de0800000000000000
+      internalID: -1346196500430956918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0e6af2cea7f28a0800000000000000
+      internalID: -6327703796601921364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 66
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96d04b8ad60554c0800000000000000
+      internalID: -4299522733546350950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a729f8e44f4cbe470800000000000000
+      internalID: 8425044081495741050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effbda6d9b7f5b590800000000000000
+      internalID: -7658943213730938882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5a857ba0bf7f1c0800000000000000
+      internalID: -4469828081697643085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5553e0f9d604d520800000000000000
+      internalID: 2725811207585092958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 65
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0c1399f299c0620800000000000000
+      internalID: 2741734702874476768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 63
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d89ca97b8df5dc0800000000000000
+      internalID: -3647958890059297507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 65
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18a369fa36abe6b0800000000000000
+      internalID: -5265932567057291237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 63
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1919b430b6a3230800000000000000
+      internalID: 3619322912442520011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 65
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36d892bd72c3d650800000000000000
+      internalID: 6256558152470812223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 81
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77af5a251c4eabc90800000000000000
+      internalID: -7153153539158181257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b61136a738715200800000000000000
+      internalID: 167046841596188336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec868e54cd90a460800000000000000
+      internalID: 7250968866791525601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7b3f084d9837ed0800000000000000
+      internalID: -2417437029178296325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47566d84e533e3f70800000000000000
+      internalID: 9168822371414861172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730f33dfb52e73830800000000000000
+      internalID: 4050955274560991287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa70e2b8a460fd600800000000000000
+      internalID: 495121401266440111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49eace6152cd29fc0800000000000000
+      internalID: -3489484709402202476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97784f0a82e9fad30800000000000000
+      internalID: 4444945254574229369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f74573c774a8fc0800000000000000
+      internalID: -3491899962242597026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136cddb84c3e10ac0800000000000000
+      internalID: -3890578169771735503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberplant_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c139223dde850bae0800000000000000
+      internalID: -1535629694460587236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bomberplant_spritesheet_0: -3265455462658754792
+      bomberplant_spritesheet_1: 901830746187946279
+      bomberplant_spritesheet_10: -7658943213730938882
+      bomberplant_spritesheet_11: -4469828081697643085
+      bomberplant_spritesheet_12: 2725811207585092958
+      bomberplant_spritesheet_13: 2741734702874476768
+      bomberplant_spritesheet_14: -3647958890059297507
+      bomberplant_spritesheet_15: -5265932567057291237
+      bomberplant_spritesheet_16: 3619322912442520011
+      bomberplant_spritesheet_17: 6256558152470812223
+      bomberplant_spritesheet_18: -7153153539158181257
+      bomberplant_spritesheet_19: 167046841596188336
+      bomberplant_spritesheet_2: 5106457435009321356
+      bomberplant_spritesheet_20: 7250968866791525601
+      bomberplant_spritesheet_21: -2417437029178296325
+      bomberplant_spritesheet_22: 9168822371414861172
+      bomberplant_spritesheet_23: 4050955274560991287
+      bomberplant_spritesheet_24: 495121401266440111
+      bomberplant_spritesheet_25: -3489484709402202476
+      bomberplant_spritesheet_26: 4444945254574229369
+      bomberplant_spritesheet_27: -3491899962242597026
+      bomberplant_spritesheet_28: -3890578169771735503
+      bomberplant_spritesheet_29: -1535629694460587236
+      bomberplant_spritesheet_3: 7073299224525518235
+      bomberplant_spritesheet_4: 6034132118336282743
+      bomberplant_spritesheet_5: -6687092995703419852
+      bomberplant_spritesheet_6: -1346196500430956918
+      bomberplant_spritesheet_7: -6327703796601921364
+      bomberplant_spritesheet_8: -4299522733546350950
+      bomberplant_spritesheet_9: 8425044081495741050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
