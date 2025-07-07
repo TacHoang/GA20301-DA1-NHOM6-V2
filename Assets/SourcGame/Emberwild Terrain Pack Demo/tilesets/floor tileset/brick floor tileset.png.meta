@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8ab674855d6ca4c4c98238daca8ba9fc
+guid: 822470f865ed0d8478cdd01e60669d86
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4161166538170393981
-    second: Overworld_Tileset_0
+      213: -7992250767605758224
+    second: brick floor tileset_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Overworld_Tileset_0
+      name: brick floor tileset_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 288
-        height: 208
+        width: 128
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7563ee6bee6fb930800000000000000
-      internalID: 4161166538170393981
+      spriteID: 0f604098542d51190800000000000000
+      internalID: -7992250767605758224
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Overworld_Tileset_0: 4161166538170393981
+      brick floor tileset_0: -7992250767605758224
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
