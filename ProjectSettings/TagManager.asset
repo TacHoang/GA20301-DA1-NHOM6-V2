@@ -41,11 +41,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: backgr
-    uniqueID: 798877659
-    locked: 0
-  - name: foregr
-    uniqueID: 3086317617
+  - name: DownGround
+    uniqueID: 3332734333
     locked: 0
   m_RenderingLayers:
   - Default
