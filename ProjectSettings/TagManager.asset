@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -52,6 +53,9 @@ TagManager:
     locked: 0
   - name: ForeGround
     uniqueID: 1584230565
+    locked: 0
+  - name: Enemy
+    uniqueID: 3062521393
     locked: 0
   m_RenderingLayers:
   - Default
