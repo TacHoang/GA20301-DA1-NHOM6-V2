@@ -5202,7 +5202,7 @@ GameObject:
   - component: {fileID: 693821605}
   m_Layer: 0
   m_Name: BackGround
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -138806,9 +138806,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 6783946357392196116, guid: 1cfe4ab189f3b7b4d8f8df5256b4cf46, type: 3}
   player: {fileID: 1198548688}
-  maxEnemies: 100
-  maxActiveEnemies: 10
-  spawnRadius: 10
+  maxEnemies: 5000
+  maxActiveEnemies: 5000
+  spawnRadius: 40
 --- !u!4 &998884925
 Transform:
   m_ObjectHideFlags: 0
@@ -138922,14 +138922,14 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1198548686}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
