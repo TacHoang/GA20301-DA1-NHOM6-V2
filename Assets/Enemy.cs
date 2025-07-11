@@ -25,4 +25,13 @@ public class Enemy : MonoBehaviour
         Vector2 direction = ((Vector2)player.position - (Vector2)transform.position).normalized;
         transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
     }
+
+    public virtual void TakeDamage()
+    {
+        Die();
+    }
+    protected virtual void Die()
+    {
+        Destroy(gameObject);
+    }
 }
