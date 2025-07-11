@@ -3,35 +3,61 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float speed = 2f;
-    private Transform player;
 
-    void Update()
+    private Transform player;
+    private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+
+    void Start()
     {
-        // Nếu player chưa gán, thì tìm liên tục
-        if (player == null)
+        // Tìm player và các component cần thiết
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    void FixedUpdate()
+    {
+        if (player != null)
         {
-            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-            if (playerObj != null)
+            // Tính hướng và di chuyển về phía player
+            Vector2 direction = (player.position - transform.position).normalized;
+            Vector2 targetPosition = (Vector2)transform.position + direction * speed * Time.fixedDeltaTime;
+            rb.MovePosition(targetPosition);
+
+            // Quay mặt về phía player bằng localScale
+            float xDiff = player.position.x - transform.position.x;
+
+            if (xDiff < -0.05f)
             {
-                player = playerObj.transform;
+                transform.localScale = new Vector3(-1f, 1f, 1f); // Quay mặt trái
             }
-            else
+            else if (xDiff > 0.05f)
             {
-                return; // không có player thì không làm gì
+                transform.localScale = new Vector3(1f, 1f, 1f); // Quay mặt phải
             }
         }
-
-        // Di chuyển về phía player
-        Vector2 direction = ((Vector2)player.position - (Vector2)transform.position).normalized;
-        transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
     }
 
-    public virtual void TakeDamage()
+    // Gọi khi enemy bị tiêu diệt (vd: trúng đạn)
+    public void Die()
     {
-        Die();
-    }
-    protected virtual void Die()
-    {
+        // Thông báo cho EnemySpawner (nếu có)
+        EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
+        if (spawner != null)
+        {
+            spawner.NotifyEnemyDeath(gameObject);
+        }
+
         Destroy(gameObject);
+    }
+
+    // Trigger khi trúng đạn
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Bullet"))
+        {
+            Die();
+        }
     }
 }
