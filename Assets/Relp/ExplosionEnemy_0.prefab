@@ -201,4 +201,4 @@ MonoBehaviour:
   speed: 2
   explodeRange: 1.5
   explodeDelay: 0.5
-  explosionEffect: {fileID: 0}
+  explosionEffect: {fileID: 3794019267076360033, guid: b2b409d2f8e8b1a489303c1bc12be434, type: 3}
