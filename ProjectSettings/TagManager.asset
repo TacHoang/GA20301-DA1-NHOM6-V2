@@ -42,9 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UpGround
-    uniqueID: 820979583
-    locked: 0
   - name: DownGround
     uniqueID: 3332734333
     locked: 0
@@ -56,6 +53,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 3062521393
+    locked: 0
+  - name: UpGround
+    uniqueID: 820979583
     locked: 0
   m_RenderingLayers:
   - Default
