@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3636552816998967577}
   - component: {fileID: 1600586581510853741}
   - component: {fileID: 8125331036950902055}
-  - component: {fileID: 2202569370894070767}
+  - component: {fileID: 3855031169833147177}
   m_Layer: 0
   m_Name: ExplosionEnemy_0
   m_TagString: Enemy
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1232445903
-  m_SortingLayer: 2
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -4152478854310431082, guid: e184d9eb5b6efcb44b8435907f4c8e39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -186,7 +186,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &2202569370894070767
+--- !u!114 &3855031169833147177
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,7 +195,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6783946357392196116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311258c45cf39bc45b1e1781ba4430f7, type: 3}
+  m_Script: {fileID: 11500000, guid: c19713727b255774683e5615e19d4d36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
+  explodeRange: 1.5
+  explodeDelay: 0.5
+  explosionEffect: {fileID: 0}

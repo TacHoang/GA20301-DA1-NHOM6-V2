@@ -138806,8 +138806,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 6783946357392196116, guid: 1cfe4ab189f3b7b4d8f8df5256b4cf46, type: 3}
   player: {fileID: 1198548688}
-  maxEnemies: 30
-  maxActiveEnemies: 5
+  maxEnemies: 100
+  maxActiveEnemies: 20
   spawnRadius: 60
 --- !u!4 &998884925
 Transform:
@@ -138817,12 +138817,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998884923}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.280819, y: -7.9696913, z: 0.16882354}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.9373064, y: -3.3634048, z: 0.06316286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1807196672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1153402232
 GameObject:
@@ -138855,8 +138855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 5917523563386544234, guid: 76c556bdc30a61d479652f6333b2a919, type: 3}
   player: {fileID: 1198548688}
-  maxEnemies: 30
-  maxActiveEnemies: 5
+  maxEnemies: 100
+  maxActiveEnemies: 20
   spawnRadius: 70
 --- !u!4 &1153402234
 Transform:
@@ -138866,12 +138866,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153402232}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4710999, y: -7.688361, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.814612, y: -3.0820746, z: -0.10566068}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1807196672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1177807151
 GameObject:
@@ -139123,7 +139123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 500269e8893413249aeaed6f925a7a78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 5.5
 --- !u!1 &1485299859
 GameObject:
   m_ObjectHideFlags: 0
@@ -139357,8 +139357,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1680953040038709941, guid: 698cc57f9c1936b4cbe427ecfeeaac69, type: 3}
   player: {fileID: 1198548688}
-  maxEnemies: 30
-  maxActiveEnemies: 5
+  maxEnemies: 100
+  maxActiveEnemies: 20
   spawnRadius: 80
 --- !u!4 &1780935549
 Transform:
@@ -139368,11 +139368,45 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780935547}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.178299, y: -4.0790877, z: 0.09160388}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.1652136, y: 0.5271988, z: -0.014056794}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 1807196672}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1807196671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807196672}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807196672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807196671}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.343513, y: -4.6062865, z: 0.10566068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1780935549}
+  - {fileID: 998884925}
+  - {fileID: 1153402234}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2076360717
@@ -141351,7 +141385,5 @@ SceneRoots:
   - {fileID: 1485299862}
   - {fileID: 30335660}
   - {fileID: 1198548688}
-  - {fileID: 998884925}
-  - {fileID: 1153402234}
-  - {fileID: 1780935549}
   - {fileID: 1177807153}
+  - {fileID: 1807196672}
