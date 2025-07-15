@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: a8fb3502dd0f1f44ca23846be155c678
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4465658678128748379
+    second: shrine3-activating_0
+  - first:
+      213: 2970235615475834333
+    second: shrine3-activating_1
+  - first:
+      213: -5351692416953621897
+    second: shrine3-activating_2
+  - first:
+      213: -4667429833906366460
+    second: shrine3-activating_3
+  - first:
+      213: 903955403541491931
+    second: shrine3-activating_4
+  - first:
+      213: -4940568822389327778
+    second: shrine3-activating_5
+  - first:
+      213: 7884510122252127940
+    second: shrine3-activating_6
+  - first:
+      213: -1992609677601409411
+    second: shrine3-activating_7
+  - first:
+      213: 2999030541893218984
+    second: shrine3-activating_8
+  - first:
+      213: -8819476865621550274
+    second: shrine3-activating_9
+  - first:
+      213: -2976416457969459311
+    second: shrine3-activating_10
+  - first:
+      213: -9009212855223427826
+    second: shrine3-activating_11
+  - first:
+      213: 153434903460208548
+    second: shrine3-activating_12
+  - first:
+      213: 8825054850436802866
+    second: shrine3-activating_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shrine3-activating_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8def1a71bc602c0800000000000000
+      internalID: -4465658678128748379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd96a72e85683920800000000000000
+      internalID: 2970235615475834333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772e35ce918fab5b0800000000000000
+      internalID: -5351692416953621897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40853ff8b45f93fb0800000000000000
+      internalID: -4667429833906366460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0b2e076ae7b8c00800000000000000
+      internalID: 903955403541491931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e583d1115d29f6bb0800000000000000
+      internalID: -4940568822389327778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce4fc8ae286b6d60800000000000000
+      internalID: 7884510122252127940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76ff863e04d854e0800000000000000
+      internalID: -1992609677601409411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2b7186362be9920800000000000000
+      internalID: 2999030541893218984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b1adfa48cea9580800000000000000
+      internalID: -8819476865621550274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f9a1f4005a1b6d0800000000000000
+      internalID: -2976416457969459311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d568a14a8d8f280800000000000000
+      internalID: -9009212855223427826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af54e45b3c112200800000000000000
+      internalID: 153434903460208548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-activating_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239af9b11a4e87a70800000000000000
+      internalID: 8825054850436802866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shrine3-activating_0: -4465658678128748379
+      shrine3-activating_1: 2970235615475834333
+      shrine3-activating_10: -2976416457969459311
+      shrine3-activating_11: -9009212855223427826
+      shrine3-activating_12: 153434903460208548
+      shrine3-activating_13: 8825054850436802866
+      shrine3-activating_2: -5351692416953621897
+      shrine3-activating_3: -4667429833906366460
+      shrine3-activating_4: 903955403541491931
+      shrine3-activating_5: -4940568822389327778
+      shrine3-activating_6: 7884510122252127940
+      shrine3-activating_7: -1992609677601409411
+      shrine3-activating_8: 2999030541893218984
+      shrine3-activating_9: -8819476865621550274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

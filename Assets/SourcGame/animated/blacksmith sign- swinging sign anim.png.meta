@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: bfe79d6cb72aa7849a165afa4a1caf4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2171618261733752580
+    second: blacksmith sign- swinging sign anim_0
+  - first:
+      213: -4279339764388582913
+    second: blacksmith sign- swinging sign anim_1
+  - first:
+      213: -4914301634403034578
+    second: blacksmith sign- swinging sign anim_2
+  - first:
+      213: 4975322221539147502
+    second: blacksmith sign- swinging sign anim_3
+  - first:
+      213: -4427792469608802172
+    second: blacksmith sign- swinging sign anim_4
+  - first:
+      213: -1887694397303331848
+    second: blacksmith sign- swinging sign anim_5
+  - first:
+      213: -2572423594534109463
+    second: blacksmith sign- swinging sign anim_6
+  - first:
+      213: -1226312504594822409
+    second: blacksmith sign- swinging sign anim_7
+  - first:
+      213: -8370245828299451894
+    second: blacksmith sign- swinging sign anim_8
+  - first:
+      213: 6550609554587940572
+    second: blacksmith sign- swinging sign anim_9
+  - first:
+      213: -8169062491525065792
+    second: blacksmith sign- swinging sign anim_10
+  - first:
+      213: -8053676079965884694
+    second: blacksmith sign- swinging sign anim_11
+  - first:
+      213: 7903214359280562866
+    second: blacksmith sign- swinging sign anim_12
+  - first:
+      213: 6310469669677523802
+    second: blacksmith sign- swinging sign anim_13
+  - first:
+      213: 3443819968368271300
+    second: blacksmith sign- swinging sign anim_14
+  - first:
+      213: -2674847007362355291
+    second: blacksmith sign- swinging sign anim_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0cb9952bcdcd1e0800000000000000
+      internalID: -2171618261733752580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 5
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff92a6e382bbc94c0800000000000000
+      internalID: -4279339764388582913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 5
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a194a53b4eccbb0800000000000000
+      internalID: -4914301634403034578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 5
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeeb2f93335eb0540800000000000000
+      internalID: 4975322221539147502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 5
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48851d555325d82c0800000000000000
+      internalID: -4427792469608802172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 3
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f36d3472ff8dc5e0800000000000000
+      internalID: -1887694397303331848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 3
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eef5fbbe5aec4cd0800000000000000
+      internalID: -2572423594534109463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa810c36434bfee0800000000000000
+      internalID: -1226312504594822409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02148144c9e6db80800000000000000
+      internalID: -8370245828299451894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd67e7beea078ea50800000000000000
+      internalID: 6550609554587940572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c35eac02f8a1ae80800000000000000
+      internalID: -8169062491525065792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeea29586489b3090800000000000000
+      internalID: -8053676079965884694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_12
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b23fa4369bddad60800000000000000
+      internalID: 7903214359280562866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a536103faba439750800000000000000
+      internalID: 6310469669677523802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfdcfcd308eacf20800000000000000
+      internalID: 3443819968368271300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blacksmith sign- swinging sign anim_15
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 4
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af66a991d801ead0800000000000000
+      internalID: -2674847007362355291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blacksmith sign- swinging sign anim_0: -2171618261733752580
+      blacksmith sign- swinging sign anim_1: -4279339764388582913
+      blacksmith sign- swinging sign anim_10: -8169062491525065792
+      blacksmith sign- swinging sign anim_11: -8053676079965884694
+      blacksmith sign- swinging sign anim_12: 7903214359280562866
+      blacksmith sign- swinging sign anim_13: 6310469669677523802
+      blacksmith sign- swinging sign anim_14: 3443819968368271300
+      blacksmith sign- swinging sign anim_15: -2674847007362355291
+      blacksmith sign- swinging sign anim_2: -4914301634403034578
+      blacksmith sign- swinging sign anim_3: 4975322221539147502
+      blacksmith sign- swinging sign anim_4: -4427792469608802172
+      blacksmith sign- swinging sign anim_5: -1887694397303331848
+      blacksmith sign- swinging sign anim_6: -2572423594534109463
+      blacksmith sign- swinging sign anim_7: -1226312504594822409
+      blacksmith sign- swinging sign anim_8: -8370245828299451894
+      blacksmith sign- swinging sign anim_9: 6550609554587940572
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

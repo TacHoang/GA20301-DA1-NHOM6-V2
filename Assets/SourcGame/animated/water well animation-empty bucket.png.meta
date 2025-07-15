@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: cab58d646748973419e91e5dcef60faf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5846069199570829682
+    second: water well animation-empty bucket_0
+  - first:
+      213: 1799597179393130837
+    second: water well animation-empty bucket_1
+  - first:
+      213: 8757325780897710345
+    second: water well animation-empty bucket_2
+  - first:
+      213: 8696553309638180339
+    second: water well animation-empty bucket_3
+  - first:
+      213: 6930282880372345953
+    second: water well animation-empty bucket_4
+  - first:
+      213: 8035229570614687393
+    second: water well animation-empty bucket_5
+  - first:
+      213: 4832227746189330384
+    second: water well animation-empty bucket_6
+  - first:
+      213: 4751979249120366588
+    second: water well animation-empty bucket_7
+  - first:
+      213: 3748787412707653967
+    second: water well animation-empty bucket_8
+  - first:
+      213: -7086739464361177721
+    second: water well animation-empty bucket_9
+  - first:
+      213: 7178146564895662980
+    second: water well animation-empty bucket_10
+  - first:
+      213: 831611209630133543
+    second: water well animation-empty bucket_11
+  - first:
+      213: 8234064776521339194
+    second: water well animation-empty bucket_12
+  - first:
+      213: 767695752332146375
+    second: water well animation-empty bucket_13
+  - first:
+      213: -19567874305183744
+    second: water well animation-empty bucket_14
+  - first:
+      213: -1322572341291277765
+    second: water well animation-empty bucket_15
+  - first:
+      213: 4008551269017735405
+    second: water well animation-empty bucket_16
+  - first:
+      213: 2168280678341707812
+    second: water well animation-empty bucket_17
+  - first:
+      213: 3140490687035474900
+    second: water well animation-empty bucket_18
+  - first:
+      213: 1628281015548552992
+    second: water well animation-empty bucket_19
+  - first:
+      213: -4073937807405799382
+    second: water well animation-empty bucket_20
+  - first:
+      213: -1194208455976721602
+    second: water well animation-empty bucket_21
+  - first:
+      213: -4733576200788572652
+    second: water well animation-empty bucket_22
+  - first:
+      213: 3275624783932335602
+    second: water well animation-empty bucket_23
+  - first:
+      213: -8954588268969883260
+    second: water well animation-empty bucket_24
+  - first:
+      213: 5962651218216690535
+    second: water well animation-empty bucket_25
+  - first:
+      213: 1063311018995395725
+    second: water well animation-empty bucket_26
+  - first:
+      213: 2716604470085052870
+    second: water well animation-empty bucket_27
+  - first:
+      213: 7466096625513928124
+    second: water well animation-empty bucket_28
+  - first:
+      213: -3395757931881598849
+    second: water well animation-empty bucket_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: water well animation-empty bucket_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27185c496f8612150800000000000000
+      internalID: 5846069199570829682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551c588991479f810800000000000000
+      internalID: 1799597179393130837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90147c04665488970800000000000000
+      internalID: 8757325780897710345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd3b37a82d50b870800000000000000
+      internalID: 8696553309638180339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c809dbf8f4d2060800000000000000
+      internalID: 6930282880372345953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_5
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6f335d8bed28f60800000000000000
+      internalID: 8035229570614687393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7c66d68858f0340800000000000000
+      internalID: 4832227746189330384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffc8d333fb62f140800000000000000
+      internalID: 4751979249120366588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_8
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4935e83a4e560430800000000000000
+      internalID: 3748787412707653967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_9
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d820b1108d6ad90800000000000000
+      internalID: -7086739464361177721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483eb42f446ed9360800000000000000
+      internalID: 7178146564895662980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_11
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dac353df97a8b00800000000000000
+      internalID: 831611209630133543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_12
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a315c1ec946454270800000000000000
+      internalID: 8234064776521339194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_13
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c67555283767aa00800000000000000
+      internalID: 767695752332146375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_14
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000b70b3f1b7abff0800000000000000
+      internalID: -19567874305183744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_15
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32a39f767745ade0800000000000000
+      internalID: -1322572341291277765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_16
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de05eb5142c31a730800000000000000
+      internalID: 4008551269017735405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_17
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42886e5f9c7471e10800000000000000
+      internalID: 2168280678341707812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_18
+      rect:
+        serializedVersion: 2
+        x: 2331
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d30c2d04a3459b20800000000000000
+      internalID: 3140490687035474900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_19
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027a846e4f0d89610800000000000000
+      internalID: 1628281015548552992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_20
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a282b8816277677c0800000000000000
+      internalID: -4073937807405799382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_21
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e336db98cb15d6fe0800000000000000
+      internalID: -1194208455976721602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_22
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41601c26685fe4eb0800000000000000
+      internalID: -4733576200788572652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_23
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f5a0cfc26b557d20800000000000000
+      internalID: 3275624783932335602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_24
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4898b2ea969eab380800000000000000
+      internalID: -8954588268969883260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_25
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7632b5501b79fb250800000000000000
+      internalID: 5962651218216690535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_26
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8caaf4fcb3a1ce00800000000000000
+      internalID: 1063311018995395725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_27
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c968a25f5153b520800000000000000
+      internalID: 2716604470085052870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_28
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb51086e257ec9760800000000000000
+      internalID: 7466096625513928124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water well animation-empty bucket_29
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 27
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f707bf60728dfd0d0800000000000000
+      internalID: -3395757931881598849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      water well animation-empty bucket_0: 5846069199570829682
+      water well animation-empty bucket_1: 1799597179393130837
+      water well animation-empty bucket_10: 7178146564895662980
+      water well animation-empty bucket_11: 831611209630133543
+      water well animation-empty bucket_12: 8234064776521339194
+      water well animation-empty bucket_13: 767695752332146375
+      water well animation-empty bucket_14: -19567874305183744
+      water well animation-empty bucket_15: -1322572341291277765
+      water well animation-empty bucket_16: 4008551269017735405
+      water well animation-empty bucket_17: 2168280678341707812
+      water well animation-empty bucket_18: 3140490687035474900
+      water well animation-empty bucket_19: 1628281015548552992
+      water well animation-empty bucket_2: 8757325780897710345
+      water well animation-empty bucket_20: -4073937807405799382
+      water well animation-empty bucket_21: -1194208455976721602
+      water well animation-empty bucket_22: -4733576200788572652
+      water well animation-empty bucket_23: 3275624783932335602
+      water well animation-empty bucket_24: -8954588268969883260
+      water well animation-empty bucket_25: 5962651218216690535
+      water well animation-empty bucket_26: 1063311018995395725
+      water well animation-empty bucket_27: 2716604470085052870
+      water well animation-empty bucket_28: 7466096625513928124
+      water well animation-empty bucket_29: -3395757931881598849
+      water well animation-empty bucket_3: 8696553309638180339
+      water well animation-empty bucket_4: 6930282880372345953
+      water well animation-empty bucket_5: 8035229570614687393
+      water well animation-empty bucket_6: 4832227746189330384
+      water well animation-empty bucket_7: 4751979249120366588
+      water well animation-empty bucket_8: 3748787412707653967
+      water well animation-empty bucket_9: -7086739464361177721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

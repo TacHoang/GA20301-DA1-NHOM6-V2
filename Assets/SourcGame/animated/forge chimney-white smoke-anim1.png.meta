@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 55d3dd024beaa3d4baf50830d6235f06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6578985223286108057
+    second: forge chimney-white smoke-anim1_0
+  - first:
+      213: 9037477492925543494
+    second: forge chimney-white smoke-anim1_1
+  - first:
+      213: -6442695471328914843
+    second: forge chimney-white smoke-anim1_2
+  - first:
+      213: 3278827904031256574
+    second: forge chimney-white smoke-anim1_3
+  - first:
+      213: 4666479369638740197
+    second: forge chimney-white smoke-anim1_4
+  - first:
+      213: -5649239050124984059
+    second: forge chimney-white smoke-anim1_5
+  - first:
+      213: -6086236526231476403
+    second: forge chimney-white smoke-anim1_6
+  - first:
+      213: -5196843536909285773
+    second: forge chimney-white smoke-anim1_7
+  - first:
+      213: -8007331891013911761
+    second: forge chimney-white smoke-anim1_8
+  - first:
+      213: 6792636759815560302
+    second: forge chimney-white smoke-anim1_9
+  - first:
+      213: 2218198124295837061
+    second: forge chimney-white smoke-anim1_10
+  - first:
+      213: -3006714548566115908
+    second: forge chimney-white smoke-anim1_11
+  - first:
+      213: 4500997919123432561
+    second: forge chimney-white smoke-anim1_12
+  - first:
+      213: 142091181405971012
+    second: forge chimney-white smoke-anim1_13
+  - first:
+      213: -7654050362457516544
+    second: forge chimney-white smoke-anim1_14
+  - first:
+      213: 7234549679718070062
+    second: forge chimney-white smoke-anim1_15
+  - first:
+      213: -5139968695968666566
+    second: forge chimney-white smoke-anim1_16
+  - first:
+      213: -7498898603364423381
+    second: forge chimney-white smoke-anim1_17
+  - first:
+      213: 3249610655666660096
+    second: forge chimney-white smoke-anim1_18
+  - first:
+      213: -1993956937799618569
+    second: forge chimney-white smoke-anim1_19
+  - first:
+      213: -2734919164394930920
+    second: forge chimney-white smoke-anim1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 45
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f238024304d4b50800000000000000
+      internalID: 6578985223286108057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6443a6fa5e19b6d70800000000000000
+      internalID: 9037477492925543494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5621c6b8a92f696a0800000000000000
+      internalID: -6442695471328914843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effeb635b9cb08d20800000000000000
+      internalID: 3278827904031256574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 4
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0810b334aa2c040800000000000000
+      internalID: 4666479369638740197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 6
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501090ec30fd991b0800000000000000
+      internalID: -5649239050124984059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 6
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4727fa2028598ba0800000000000000
+      internalID: -6086236526231476403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_7
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 33
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376cc35565a11e7b0800000000000000
+      internalID: -5196843536909285773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 6
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b757dd11e30e090800000000000000
+      internalID: -8007331891013911761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_9
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 6
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c1115e42b444e50800000000000000
+      internalID: 6792636759815560302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_10
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 44
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5855718017f98ce10800000000000000
+      internalID: 2218198124295837061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_11
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 13
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9b7bf5c010646d0800000000000000
+      internalID: -3006714548566115908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 17
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174ef1892c1c67e30800000000000000
+      internalID: 4500997919123432561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_13
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 22
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4422b693d2fc8f100800000000000000
+      internalID: 142091181405971012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 24
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00615cc8fb957c590800000000000000
+      internalID: -7654050362457516544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 28
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27f2897a98466460800000000000000
+      internalID: 7234549679718070062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ce82824b92ba8b0800000000000000
+      internalID: -5139968695968666566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b296acb737f8ee790800000000000000
+      internalID: -7498898603364423381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 5
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003e5559cafe81d20800000000000000
+      internalID: 3249610655666660096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 4
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff2701caba0454e0800000000000000
+      internalID: -1993956937799618569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-white smoke-anim1_20
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 5
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81df4dc928d9b0ad0800000000000000
+      internalID: -2734919164394930920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      forge chimney-white smoke-anim1_0: 6578985223286108057
+      forge chimney-white smoke-anim1_1: 9037477492925543494
+      forge chimney-white smoke-anim1_10: 2218198124295837061
+      forge chimney-white smoke-anim1_11: -3006714548566115908
+      forge chimney-white smoke-anim1_12: 4500997919123432561
+      forge chimney-white smoke-anim1_13: 142091181405971012
+      forge chimney-white smoke-anim1_14: -7654050362457516544
+      forge chimney-white smoke-anim1_15: 7234549679718070062
+      forge chimney-white smoke-anim1_16: -5139968695968666566
+      forge chimney-white smoke-anim1_17: -7498898603364423381
+      forge chimney-white smoke-anim1_18: 3249610655666660096
+      forge chimney-white smoke-anim1_19: -1993956937799618569
+      forge chimney-white smoke-anim1_2: -6442695471328914843
+      forge chimney-white smoke-anim1_20: -2734919164394930920
+      forge chimney-white smoke-anim1_3: 3278827904031256574
+      forge chimney-white smoke-anim1_4: 4666479369638740197
+      forge chimney-white smoke-anim1_5: -5649239050124984059
+      forge chimney-white smoke-anim1_6: -6086236526231476403
+      forge chimney-white smoke-anim1_7: -5196843536909285773
+      forge chimney-white smoke-anim1_8: -8007331891013911761
+      forge chimney-white smoke-anim1_9: 6792636759815560302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

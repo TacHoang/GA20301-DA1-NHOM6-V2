@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: bf6bca1c7153815479cfe19d0e07bf16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2125621626212899566
+    second: forge chimney-dark smoke-anim1_0
+  - first:
+      213: -5046245998367932679
+    second: forge chimney-dark smoke-anim1_1
+  - first:
+      213: -1600699789697765445
+    second: forge chimney-dark smoke-anim1_2
+  - first:
+      213: 4296007369813146073
+    second: forge chimney-dark smoke-anim1_3
+  - first:
+      213: -1697857636757870724
+    second: forge chimney-dark smoke-anim1_4
+  - first:
+      213: 5399621996999386127
+    second: forge chimney-dark smoke-anim1_5
+  - first:
+      213: 4888886576221205680
+    second: forge chimney-dark smoke-anim1_6
+  - first:
+      213: 313725710442797512
+    second: forge chimney-dark smoke-anim1_7
+  - first:
+      213: 7974950276287432849
+    second: forge chimney-dark smoke-anim1_8
+  - first:
+      213: -7734875244110841292
+    second: forge chimney-dark smoke-anim1_9
+  - first:
+      213: 6842972987226579252
+    second: forge chimney-dark smoke-anim1_10
+  - first:
+      213: -4416699894661572391
+    second: forge chimney-dark smoke-anim1_11
+  - first:
+      213: -1904323813185160154
+    second: forge chimney-dark smoke-anim1_12
+  - first:
+      213: -3154701576004053509
+    second: forge chimney-dark smoke-anim1_13
+  - first:
+      213: 3228026850283400583
+    second: forge chimney-dark smoke-anim1_14
+  - first:
+      213: 925521410373949876
+    second: forge chimney-dark smoke-anim1_15
+  - first:
+      213: 7427805164526413046
+    second: forge chimney-dark smoke-anim1_16
+  - first:
+      213: 7363842868749415354
+    second: forge chimney-dark smoke-anim1_17
+  - first:
+      213: -3047372596128957094
+    second: forge chimney-dark smoke-anim1_18
+  - first:
+      213: -7701270345076335372
+    second: forge chimney-dark smoke-anim1_19
+  - first:
+      213: -3885002569341848407
+    second: forge chimney-dark smoke-anim1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 45
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeade456b99bf7d10800000000000000
+      internalID: 2125621626212899566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fefa0a200228f9b0800000000000000
+      internalID: -5046245998367932679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 46
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfa50ba50c29c9e0800000000000000
+      internalID: -1600699789697765445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d93c2e01fb7e9b30800000000000000
+      internalID: 4296007369813146073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 4
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77ecd9997fff68e0800000000000000
+      internalID: -1697857636757870724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 6
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04a88c099f4fea40800000000000000
+      internalID: 5399621996999386127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 6
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b437da4070d8d340800000000000000
+      internalID: 4888886576221205680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_7
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 33
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c999d71fd39a5400800000000000000
+      internalID: 313725710442797512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_8
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 6
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198048fe507bcae60800000000000000
+      internalID: 7974950276287432849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_9
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 6
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a7fc452f338a490800000000000000
+      internalID: -7734875244110841292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_10
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 44
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431eb3f1daf17fe50800000000000000
+      internalID: 6842972987226579252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_11
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 13
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d81133b8dab4b2c0800000000000000
+      internalID: -4416699894661572391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_12
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 17
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cf7c9d49b7295e0800000000000000
+      internalID: -1904323813185160154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_13
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 22
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5d9e581af3834d0800000000000000
+      internalID: -3154701576004053509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_14
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 24
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78da09841514ccc20800000000000000
+      internalID: 3228026850283400583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 28
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b99b51b1dc18dc00800000000000000
+      internalID: 925521410373949876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_16
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 5
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4a864617dd41760800000000000000
+      internalID: 7427805164526413046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_17
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab33a95e210a13660800000000000000
+      internalID: 7363842868749415354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 5
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d397df4ce85b5d0800000000000000
+      internalID: -3047372596128957094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 4
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc997a9c679f1590800000000000000
+      internalID: -7701270345076335372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forge chimney-dark smoke-anim1_20
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 5
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a436ee2fb2b51ac0800000000000000
+      internalID: -3885002569341848407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      forge chimney-dark smoke-anim1_0: 2125621626212899566
+      forge chimney-dark smoke-anim1_1: -5046245998367932679
+      forge chimney-dark smoke-anim1_10: 6842972987226579252
+      forge chimney-dark smoke-anim1_11: -4416699894661572391
+      forge chimney-dark smoke-anim1_12: -1904323813185160154
+      forge chimney-dark smoke-anim1_13: -3154701576004053509
+      forge chimney-dark smoke-anim1_14: 3228026850283400583
+      forge chimney-dark smoke-anim1_15: 925521410373949876
+      forge chimney-dark smoke-anim1_16: 7427805164526413046
+      forge chimney-dark smoke-anim1_17: 7363842868749415354
+      forge chimney-dark smoke-anim1_18: -3047372596128957094
+      forge chimney-dark smoke-anim1_19: -7701270345076335372
+      forge chimney-dark smoke-anim1_2: -1600699789697765445
+      forge chimney-dark smoke-anim1_20: -3885002569341848407
+      forge chimney-dark smoke-anim1_3: 4296007369813146073
+      forge chimney-dark smoke-anim1_4: -1697857636757870724
+      forge chimney-dark smoke-anim1_5: 5399621996999386127
+      forge chimney-dark smoke-anim1_6: 4888886576221205680
+      forge chimney-dark smoke-anim1_7: 313725710442797512
+      forge chimney-dark smoke-anim1_8: 7974950276287432849
+      forge chimney-dark smoke-anim1_9: -7734875244110841292
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

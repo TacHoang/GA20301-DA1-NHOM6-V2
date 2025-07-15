@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 5f835519767d905458b454b2ab49b2d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7116818310826675049
+    second: shrine3-available-no grass_0
+  - first:
+      213: -7537754018709481930
+    second: shrine3-available-no grass_1
+  - first:
+      213: -7121378749369908629
+    second: shrine3-available-no grass_2
+  - first:
+      213: 4033754547051140483
+    second: shrine3-available-no grass_3
+  - first:
+      213: -9156795011288211621
+    second: shrine3-available-no grass_4
+  - first:
+      213: -4984520858340201603
+    second: shrine3-available-no grass_5
+  - first:
+      213: 8325227795958394496
+    second: shrine3-available-no grass_6
+  - first:
+      213: -5868529787268305300
+    second: shrine3-available-no grass_7
+  - first:
+      213: -7151733440760229791
+    second: shrine3-available-no grass_8
+  - first:
+      213: 673382057014057285
+    second: shrine3-available-no grass_9
+  - first:
+      213: -8931371204635089463
+    second: shrine3-available-no grass_10
+  - first:
+      213: -7903520784651336667
+    second: shrine3-available-no grass_11
+  - first:
+      213: 1731129857732711242
+    second: shrine3-available-no grass_12
+  - first:
+      213: -2536330620166742318
+    second: shrine3-available-no grass_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shrine3-available-no grass_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7943e2ce37bfb3d90800000000000000
+      internalID: -7116818310826675049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6365c8e18a4846790800000000000000
+      internalID: -7537754018709481930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b628ac412c7cb2d90800000000000000
+      internalID: -7121378749369908629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38599188366caf730800000000000000
+      internalID: 4033754547051140483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fd817b3778ce080800000000000000
+      internalID: -9156795011288211621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 8
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b6b1f30bc63dab0800000000000000
+      internalID: -4984520858340201603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 8
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08eee4c4296298370800000000000000
+      internalID: 8325227795958394496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 8
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6ee214504bce8ea0800000000000000
+      internalID: -5868529787268305300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 8
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160543fb350ffbc90800000000000000
+      internalID: -7151733440760229791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 8
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549d172c965585900800000000000000
+      internalID: 673382057014057285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 8
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5a296b5356d0480800000000000000
+      internalID: -8931371204635089463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 8
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524c0f398bd015290800000000000000
+      internalID: -7903520784651336667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 8
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a431b360f65360810800000000000000
+      internalID: 1731129857732711242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shrine3-available-no grass_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 8
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ded3003db42dccd0800000000000000
+      internalID: -2536330620166742318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shrine3-available-no grass_0: -7116818310826675049
+      shrine3-available-no grass_1: -7537754018709481930
+      shrine3-available-no grass_10: -8931371204635089463
+      shrine3-available-no grass_11: -7903520784651336667
+      shrine3-available-no grass_12: 1731129857732711242
+      shrine3-available-no grass_13: -2536330620166742318
+      shrine3-available-no grass_2: -7121378749369908629
+      shrine3-available-no grass_3: 4033754547051140483
+      shrine3-available-no grass_4: -9156795011288211621
+      shrine3-available-no grass_5: -4984520858340201603
+      shrine3-available-no grass_6: 8325227795958394496
+      shrine3-available-no grass_7: -5868529787268305300
+      shrine3-available-no grass_8: -7151733440760229791
+      shrine3-available-no grass_9: 673382057014057285
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
