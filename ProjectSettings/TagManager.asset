@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - coin
+  - xp
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -14,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - PlayerLayer
+  - EnemyLayer
   - 
   - 
   - 
@@ -56,6 +59,12 @@ TagManager:
     locked: 0
   - name: UpGround
     uniqueID: 820979583
+    locked: 0
+  - name: coin
+    uniqueID: 1878950683
+    locked: 0
+  - name: xp
+    uniqueID: 2845697239
     locked: 0
   m_RenderingLayers:
   - Default
