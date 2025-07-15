@@ -66,5 +66,8 @@ TagManager:
   - name: xp
     uniqueID: 2845697239
     locked: 0
+  - name: UI
+    uniqueID: 2830532169
+    locked: 0
   m_RenderingLayers:
   - Default
