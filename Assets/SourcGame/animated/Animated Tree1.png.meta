@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,10 +124,10 @@ TextureImporter:
       name: Animated Tree1_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 25
-        width: 84
-        height: 149
+        x: 25
+        y: 26
+        width: 82
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,10 +146,10 @@ TextureImporter:
       name: Animated Tree1_1
       rect:
         serializedVersion: 2
-        x: 152
-        y: 25
-        width: 84
-        height: 149
+        x: 153
+        y: 26
+        width: 82
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: Animated Tree1_2
       rect:
         serializedVersion: 2
-        x: 280
-        y: 25
-        width: 84
-        height: 149
+        x: 281
+        y: 26
+        width: 82
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +190,10 @@ TextureImporter:
       name: Animated Tree1_3
       rect:
         serializedVersion: 2
-        x: 408
-        y: 25
-        width: 84
-        height: 149
+        x: 409
+        y: 26
+        width: 82
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +212,10 @@ TextureImporter:
       name: Animated Tree1_4
       rect:
         serializedVersion: 2
-        x: 536
-        y: 25
-        width: 84
-        height: 148
+        x: 537
+        y: 26
+        width: 82
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Animated Tree1_5
       rect:
         serializedVersion: 2
-        x: 664
-        y: 25
-        width: 84
-        height: 148
+        x: 665
+        y: 26
+        width: 82
+        height: 146
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: Animated Tree1_6
       rect:
         serializedVersion: 2
-        x: 792
-        y: 25
-        width: 84
-        height: 149
+        x: 793
+        y: 26
+        width: 82
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: Animated Tree1_7
       rect:
         serializedVersion: 2
-        x: 920
-        y: 25
-        width: 84
-        height: 149
+        x: 921
+        y: 26
+        width: 82
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 93a127f4835647c418682c254dc39615
     internalID: 0
     vertices: []
     indices: 
