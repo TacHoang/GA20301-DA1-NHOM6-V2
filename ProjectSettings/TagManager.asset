@@ -7,7 +7,7 @@ TagManager:
   - Enemy
   - coin
   - xp
-  - Bullet
+  - Trident
   layers:
   - Default
   - TransparentFX
@@ -68,6 +68,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2830532169
+    locked: 0
+  - name: TridentFire
+    uniqueID: 1516857717
     locked: 0
   m_RenderingLayers:
   - Default

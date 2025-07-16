@@ -104,8 +104,12 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bullet"))
+        if (collision.CompareTag("Trident"))
+        {
+            Destroy(collision.gameObject); // Hủy Trident
+            Destroy(gameObject); // Hủy Quai
             Die();
+        }
     }
 
     void OnDrawGizmosSelected()
