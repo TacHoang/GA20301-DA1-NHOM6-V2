@@ -51,26 +51,26 @@ TagManager:
   - name: ForeGround
     uniqueID: 1584230565
     locked: 0
-  - name: Player
-    uniqueID: 200770439
+  - name: coin
+    uniqueID: 1878950683
     locked: 0
   - name: Enemy
     uniqueID: 3062521393
     locked: 0
+  - name: Player
+    uniqueID: 200770439
+    locked: 0
   - name: UpGround
     uniqueID: 820979583
-    locked: 0
-  - name: coin
-    uniqueID: 1878950683
     locked: 0
   - name: xp
     uniqueID: 2845697239
     locked: 0
-  - name: UI
-    uniqueID: 2830532169
-    locked: 0
   - name: TridentFire
     uniqueID: 1516857717
+    locked: 0
+  - name: UI
+    uniqueID: 2830532169
     locked: 0
   m_RenderingLayers:
   - Default
