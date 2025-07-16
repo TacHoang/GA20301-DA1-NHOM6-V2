@@ -94,9 +94,10 @@ public class ExplodingEnemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bullet"))
+        if (collision.CompareTag("Trident"))
         {
-            Die(); // Bị bắn thì chết ngay, không nổ
+            Destroy(collision.gameObject); // Hủy Trident
+            Destroy(gameObject); // Hủy Quai
         }
     }
 

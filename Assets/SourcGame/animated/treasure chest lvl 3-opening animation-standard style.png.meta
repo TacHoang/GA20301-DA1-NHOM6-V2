@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: a84047e9ae49c2240b93d4ffe0ce0fc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7746748399105025499
+    second: treasure chest lvl 3-opening animation-standard style_0
+  - first:
+      213: -5457185897971861377
+    second: treasure chest lvl 3-opening animation-standard style_1
+  - first:
+      213: -3031118071710422207
+    second: treasure chest lvl 3-opening animation-standard style_2
+  - first:
+      213: 3823533160089247938
+    second: treasure chest lvl 3-opening animation-standard style_3
+  - first:
+      213: 7238291603517289822
+    second: treasure chest lvl 3-opening animation-standard style_4
+  - first:
+      213: -5018760664157481004
+    second: treasure chest lvl 3-opening animation-standard style_5
+  - first:
+      213: 6343311751618730763
+    second: treasure chest lvl 3-opening animation-standard style_6
+  - first:
+      213: -4924536356588418415
+    second: treasure chest lvl 3-opening animation-standard style_7
+  - first:
+      213: 7970817477645256996
+    second: treasure chest lvl 3-opening animation-standard style_8
+  - first:
+      213: -6915478969722148725
+    second: treasure chest lvl 3-opening animation-standard style_9
+  - first:
+      213: 3800829018040061457
+    second: treasure chest lvl 3-opening animation-standard style_10
+  - first:
+      213: 7917645803117798847
+    second: treasure chest lvl 3-opening animation-standard style_11
+  - first:
+      213: -3267858472692876049
+    second: treasure chest lvl 3-opening animation-standard style_12
+  - first:
+      213: -1565764733765573587
+    second: treasure chest lvl 3-opening animation-standard style_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 14
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd52bfcff9af18b60800000000000000
+      internalID: 7746748399105025499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 15
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78bd16d65e2444b0800000000000000
+      internalID: -5457185897971861377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 14
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bee6f5c2e4fe5d0800000000000000
+      internalID: -3031118071710422207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 14
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0eb02b62bef0530800000000000000
+      internalID: 3823533160089247938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_4
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 14
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5537500dd3937460800000000000000
+      internalID: 7238291603517289822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_5
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 14
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7903834c7c95ab0800000000000000
+      internalID: -5018760664157481004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b9bc60e68f70850800000000000000
+      internalID: 6343311751618730763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a0d06664888abb0800000000000000
+      internalID: -4924536356588418415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_8
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4294584c3480e9e60800000000000000
+      internalID: 7970817477645256996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88e60e44884700a0800000000000000
+      internalID: -6915478969722148725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e4640bad14fb430800000000000000
+      internalID: 3800829018040061457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_11
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5e23098e021ed60800000000000000
+      internalID: 7917645803117798847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecf3ee680c36a2d0800000000000000
+      internalID: -3267858472692876049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 3-opening animation-standard style_13
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 14
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24a11a3549454ae0800000000000000
+      internalID: -1565764733765573587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      treasure chest lvl 3-opening animation-standard style_0: 7746748399105025499
+      treasure chest lvl 3-opening animation-standard style_1: -5457185897971861377
+      treasure chest lvl 3-opening animation-standard style_10: 3800829018040061457
+      treasure chest lvl 3-opening animation-standard style_11: 7917645803117798847
+      treasure chest lvl 3-opening animation-standard style_12: -3267858472692876049
+      treasure chest lvl 3-opening animation-standard style_13: -1565764733765573587
+      treasure chest lvl 3-opening animation-standard style_2: -3031118071710422207
+      treasure chest lvl 3-opening animation-standard style_3: 3823533160089247938
+      treasure chest lvl 3-opening animation-standard style_4: 7238291603517289822
+      treasure chest lvl 3-opening animation-standard style_5: -5018760664157481004
+      treasure chest lvl 3-opening animation-standard style_6: 6343311751618730763
+      treasure chest lvl 3-opening animation-standard style_7: -4924536356588418415
+      treasure chest lvl 3-opening animation-standard style_8: 7970817477645256996
+      treasure chest lvl 3-opening animation-standard style_9: -6915478969722148725
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

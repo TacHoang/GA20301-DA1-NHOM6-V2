@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 8b0e3a1c30fbc304e805b32353fc47ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5967972924293199293
+    second: treasure chest lvl 1-closing animation_0
+  - first:
+      213: -3830160449086286486
+    second: treasure chest lvl 1-closing animation_1
+  - first:
+      213: 2338140382457093592
+    second: treasure chest lvl 1-closing animation_2
+  - first:
+      213: 1439516853866075415
+    second: treasure chest lvl 1-closing animation_3
+  - first:
+      213: -3325514600501873573
+    second: treasure chest lvl 1-closing animation_4
+  - first:
+      213: 1455703162874886973
+    second: treasure chest lvl 1-closing animation_5
+  - first:
+      213: -7227666420779551820
+    second: treasure chest lvl 1-closing animation_6
+  - first:
+      213: 4658105114639706823
+    second: treasure chest lvl 1-closing animation_7
+  - first:
+      213: 7152280090787258115
+    second: treasure chest lvl 1-closing animation_8
+  - first:
+      213: 6674382417141988227
+    second: treasure chest lvl 1-closing animation_9
+  - first:
+      213: -3994906071663709310
+    second: treasure chest lvl 1-closing animation_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db535a541cf72d250800000000000000
+      internalID: 5967972924293199293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 15
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6516775d5988dac0800000000000000
+      internalID: -3830160449086286486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 15
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddd9533a4eb27020800000000000000
+      internalID: 2338140382457093592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 15
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71510e2a3f03af310800000000000000
+      internalID: 1439516853866075415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 15
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54f5b5171669d1d0800000000000000
+      internalID: -3325514600501873573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 15
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bf1916052b33410800000000000000
+      internalID: 1455703162874886973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_6
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 15
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b37a622fab22bb90800000000000000
+      internalID: -7227666420779551820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 15
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caa78c0ce9e4a040800000000000000
+      internalID: 4658105114639706823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 15
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f197129d0024360800000000000000
+      internalID: 7152280090787258115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_9
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 15
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b7cdc227b20ac50800000000000000
+      internalID: 6674382417141988227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: treasure chest lvl 1-closing animation_10
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 15
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283fe6ff71e3f88c0800000000000000
+      internalID: -3994906071663709310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      treasure chest lvl 1-closing animation_0: 5967972924293199293
+      treasure chest lvl 1-closing animation_1: -3830160449086286486
+      treasure chest lvl 1-closing animation_10: -3994906071663709310
+      treasure chest lvl 1-closing animation_2: 2338140382457093592
+      treasure chest lvl 1-closing animation_3: 1439516853866075415
+      treasure chest lvl 1-closing animation_4: -3325514600501873573
+      treasure chest lvl 1-closing animation_5: 1455703162874886973
+      treasure chest lvl 1-closing animation_6: -7227666420779551820
+      treasure chest lvl 1-closing animation_7: 4658105114639706823
+      treasure chest lvl 1-closing animation_8: 7152280090787258115
+      treasure chest lvl 1-closing animation_9: 6674382417141988227
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

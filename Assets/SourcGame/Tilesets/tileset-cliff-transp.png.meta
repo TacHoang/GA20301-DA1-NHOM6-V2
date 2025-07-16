@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 78d08d05eb2fe4444bcc044fadcacd06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3129691807761436652
+    second: tileset-cliff-transp_0
+  - first:
+      213: 6856410690912125529
+    second: tileset-cliff-transp_1
+  - first:
+      213: -8974946785253773641
+    second: tileset-cliff-transp_2
+  - first:
+      213: -2602228651340682513
+    second: tileset-cliff-transp_3
+  - first:
+      213: 2964670625186604079
+    second: tileset-cliff-transp_4
+  - first:
+      213: 2785149015226368145
+    second: tileset-cliff-transp_5
+  - first:
+      213: 6249425698844658438
+    second: tileset-cliff-transp_6
+  - first:
+      213: -8474203276530726351
+    second: tileset-cliff-transp_7
+  - first:
+      213: -1829758576966579879
+    second: tileset-cliff-transp_8
+  - first:
+      213: 2028056239570123363
+    second: tileset-cliff-transp_9
+  - first:
+      213: 247213094575024957
+    second: tileset-cliff-transp_10
+  - first:
+      213: 2325153067845279301
+    second: tileset-cliff-transp_11
+  - first:
+      213: -2250340059955753161
+    second: tileset-cliff-transp_12
+  - first:
+      213: -157395814841667059
+    second: tileset-cliff-transp_13
+  - first:
+      213: -2231080841258644250
+    second: tileset-cliff-transp_14
+  - first:
+      213: -2579515556477262837
+    second: tileset-cliff-transp_15
+  - first:
+      213: 2269520348938176721
+    second: tileset-cliff-transp_16
+  - first:
+      213: 6496163411412666119
+    second: tileset-cliff-transp_17
+  - first:
+      213: -4241865057935307833
+    second: tileset-cliff-transp_18
+  - first:
+      213: -7602018331398495192
+    second: tileset-cliff-transp_19
+  - first:
+      213: 1193694596969855354
+    second: tileset-cliff-transp_20
+  - first:
+      213: -8190939728788405209
+    second: tileset-cliff-transp_21
+  - first:
+      213: 5917588770592919729
+    second: tileset-cliff-transp_22
+  - first:
+      213: 6215466192274417688
+    second: tileset-cliff-transp_23
+  - first:
+      213: 6724265902354240181
+    second: tileset-cliff-transp_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset-cliff-transp_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 290
+        width: 144
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef021a0e16ee6b20800000000000000
+      internalID: 3129691807761436652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 428
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9520202523dd62f50800000000000000
+      internalID: 6856410690912125529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 459
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be2aea3375927380800000000000000
+      internalID: -8974946785253773641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 458
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaae7c24d603ebd0800000000000000
+      internalID: -2602228651340682513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 162
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f246842e930a42920800000000000000
+      internalID: 2964670625186604079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190c813e546d6a620800000000000000
+      internalID: 2785149015226368145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 287
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b45ddef8b6ab650800000000000000
+      internalID: 6249425698844658438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 287
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a4feba405956a80800000000000000
+      internalID: -8474203276530726351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 287
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959ce2bc4446b96e0800000000000000
+      internalID: -1829758576966579879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 319
+        width: 66
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a7710a76a152c10800000000000000
+      internalID: 2028056239570123363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 193
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b28fdeff64e6300800000000000000
+      internalID: 247213094575024957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 130
+        width: 194
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ed351656a944020800000000000000
+      internalID: 2325153067845279301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f818663af25c0e0800000000000000
+      internalID: -2250340059955753161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 76
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02ba3f1751d0ddf0800000000000000
+      internalID: -157395814841667059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_14
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 31
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec499fabcb9901e0800000000000000
+      internalID: -2231080841258644250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 31
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04249ba448b33cd0800000000000000
+      internalID: -2579515556477262837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 77
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d80bf0abb4fe7f10800000000000000
+      internalID: 2269520348938176721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_17
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 75
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707442c5432072a50800000000000000
+      internalID: 6496163411412666119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 35
+        width: 147
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbcf94443ed125c0800000000000000
+      internalID: -4241865057935307833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 34
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8242cf4da94308690800000000000000
+      internalID: -7602018331398495192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 34
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79f0b659ead09010800000000000000
+      internalID: 1193694596969855354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724cee0d6bfe35e80800000000000000
+      internalID: -8190939728788405209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_22
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 31
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0180652af7f1250800000000000000
+      internalID: 5917588770592919729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_23
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81867f72295c14650800000000000000
+      internalID: 6215466192274417688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset-cliff-transp_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 43
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b298152634615d50800000000000000
+      internalID: 6724265902354240181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tileset-cliff-transp_0: 3129691807761436652
+      tileset-cliff-transp_1: 6856410690912125529
+      tileset-cliff-transp_10: 247213094575024957
+      tileset-cliff-transp_11: 2325153067845279301
+      tileset-cliff-transp_12: -2250340059955753161
+      tileset-cliff-transp_13: -157395814841667059
+      tileset-cliff-transp_14: -2231080841258644250
+      tileset-cliff-transp_15: -2579515556477262837
+      tileset-cliff-transp_16: 2269520348938176721
+      tileset-cliff-transp_17: 6496163411412666119
+      tileset-cliff-transp_18: -4241865057935307833
+      tileset-cliff-transp_19: -7602018331398495192
+      tileset-cliff-transp_2: -8974946785253773641
+      tileset-cliff-transp_20: 1193694596969855354
+      tileset-cliff-transp_21: -8190939728788405209
+      tileset-cliff-transp_22: 5917588770592919729
+      tileset-cliff-transp_23: 6215466192274417688
+      tileset-cliff-transp_24: 6724265902354240181
+      tileset-cliff-transp_3: -2602228651340682513
+      tileset-cliff-transp_4: 2964670625186604079
+      tileset-cliff-transp_5: 2785149015226368145
+      tileset-cliff-transp_6: 6249425698844658438
+      tileset-cliff-transp_7: -8474203276530726351
+      tileset-cliff-transp_8: -1829758576966579879
+      tileset-cliff-transp_9: 2028056239570123363
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
