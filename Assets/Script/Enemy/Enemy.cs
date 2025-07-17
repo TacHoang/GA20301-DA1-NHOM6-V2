@@ -10,8 +10,19 @@ public class Enemy : MonoBehaviour
     public float patrolSpeed = 1f;
     public float patrolChangeTime = 2f;
 
+    [Header("Health Settings")]
+    public int maxHealth = 100;
+    [HideInInspector] public int currentHealth;
+    public float invincibleTime = 0.5f;
+
+    [Header("Damage Settings")]
+    public int damageTaken = 50;
+
+    [Header("Health Bar UI")]
+    public EnemyHealthBar healthBarUI;
+
     [Header("Coin Drop Settings")]
-    public GameObject coinPrefab;   // Kéo Prefab Coin vào đây
+    public GameObject coinPrefab;
     [Min(0)] public int minCoin = 50;
     [Min(1)] public int maxCoin = 150;
 
@@ -19,25 +30,41 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 patrolDirection;
     private float patrolTimer;
+    private float invincibleTimer = 0f;
+    private bool isDead = false;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
         rb = GetComponent<Rigidbody2D>();
-
         patrolTimer = 0f;
         PickNewPatrolDirection();
+
+        currentHealth = maxHealth;
+
+        if (healthBarUI != null)
+        {
+            healthBarUI.followTarget = transform;
+            healthBarUI.SetHealth(currentHealth, maxHealth);
+        }
+        else
+        {
+            Debug.LogWarning($"⚠️ Enemy {name} chưa gán HealthBarUI trong Inspector.");
+        }
     }
 
     void FixedUpdate()
     {
-        if (player == null) return;
+        if (isDead || player == null) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
         if (dist <= detectionRange)
             ChasePlayer();
         else
             Patrol();
+
+        if (invincibleTimer > 0)
+            invincibleTimer -= Time.fixedDeltaTime;
     }
 
     void ChasePlayer()
@@ -83,9 +110,49 @@ public class Enemy : MonoBehaviour
             PickNewPatrolDirection();
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (isDead || invincibleTimer > 0f) return;
+
+        Debug.Log($"Enemy va chạm với: {collision.name}, tag: {collision.tag}");
+
+        if (collision.CompareTag("Trident"))
+        {
+            Debug.Log("Bị Trident tấn công!");
+            Destroy(collision.gameObject);
+            TakeDamage(damageTaken);
+            invincibleTimer = invincibleTime;
+        }
+    }
+
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= amount;
+        currentHealth = Mathf.Max(0, currentHealth);
+
+        Debug.Log($"Enemy bị mất {amount} máu. Còn lại: {currentHealth}");
+
+        if (healthBarUI != null)
+        {
+            healthBarUI.SetHealth(currentHealth, maxHealth);
+            Debug.Log("Cập nhật thanh máu thành công!");
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ Chưa gán HealthBar UI trong Inspector!");
+        }
+
+        if (currentHealth <= 0)
+            Die();
+    }
+
     public void Die()
     {
-        // Spawn coin ngẫu nhiên
+        if (isDead) return;
+        isDead = true;
+
+        Debug.Log("Enemy đã chết!");
+
         if (coinPrefab != null)
         {
             int amount = Random.Range(minCoin, maxCoin + 1);
@@ -102,19 +169,10 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Trident"))
-        {
-            Destroy(collision.gameObject); // Hủy Trident
-            Destroy(gameObject); // Hủy Quai
-            Die();
-        }
-    }
-
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 }
+
