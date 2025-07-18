@@ -21,23 +21,19 @@ public class Enemy : MonoBehaviour
     [Header("Health Bar UI")]
     public EnemyHealthBar healthBarUI;
 
-    [Header("Coin Drop Settings")]
-    public GameObject coinPrefab;
-    [Min(0)] public int minCoin = 50;
-    [Min(1)] public int maxCoin = 150;
-
     private Transform player;
     private Rigidbody2D rb;
     private Vector2 patrolDirection;
     private float patrolTimer;
-    private float invincibleTimer = 0f;
+    private float invincibleTimer;
     private bool isDead = false;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
         rb = GetComponent<Rigidbody2D>();
-        patrolTimer = 0f;
+
+        patrolTimer = patrolChangeTime;
         PickNewPatrolDirection();
 
         currentHealth = maxHealth;
@@ -58,12 +54,13 @@ public class Enemy : MonoBehaviour
         if (isDead || player == null) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
+
         if (dist <= detectionRange)
             ChasePlayer();
         else
             Patrol();
 
-        if (invincibleTimer > 0)
+        if (invincibleTimer > 0f)
             invincibleTimer -= Time.fixedDeltaTime;
     }
 
@@ -78,8 +75,8 @@ public class Enemy : MonoBehaviour
         if (patrolTimer <= 0f)
             PickNewPatrolDirection();
 
-        Vector2 targetPos = (Vector2)transform.position + patrolDirection * patrolSpeed * Time.fixedDeltaTime;
-        rb.MovePosition(targetPos);
+        Vector2 nextPos = (Vector2)transform.position + patrolDirection * patrolSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(nextPos);
         FlipSprite(patrolDirection.x);
     }
 
@@ -93,8 +90,8 @@ public class Enemy : MonoBehaviour
     void MoveTowards(Vector2 target, float moveSpeed)
     {
         Vector2 dir = (target - (Vector2)transform.position).normalized;
-        Vector2 pos = (Vector2)transform.position + dir * moveSpeed * Time.fixedDeltaTime;
-        rb.MovePosition(pos);
+        Vector2 nextPos = (Vector2)transform.position + dir * moveSpeed * Time.fixedDeltaTime;
+        rb.MovePosition(nextPos);
         FlipSprite(dir.x);
     }
 
@@ -114,11 +111,8 @@ public class Enemy : MonoBehaviour
     {
         if (isDead || invincibleTimer > 0f) return;
 
-        Debug.Log($"Enemy va chạm với: {collision.name}, tag: {collision.tag}");
-
         if (collision.CompareTag("Trident"))
         {
-            Debug.Log("Bị Trident tấn công!");
             Destroy(collision.gameObject);
             TakeDamage(damageTaken);
             invincibleTimer = invincibleTime;
@@ -127,41 +121,25 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
-        currentHealth = Mathf.Max(0, currentHealth);
-
-        Debug.Log($"Enemy bị mất {amount} máu. Còn lại: {currentHealth}");
+        currentHealth = Mathf.Max(0, currentHealth - amount);
 
         if (healthBarUI != null)
-        {
             healthBarUI.SetHealth(currentHealth, maxHealth);
-            Debug.Log("Cập nhật thanh máu thành công!");
-        }
-        else
-        {
-            Debug.LogWarning("⚠️ Chưa gán HealthBar UI trong Inspector!");
-        }
 
         if (currentHealth <= 0)
             Die();
     }
 
-    public void Die()
+    void Die()
     {
         if (isDead) return;
         isDead = true;
 
-        Debug.Log("Enemy đã chết!");
+        // Spawn coins via CoinManager
+        if (CoinManager.Instance != null)
+            CoinManager.Instance.SpawnCoinsAt(transform.position);
 
-        if (coinPrefab != null)
-        {
-            int amount = Random.Range(minCoin, maxCoin + 1);
-            GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
-            Coin coinScript = coin.GetComponent<Coin>();
-            if (coinScript != null)
-                coinScript.value = amount;
-        }
-
+        // Notify spawner nếu có
         EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
         if (spawner != null)
             spawner.NotifyEnemyDeath(gameObject);
@@ -175,3 +153,5 @@ public class Enemy : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 }
+
+

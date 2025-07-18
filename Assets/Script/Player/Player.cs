@@ -12,7 +12,14 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        // Gán rb và anim nếu quên kéo trong Inspector
+        if (rb == null) rb = GetComponent<Rigidbody2D>();
+        if (anim == null) anim = GetComponent<Animator>();
+
         mauhientai = mautoida;
+
+        if (canvas != null)
+            canvas.SetActive(false); // Ẩn canvas khi bắt đầu
     }
 
     void Update()
@@ -37,7 +44,7 @@ public class Player : MonoBehaviour
         anim.SetBool("MoveUp", inputVector.y > 0);
         anim.SetBool("MoveDown", inputVector.y < 0);
 
-        // Flip hướng
+        // Lật hướng player trái/phải
         if (inputVector.x < 0)
             rb.transform.localScale = new Vector2(-1, 1);
         else if (inputVector.x > 0)
@@ -48,15 +55,31 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            mauhientai -= 2;
-
-            if (mauhientai <= 0)
-            {
-                Debug.Log("Player chết");
-                Destroy(this.gameObject, 0.2f);
-                canvas.SetActive(true);
-                Time.timeScale = 0f;
-            }
+            TakeDamage(2);
         }
     }
+
+    void TakeDamage(int damage)
+    {
+        mauhientai -= damage;
+
+        if (mauhientai <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Player chết");
+
+        if (canvas != null)
+            canvas.SetActive(true);
+
+        Time.timeScale = 0f;
+
+        // Delay 0.2s rồi xóa Player
+        Destroy(this.gameObject, 0.2f);
+    }
 }
+
