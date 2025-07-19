@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 200770439
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2728509553476893412, guid: 3145fec54304cc843bbc4a274c9d9495, type: 3}
+  m_Sprite: {fileID: -1047889022768391324, guid: ef8d4551188c7844980150a1e569e7b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -129,8 +129,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.31824565, y: 0.4977505}
-    oldSize: {x: 2.075, y: 1.15625}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.92, y: 1.72}
     newSize: {x: 1.1666666, y: 1.3333334}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 3777454627989927340}
   - component: {fileID: 103095401867449999}
   m_Layer: 0
-  m_Name: Trident
+  m_Name: Taiwo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,7 +316,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3820193201140532292, guid: dc2c98aade5d23f44803a7489520deb5, type: 3}
+  m_Sprite: {fileID: 9010874943486876641, guid: 7fc0daba1418ec946adf82253c5fd49b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

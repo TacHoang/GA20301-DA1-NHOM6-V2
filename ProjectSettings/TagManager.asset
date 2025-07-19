@@ -8,6 +8,7 @@ TagManager:
   - coin
   - xp
   - Trident
+  - C5
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - C5
   - 
   - PlayerLayer
   - EnemyLayer
@@ -71,6 +72,15 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2830532169
+    locked: 0
+  - name: C5
+    uniqueID: 3430380217
+    locked: 0
+  - name: C5Skill
+    uniqueID: 3552553329
+    locked: 0
+  - name: C5Coul
+    uniqueID: 1133482857
     locked: 0
   m_RenderingLayers:
   - Default
