@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2106304558942074041}
   - component: {fileID: 7226118380250132286}
   - component: {fileID: 5909471168672918706}
+  - component: {fileID: 3495014930586324023}
   m_Layer: 9
   m_Name: ExplosionEnemy_0 1
   m_TagString: Enemy
@@ -208,6 +209,19 @@ MonoBehaviour:
   invincibleTime: 0.5
   damageTaken: 50
   healthBarUI: {fileID: 254685571709870284}
+--- !u!114 &3495014930586324023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464845919463838691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d1afb93fe93bb4bbe361a9a0e2b5e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeDistance: 18
 --- !u!1 &1483310004543384709
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,7 +234,7 @@ GameObject:
   - component: {fileID: 402486275778894929}
   - component: {fileID: 1458317401973427645}
   m_Layer: 5
-  m_Name: Image
+  m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

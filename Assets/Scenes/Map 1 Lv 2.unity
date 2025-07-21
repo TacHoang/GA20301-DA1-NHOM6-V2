@@ -300951,12 +300951,18 @@ MonoBehaviour:
   - {fileID: 5370872737974798139, guid: f32cdeca6474c4948b980f382e219656, type: 3}
   - {fileID: 4489583296085819174, guid: 35e6734834e58154cb05c67eb3e4641b, type: 3}
   spawnPoints:
-  - {fileID: 1378590456}
-  - {fileID: 1537740594}
-  - {fileID: 284107904}
-  - {fileID: 662578576}
-  maxEnemiesPerPoint: 1000
-  maxTotalEnemies: 1000
+  - point: {fileID: 1378590456}
+    maxEnemies: 10
+    enemies: []
+  - point: {fileID: 1537740594}
+    maxEnemies: 10
+    enemies: []
+  - point: {fileID: 284107904}
+    maxEnemies: 10
+    enemies: []
+  - point: {fileID: 662578576}
+    maxEnemies: 10
+    enemies: []
   offsetRange: 1
   checkRadius: 2
 --- !u!4 &1431013413

@@ -1,94 +1,102 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
+
+[System.Serializable]
+public class SpawnPointData
+{
+    public Transform point;
+    public int maxEnemies = 10;
+    public List<GameObject> enemies = new List<GameObject>();
+}
 
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Enemy Prefabs")]
     public GameObject[] enemyPrefabs;
 
-    [Header("Spawn Points")]
-    public List<Transform> spawnPoints = new List<Transform>();
-
-    [Header("Spawn Settings")]
-    public int maxEnemiesPerPoint = 10;    // Số lượng enemy mỗi điểm spawn
-    public int maxTotalEnemies = 100;      // Giới hạn tổng nếu muốn
+    [Header("Spawn Points & Settings")]
+    public List<SpawnPointData> spawnPoints = new List<SpawnPointData>();
 
     [Header("Spawn Randomness")]
     public float offsetRange = 1f;
     public float checkRadius = 0.5f;
 
-    private List<GameObject> activeEnemies = new List<GameObject>();
-
     void Start()
     {
-        // Tự động thêm các con làm điểm spawn nếu chưa gán
+        // Nếu danh sách spawn trống thì tự động lấy các con của object này
         if (spawnPoints.Count == 0)
         {
             foreach (Transform child in transform)
             {
-                spawnPoints.Add(child);
+                SpawnPointData data = new SpawnPointData();
+                data.point = child;
+                data.maxEnemies = 10;
+                spawnPoints.Add(data);
             }
         }
+
+        // Bắt đầu quy trình spawn nhẹ nhàng
+        StartCoroutine(SpawnEnemiesRoutine());
     }
 
-    void Update()
+    IEnumerator SpawnEnemiesRoutine()
     {
-        // Xoá các enemy đã chết
-        activeEnemies.RemoveAll(enemy => enemy == null);
-
-        foreach (Transform spawnPoint in spawnPoints)
+        while (true)
         {
-            int count = CountEnemiesNear(spawnPoint.position);
-
-            while (count < maxEnemiesPerPoint && activeEnemies.Count < maxTotalEnemies)
+            foreach (var spawnData in spawnPoints)
             {
-                TrySpawnEnemyAt(spawnPoint);
-                count++;
+                // Xoá quái đã chết khỏi danh sách
+                spawnData.enemies.RemoveAll(enemy => enemy == null);
+
+                // Nếu còn thiếu thì spawn thêm 1 con
+                if (spawnData.enemies.Count < spawnData.maxEnemies)
+                {
+                    TrySpawnEnemyAt(spawnData);
+                }
+
+                // Chờ chút trước khi chuyển sang điểm tiếp theo (giảm lag)
+                yield return new WaitForSeconds(0.1f);
             }
+
+            // Lặp lại mỗi giây
+            yield return new WaitForSeconds(1f);
         }
     }
 
-    void TrySpawnEnemyAt(Transform spawnPoint)
+    void TrySpawnEnemyAt(SpawnPointData spawnData)
     {
-        for (int i = 0; i < 5; i++) // thử 5 lần
+        for (int i = 0; i < 5; i++) // thử 5 vị trí ngẫu nhiên
         {
             GameObject prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+
             Vector2 offset = new Vector2(
                 Random.Range(-offsetRange, offsetRange),
                 Random.Range(-offsetRange, offsetRange)
             );
-            Vector2 spawnPos = (Vector2)spawnPoint.position + offset;
+
+            Vector2 spawnPos = (Vector2)spawnData.point.position + offset;
 
             Collider2D hit = Physics2D.OverlapCircle(spawnPos, checkRadius);
             if (hit == null)
             {
                 GameObject newEnemy = Instantiate(prefab, spawnPos, Quaternion.identity);
-                activeEnemies.Add(newEnemy);
+                spawnData.enemies.Add(newEnemy);
                 break;
             }
         }
     }
 
-    int CountEnemiesNear(Vector2 position)
-    {
-        int count = 0;
-        foreach (var enemy in activeEnemies)
-        {
-            if (enemy != null && Vector2.Distance(enemy.transform.position, position) < offsetRange * 2)
-            {
-                count++;
-            }
-        }
-        return count;
-    }
-
-    // Gọi từ enemy khi nó chết
+    // Gọi từ enemy khi bị tiêu diệt
     public void NotifyEnemyDeath(GameObject enemy)
     {
-        if (activeEnemies.Contains(enemy))
+        foreach (var data in spawnPoints)
         {
-            activeEnemies.Remove(enemy);
+            if (data.enemies.Contains(enemy))
+            {
+                data.enemies.Remove(enemy);
+                break;
+            }
         }
     }
 }
-

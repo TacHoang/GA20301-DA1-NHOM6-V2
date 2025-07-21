@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3237963417014577556}
   - component: {fileID: 2936689689770223508}
   m_Layer: 5
-  m_Name: backgr
+  m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,6 +90,7 @@ GameObject:
   - component: {fileID: 4246140134507712537}
   - component: {fileID: 2416129314473244332}
   - component: {fileID: 2316938987615321086}
+  - component: {fileID: 3785900419904261185}
   m_Layer: 9
   m_Name: BasicEnemy 1
   m_TagString: Enemy
@@ -284,6 +285,19 @@ MonoBehaviour:
   invincibleTime: 0.5
   damageTaken: 50
   healthBarUI: {fileID: 3126760601760486693}
+--- !u!114 &3785900419904261185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5267878033292869232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d1afb93fe93bb4bbe361a9a0e2b5e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeDistance: 18
 --- !u!1 &7420418047608413715
 GameObject:
   m_ObjectHideFlags: 0

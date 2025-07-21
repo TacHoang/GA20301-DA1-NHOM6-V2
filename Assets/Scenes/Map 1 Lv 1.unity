@@ -692,7 +692,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -45121,10 +45121,10 @@ Tilemap:
     m_Data: {fileID: -9024135095399515749, guid: 5fefb15bd6fd9d0448972b8a56202615, type: 3}
   - m_RefCount: 3261
     m_Data: {fileID: -394003479281462032, guid: 5fefb15bd6fd9d0448972b8a56202615, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 7915683653226457324, guid: dc6cba513a304f64b8e3fb39c1827925, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 7915683653226457324, guid: dc6cba513a304f64b8e3fb39c1827925, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 4475
     m_Data:
@@ -183867,12 +183867,18 @@ MonoBehaviour:
   - {fileID: 5370872737974798139, guid: f32cdeca6474c4948b980f382e219656, type: 3}
   - {fileID: 4489583296085819174, guid: 35e6734834e58154cb05c67eb3e4641b, type: 3}
   spawnPoints:
-  - {fileID: 1864845159}
-  - {fileID: 812812469}
-  - {fileID: 238059184}
-  - {fileID: 1757825405}
-  maxEnemiesPerPoint: 1000
-  maxTotalEnemies: 1000
+  - point: {fileID: 1864845159}
+    maxEnemies: 10
+    enemies: []
+  - point: {fileID: 812812469}
+    maxEnemies: 10
+    enemies: []
+  - point: {fileID: 238059184}
+    maxEnemies: 10
+    enemies: []
+  - point: {fileID: 1757825405}
+    maxEnemies: 10
+    enemies: []
   offsetRange: 1
   checkRadius: 2
 --- !u!1 &1864845158

@@ -19,21 +19,30 @@ public class EnemyHealthBar : MonoBehaviour
 
     void LateUpdate()
     {
-        if (followTarget != null)
-        {
-            transform.position = followTarget.position + offset;
+        if (followTarget == null) return;
 
-            if (cam != null)
-                transform.rotation = cam.transform.rotation;
-        }
+        // Vị trí thanh máu theo enemy
+        transform.position = followTarget.position + offset;
+
+        // Giữ không bị lật khi enemy quay mặt
+        transform.rotation = cam.transform.rotation;
+
+        // Đảm bảo scale dương để không bị lật
+        Vector3 scale = transform.localScale;
+        scale.x = Mathf.Abs(scale.x);
+        transform.localScale = scale;
     }
 
     public void SetHealth(float current, float max)
     {
         float percent = Mathf.Clamp01(current / max);
         if (healthFillImage != null)
+        {
             healthFillImage.fillAmount = percent;
+        }
         else
+        {
             Debug.LogWarning("⚠️ Thiếu gán healthFillImage trong EnemyHealthBar");
+        }
     }
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6085108534957970506}
   - component: {fileID: 494380417989823623}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: HealthCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,6 +207,7 @@ GameObject:
   - component: {fileID: 280839717622151821}
   - component: {fileID: 4119928920969219139}
   - component: {fileID: -2675953016838286662}
+  - component: {fileID: 5312189473399754442}
   m_Layer: 0
   m_Name: enemyden
   m_TagString: Enemy
@@ -323,7 +324,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.2, y: 1.6}
+    oldSize: {x: 3.5555556, y: 1.7777778}
     newSize: {x: 2.6666667, y: 1.3333334}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -393,7 +394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  detectionRange: 5
+  detectionRange: 10
   patrolSpeed: 1
   patrolChangeTime: 2
   maxHealth: 100
@@ -401,6 +402,19 @@ MonoBehaviour:
   invincibleTime: 0.5
   damageTaken: 50
   healthBarUI: {fileID: 494380417989823623}
+--- !u!114 &5312189473399754442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5370872737974798139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d1afb93fe93bb4bbe361a9a0e2b5e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeDistance: 18
 --- !u!1 &8503859362226033978
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +427,7 @@ GameObject:
   - component: {fileID: 6573260473262801610}
   - component: {fileID: 1421096322565480023}
   m_Layer: 5
-  m_Name: Image
+  m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4038528331276811925}
   - component: {fileID: 6041421914713330335}
   - component: {fileID: 1815278693120049599}
+  - component: {fileID: -7576587561004288300}
   m_Layer: 0
   m_Name: Enemydo
   m_TagString: Enemy
@@ -127,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  detectionRange: 5
+  detectionRange: 10
   patrolSpeed: 1
   patrolChangeTime: 2
   maxHealth: 100
@@ -208,6 +209,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6784458, y: 1.0089928}
   m_EdgeRadius: 0
+--- !u!114 &-7576587561004288300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4489583296085819174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d1afb93fe93bb4bbe361a9a0e2b5e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeDistance: 18
 --- !u!1 &6854004025636154728
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,12 +247,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6854004025636154728}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8010316555859159130}
+  m_Father: {fileID: 8804499892545018736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -295,7 +309,7 @@ GameObject:
   - component: {fileID: 8870507731147795452}
   - component: {fileID: 1202655329576140315}
   m_Layer: 5
-  m_Name: Image
+  m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312,7 +326,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8022413336005973931}
   m_Father: {fileID: 8010316555859159130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -372,7 +387,7 @@ GameObject:
   - component: {fileID: 7310292981960606267}
   - component: {fileID: 6283015194552239058}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: HealthCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -391,7 +406,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8804499892545018736}
-  - {fileID: 8022413336005973931}
   m_Father: {fileID: 4801223881496936958}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
