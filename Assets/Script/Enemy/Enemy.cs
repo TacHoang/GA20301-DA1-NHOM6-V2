@@ -10,23 +10,22 @@ public class Enemy : MonoBehaviour
     public float patrolSpeed = 1f;
     public float patrolChangeTime = 2f;
 
-    [Header("Health Settings")]
-    public int maxHealth = 100;
-    [HideInInspector] public int currentHealth;
-    public float invincibleTime = 0.5f;
-
     [Header("Damage Settings")]
     public int damageTaken = 50;
+    public float attackRange = 1f;
+    public float attackCooldown = 1f;
 
-    [Header("Health Bar UI")]
-    public EnemyHealthBar healthBarUI;
+    // 👇 Các biến sức khỏe đã xóa:
+    // public int maxHealth;
+    // public int currentHealth;
+    // public float invincibleTime;
+    // public EnemyHealthBar healthBarUI;
 
     private Transform player;
     private Rigidbody2D rb;
     private Vector2 patrolDirection;
     private float patrolTimer;
-    private float invincibleTimer;
-    private bool isDead = false;
+    private float lastAttackTime = 0f;
 
     void Start()
     {
@@ -35,23 +34,11 @@ public class Enemy : MonoBehaviour
 
         patrolTimer = patrolChangeTime;
         PickNewPatrolDirection();
-
-        currentHealth = maxHealth;
-
-        if (healthBarUI != null)
-        {
-            healthBarUI.followTarget = transform;
-            healthBarUI.SetHealth(currentHealth, maxHealth);
-        }
-        else
-        {
-            Debug.LogWarning($"⚠️ Enemy {name} chưa gán HealthBarUI trong Inspector.");
-        }
     }
 
     void FixedUpdate()
     {
-        if (isDead || player == null) return;
+        if (player == null) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
 
@@ -60,8 +47,7 @@ public class Enemy : MonoBehaviour
         else
             Patrol();
 
-        if (invincibleTimer > 0f)
-            invincibleTimer -= Time.fixedDeltaTime;
+        TryAttackPlayer();
     }
 
     void ChasePlayer()
@@ -101,57 +87,37 @@ public class Enemy : MonoBehaviour
         else if (xDir > 0.05f) transform.localScale = new Vector3(1, 1, 1);
     }
 
+    void TryAttackPlayer()
+    {
+        if (player == null || Time.time - lastAttackTime < attackCooldown) return;
+
+        float distance = Vector2.Distance(transform.position, player.position);
+        if (distance <= attackRange)
+        {
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damageTaken);
+                lastAttackTime = Time.time;
+            }
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!collision.collider.isTrigger)
             PickNewPatrolDirection();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (isDead || invincibleTimer > 0f) return;
-
-        if (collision.CompareTag("Trident"))
-        {
-            Destroy(collision.gameObject);
-            TakeDamage(damageTaken);
-            invincibleTimer = invincibleTime;
-        }
-    }
-
-    public void TakeDamage(int amount)
-    {
-        currentHealth = Mathf.Max(0, currentHealth - amount);
-
-        if (healthBarUI != null)
-            healthBarUI.SetHealth(currentHealth, maxHealth);
-
-        if (currentHealth <= 0)
-            Die();
-    }
-
-    void Die()
-    {
-        if (isDead) return;
-        isDead = true;
-
-        // Spawn coins via CoinManager
-        if (CoinManager.Instance != null)
-            CoinManager.Instance.SpawnCoinsAt(transform.position);
-
-        // Notify spawner nếu có
-        EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
-        if (spawner != null)
-            spawner.NotifyEnemyDeath(gameObject);
-
-        Destroy(gameObject);
-    }
+    // 👇 Các hàm liên quan đến máu đã bị xóa:
+    // public void TakeDamage(int amount) { ... }
+    // void Die() { ... }
 
     void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }
-
-
