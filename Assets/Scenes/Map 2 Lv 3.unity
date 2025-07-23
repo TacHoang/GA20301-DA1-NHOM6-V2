@@ -65126,7 +65126,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 0}
+    TrackingTarget: {fileID: 774656070}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -65158,7 +65158,7 @@ Transform:
   m_GameObject: {fileID: 300576105}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.6, y: 5.66, z: -10}
+  m_LocalPosition: {x: -9.9, y: -10.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -198898,18 +198898,18 @@ PrefabInstance:
     - target: {fileID: 540540921266854801, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: skillButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 463914731}
     - target: {fileID: 540540921266854801, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: cooldownText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1376397630}
     - target: {fileID: 2686413726010036880, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.5
+      value: -9.9
       objectReference: {fileID: 0}
     - target: {fileID: 2686413726010036880, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.4
+      value: -10.1
       objectReference: {fileID: 0}
     - target: {fileID: 2686413726010036880, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_LocalPosition.z
@@ -198946,12 +198946,17 @@ PrefabInstance:
     - target: {fileID: 7919037964055528429, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: healthFillImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 259587345}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+--- !u!4 &774656070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2686413726010036880, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+  m_PrefabInstance: {fileID: 774656069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &812812468
 GameObject:
   m_ObjectHideFlags: 0
@@ -202555,7 +202560,7 @@ Transform:
   m_GameObject: {fileID: 1485299859}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.6, y: 5.66, z: -10}
+  m_LocalPosition: {x: -9.9, y: -10.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -202825,19 +202830,18 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 5267878033292869232, guid: 1130cffd2c964924993db099eed18cc1, type: 3}
   - {fileID: 1464845919463838691, guid: 1b945219ea4b69249b667f1df55ed470, type: 3}
-  - {fileID: 5370872737974798139, guid: f32cdeca6474c4948b980f382e219656, type: 3}
   - {fileID: 4489583296085819174, guid: 35e6734834e58154cb05c67eb3e4641b, type: 3}
   spawnPoints:
-  - point: {fileID: 0}
+  - point: {fileID: 1864845159}
     maxEnemies: 10
     enemies: []
-  - point: {fileID: 0}
+  - point: {fileID: 812812469}
     maxEnemies: 10
     enemies: []
-  - point: {fileID: 0}
+  - point: {fileID: 238059184}
     maxEnemies: 10
     enemies: []
-  - point: {fileID: 0}
+  - point: {fileID: 1757825405}
     maxEnemies: 10
     enemies: []
   offsetRange: 1
@@ -202985,7 +202989,7 @@ MonoBehaviour:
   minDrop: 20
   maxDrop: 120
   coinPrefab: {fileID: 7419023577443916494, guid: 6a48154fa12a8ed46879b5f593acdd1c, type: 3}
-  coinText: {fileID: 0}
+  coinText: {fileID: 457023041}
   totalCoins: 0
 --- !u!4 &2026250008
 Transform:

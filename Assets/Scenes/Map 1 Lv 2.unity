@@ -301270,7 +301270,7 @@ MonoBehaviour:
   minDrop: 20
   maxDrop: 120
   coinPrefab: {fileID: 7419023577443916494, guid: 6a48154fa12a8ed46879b5f593acdd1c, type: 3}
-  coinText: {fileID: 0}
+  coinText: {fileID: 775023100}
   totalCoins: 0
 --- !u!4 &1470334440
 Transform:
