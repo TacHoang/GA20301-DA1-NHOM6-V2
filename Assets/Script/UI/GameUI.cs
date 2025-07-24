@@ -7,8 +7,10 @@ public class GameUI : MonoBehaviour
 
     public void StartGame()
     {
-        gameManager.StartGame();
+        // Nếu không cần làm gì, có thể load scene luôn:
+        SceneManager.LoadScene("TênScene"); // hoặc load scene kế tiếp
     }
+
 
     public void QuitGame()
     {

@@ -8,17 +8,28 @@ public class PlayerHealth : MonoBehaviour
     private int currentHealth;
 
     [Header("UI Image Fill")]
-    public Image healthFillImage;  // Gán object Fill (Image màu đỏ)
+    public Image healthFillImage;
 
     void Start()
     {
-        currentHealth = maxHealth;
+        // Nếu GameManager chưa có máu => gán max
+        if (GameManager.Instance.playerHealth <= 0 || GameManager.Instance.playerHealth > maxHealth)
+        {
+            GameManager.Instance.playerHealth = maxHealth;
+        }
+
+        // Lấy máu từ GameManager
+        currentHealth = GameManager.Instance.playerHealth;
         UpdateHealthUI();
     }
 
     public void TakeDamage(int amount)
     {
         currentHealth = Mathf.Max(0, currentHealth - amount);
+
+        // Cập nhật máu vào GameManager
+        GameManager.Instance.playerHealth = currentHealth;
+
         UpdateHealthUI();
 
         if (currentHealth <= 0)
@@ -37,7 +48,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player đã chết.");
-        // Xử lý khi chết ở đây (ví dụ load lại, hiện bảng Game Over...)
+        // Bạn có thể gọi scene Game Over tại đây nếu muốn
+        // SceneManager.LoadScene("GameOver");
     }
 }
-

@@ -1,58 +1,96 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CoinManager : MonoBehaviour
 {
     public static CoinManager Instance;
 
-    [Header("Coin Drop Settings")]
-    [Range(0f, 100f)]
-    public float dropChancePercent = 100f;  // 100% nếu bạn muốn drop luôn khi enemy chết
-    public int minDrop = 50;
-    public int maxDrop = 150;
+    [Header("Coin Settings")]
+    public int coinCount = 0;
+    public string coinTextObjectName = "CoinText"; // Tên GameObject chứa Text
+    private Text coinText;
+
+    [Header("Coin Prefab")]
     public GameObject coinPrefab;
 
-    [Header("UI")]
-    public Text coinText;
-    [HideInInspector] public int totalCoins = 0;
+    [Header("Coin Value Range")]
+    public int minCoins = 20;
+    public int maxCoins = 99;
 
-    void Awake()
+    [Header("Drop Settings")]
+    [Range(0f, 100f)]
+    public float coinDropChance = 70f; // % cơ hội rơi coin (vd: 70%)
+
+    private void Awake()
     {
-        if (Instance != null) Destroy(gameObject);
-        else Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
-    void Start()
+    private void Start()
     {
+        FindCoinTextAndUpdateUI();
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        FindCoinTextAndUpdateUI();
+    }
+
+    private void FindCoinTextAndUpdateUI()
+    {
+        GameObject found = GameObject.Find(coinTextObjectName);
+        if (found != null)
+        {
+            coinText = found.GetComponent<Text>();
+        }
+
         UpdateCoinUI();
-    }
-
-    public void SpawnCoinsAt(Vector2 position)
-    {
-        float roll = Random.Range(0f, 100f);
-        if (roll > dropChancePercent || coinPrefab == null)
-            return;
-
-        int amount = Random.Range(minDrop, maxDrop + 1);
-        // Tốt nhất spawn nhiều xu nhỏ tổng gần bằng amount,
-        // hoặc spawn 1 coin mang toàn bộ ─ tùy ý.
-        GameObject c = Instantiate(coinPrefab, position, Quaternion.identity);
-        var coinScript = c.GetComponent<Coin>();
-        if (coinScript != null)
-            coinScript.value = amount;
     }
 
     public void AddCoins(int amount)
     {
-        totalCoins += amount;
+        coinCount += amount;
         UpdateCoinUI();
     }
 
-    void UpdateCoinUI()
+    public void UpdateCoinUI()
     {
         if (coinText != null)
-            coinText.text = totalCoins.ToString();
+        {
+            coinText.text = coinCount.ToString("D2"); // Hiển thị: 00, 01, 99...
+        }
+    }
+
+    public void SpawnCoinsAt(Vector3 position)
+    {
+        // Kiểm tra % có rơi coin không
+        float roll = Random.Range(0f, 100f);
+        if (roll <= coinDropChance)
+        {
+            if (coinPrefab != null)
+            {
+                Instantiate(coinPrefab, position, Quaternion.identity);
+                // Không cộng xu ở đây, chỉ cộng khi player nhặt
+            }
+        }
     }
 }
-
-

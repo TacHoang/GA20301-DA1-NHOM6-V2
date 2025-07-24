@@ -5,9 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Map 1 Lv 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Map1Lv1.unity
+    guid: e8a4ec6f98e2a5c479cc5106ec184fc9
+  - enabled: 1
+    path: Assets/Scenes/Map1Lv2.unity
+    guid: 2cabc575fb2cabc498148c88b2862621
+  - enabled: 1
+    path: Assets/Scenes/Map1Lv3.unity
+    guid: a54797d3cc8f17642bcd5cfde1d20574
+  - enabled: 1
+    path: Assets/Scenes/Map2Lv1.unity
+    guid: 9d139b9c7cd829e4484f4a23afdc764a
+  - enabled: 1
+    path: Assets/Scenes/Map2Lv2.unity
+    guid: 112573e21b658994a8b5c327834694ed
+  - enabled: 1
+    path: Assets/Scenes/Map2Lv3.unity
+    guid: fd368f902dd777c448763b3073423e9f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
