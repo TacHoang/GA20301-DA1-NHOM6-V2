@@ -53,7 +53,6 @@ public class TakeDameC3 : MonoBehaviour
             }
 
             // 🎥 Rung màn hình
-            CameraShake.instance?.Shake();
         }
     }
     public void Begin()

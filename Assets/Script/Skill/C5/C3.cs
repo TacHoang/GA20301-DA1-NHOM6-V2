@@ -56,6 +56,8 @@ public class C3 : MonoBehaviour
 
 
 
+
+
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 shootDir = (mousePos - (Vector2)transform.position).normalized;
         float angle = Mathf.Atan2(shootDir.y, shootDir.x) * Mathf.Rad2Deg;
