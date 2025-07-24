@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9116172961973874077
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7014258458307739294}
+  - component: {fileID: 5995420143885966186}
+  m_Layer: 6
+  m_Name: Ulti
+  m_TagString: C5
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7014258458307739294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116172961973874077}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.938236, y: -4.8817825, z: -0.086209156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5995420143885966186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9116172961973874077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8fe35bf992812a43b9ebf35a0e42ea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteorPrefab: {fileID: 4186364355915333304, guid: c4585d7dfb865b14eb7a8abd7b17d5c7, type: 3}
+  orbPrefab: {fileID: 6187867350969122902, guid: d23efd70ad5159e42b3194433aa3204c, type: 3}
+  meteorDelay: 0.2
+  orbDelay: 0.5
+  meteorSpeed: 10
+  orbSpeed: 5
+  meteorLifetime: 0.8
+  orbLifetime: 6
+  cooldownTime: 30
+  cooldownText: {fileID: 0}
+  skillIcon: {fileID: 0}

@@ -167,3 +167,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageAmount: 15
   destroyOnHit: 1
+  soundEffectPrefab: {fileID: 8558106191101479142, guid: 0ddf10043848fe4479e21d3523dd3e57, type: 3}

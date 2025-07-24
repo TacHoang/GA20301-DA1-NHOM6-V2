@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class UltiC5 : MonoBehaviour
+public class Uiti : MonoBehaviour
 {
     [Header("Prefab kỹ năng")]
     public GameObject meteorPrefab;
@@ -22,15 +22,14 @@ public class UltiC5 : MonoBehaviour
     private bool isSkillActive = false;
 
     [Header("Giao diện UI")]
-    public Button skillButton;
-    public Text cooldownText;
 
+    public Text cooldownText;
+    public Image skillIcon;
     private GameObject orbInstance;
 
     void Start()
     {
-        // Gán hàm gọi kỹ năng khi nút được bấm
-        skillButton.onClick.AddListener(OnSkillButtonPressed);
+
     }
 
     void Update()
@@ -41,17 +40,22 @@ public class UltiC5 : MonoBehaviour
             StartCoroutine(ActivateSkill());
         }
 
-        // Cập nhật thời gian hồi chiêu
         if (cooldownTimer > 0f)
         {
             cooldownTimer -= Time.deltaTime;
-            cooldownText.text = $"{Mathf.CeilToInt(cooldownTimer)}s";
-            skillButton.interactable = false;
+            cooldownText.text = Mathf.Ceil(cooldownTimer).ToString();
+
+            Color faded = skillIcon.color;
+            faded.a = 0.4f;
+            skillIcon.color = faded;
         }
         else
         {
             cooldownText.text = "C5";
-            skillButton.interactable = true;
+
+            Color full = skillIcon.color;
+            full.a = 1f;
+            skillIcon.color = full;
         }
     }
 
