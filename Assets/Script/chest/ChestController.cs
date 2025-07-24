@@ -12,6 +12,8 @@ public class ChestController : MonoBehaviour
     private bool isPlayerNearby = false;
     private bool isOpened = false;
     private Animator animator;
+    public AudioClip openSound;       // gắn âm thanh từ Inspector
+    private AudioSource audioSource;  // để phát âm thanh
 
     void Start()
     {
@@ -19,6 +21,10 @@ public class ChestController : MonoBehaviour
 
         // Ẩn text khi bắt đầu game
         if (hintText != null)
+            hintText.gameObject.SetActive(false);
+        animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>(); // lấy component
+            if (hintText != null)
             hintText.gameObject.SetActive(false);
     }
 
@@ -47,6 +53,11 @@ public class ChestController : MonoBehaviour
         if (itemPrefab != null)
         {
             Instantiate(itemPrefab, transform.position + Vector3.up * 1.5f, Quaternion.identity);
+        }
+
+        if (openSound != null)
+        {
+        audioSource.PlayOneShot(openSound);
         }
     }
 
