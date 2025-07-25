@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class PlayerHealth : MonoBehaviour
     [Header("UI Image Fill")]
     public Image healthFillImage;
 
+    [Header("Scene khi chết")]
+    public string gameOverSceneName = "UILOSE";
     void Start()
     {
         // Nếu GameManager chưa có máu => gán max
@@ -48,7 +51,6 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player đã chết.");
-        // Bạn có thể gọi scene Game Over tại đây nếu muốn
-        // SceneManager.LoadScene("GameOver");
+        SceneManager.LoadScene(gameOverSceneName);
     }
 }

@@ -3,22 +3,21 @@ using UnityEngine.SceneManagement;
 
 public class GameUI : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
+    [Header("Tên màn chơi muốn chuyển đến sau khi nhấn Play")]
+    public string sceneToLoad = "Map1Lv1"; // Đổi tên scene thật sự ở đây
 
-    public void StartGame()
+    // Hàm gọi khi ấn nút "Play"
+    public void OnPlayButtonClicked()
     {
-        // Nếu không cần làm gì, có thể load scene luôn:
-        SceneManager.LoadScene("TênScene"); // hoặc load scene kế tiếp
+        Debug.Log("nhấn oke");
+        SceneManager.LoadScene(sceneToLoad);
     }
 
-
-    public void QuitGame()
+    // Hàm gọi khi ấn nút "Quit"
+    public void OnQuitButtonClicked()
     {
-        Application.Quit();
-    }
-
-    public void MainMenu()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+          Debug.Log("oke r");
+        Application.Quit(); // Thoát game (chỉ hoạt động khi build ra file .exe)
+        Debug.Log("Thoát game"); // Hiện log khi test trong Editor
     }
 }
