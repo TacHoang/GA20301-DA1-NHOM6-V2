@@ -50,19 +50,13 @@ public class EnemyHealth : MonoBehaviour
             animator.SetTrigger("Die");
         
         // 2. Gọi âm thanh chết
-        if (dieSound != null)
-            AudioSource.PlayClipAtPoint(dieSound, transform.position);
-            // Tạo 1 GameObject tạm thời
-            GameObject tempAudio = new GameObject("EnemyDieSound");
-            tempAudio.transform.position = transform.position;
+        if (dieSound != null && audioSource != null)
+            {
+                audioSource.clip = dieSound;
+                audioSource.volume = dieVolume;
+                audioSource.Play();
+            }
 
-            AudioSource audioSource = tempAudio.AddComponent<AudioSource>();
-            audioSource.clip = dieSound;
-            audioSource.volume = dieVolume;
-            audioSource.Play();
-
-            // Hủy sau khi phát xong
-            Destroy(tempAudio, dieSound.length);
 
         // Gắn cờ chết cho script Enemy
         Enemy enemy = GetComponent<Enemy>();
