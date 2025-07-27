@@ -15,7 +15,12 @@ public class CoinPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             CoinManager.Instance.AddCoins(value);
-            Destroy(gameObject); // Biến mất khi nhặt
+
+            // Phát âm thanh
+            GetComponent<AudioSource>().Play();
+
+            // Hủy gameObject sau khi âm thanh phát xong
+            Destroy(gameObject, GetComponent<AudioSource>().clip.length);
         }
     }
 }

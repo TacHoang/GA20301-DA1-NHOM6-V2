@@ -15,11 +15,8 @@ public class Enemy : MonoBehaviour
     public float attackRange = 1f;
     public float attackCooldown = 1f;
 
-    // 👇 Các biến sức khỏe đã xóa:
-    // public int maxHealth;
-    // public int currentHealth;
-    // public float invincibleTime;
-    // public EnemyHealthBar healthBarUI;
+    [HideInInspector]
+    public bool isDead = false;
 
     private Transform player;
     private Rigidbody2D rb;
@@ -38,7 +35,7 @@ public class Enemy : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (player == null) return;
+        if (isDead || player == null) return;
 
         float dist = Vector2.Distance(transform.position, player.position);
 
@@ -89,7 +86,7 @@ public class Enemy : MonoBehaviour
 
     void TryAttackPlayer()
     {
-        if (player == null || Time.time - lastAttackTime < attackCooldown) return;
+        if (isDead || player == null || Time.time - lastAttackTime < attackCooldown) return;
 
         float distance = Vector2.Distance(transform.position, player.position);
         if (distance <= attackRange)
@@ -108,10 +105,6 @@ public class Enemy : MonoBehaviour
         if (!collision.collider.isTrigger)
             PickNewPatrolDirection();
     }
-
-    // 👇 Các hàm liên quan đến máu đã bị xóa:
-    // public void TakeDamage(int amount) { ... }
-    // void Die() { ... }
 
     void OnDrawGizmosSelected()
     {

@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -232,10 +232,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 0
         y: 0
-        width: 14
-        height: 20
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,10 +254,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_1
       rect:
         serializedVersion: 2
-        x: 89
+        x: 64
         y: 0
-        width: 14
-        height: 20
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 2
-        width: 27
-        height: 28
+        x: 128
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_3
       rect:
         serializedVersion: 2
-        x: 168
-        y: 5
-        width: 6
-        height: 6
+        x: 192
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,10 +320,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_4
       rect:
         serializedVersion: 2
-        x: 207
+        x: 256
         y: 0
-        width: 14
-        height: 12
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,10 +342,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_5
       rect:
         serializedVersion: 2
-        x: 209
-        y: 6
-        width: 34
-        height: 26
+        x: 320
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_6
       rect:
         serializedVersion: 2
-        x: 226
-        y: 1
-        width: 10
-        height: 11
+        x: 384
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -386,10 +386,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_7
       rect:
         serializedVersion: 2
-        x: 235
-        y: 2
-        width: 6
-        height: 6
+        x: 448
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,10 +408,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_8
       rect:
         serializedVersion: 2
-        x: 270
+        x: 512
         y: 0
-        width: 14
-        height: 8
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +430,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_9
       rect:
         serializedVersion: 2
-        x: 272
-        y: 6
-        width: 28
-        height: 26
+        x: 576
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,10 +452,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_10
       rect:
         serializedVersion: 2
-        x: 290
+        x: 640
         y: 0
-        width: 10
-        height: 9
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,10 +474,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_11
       rect:
         serializedVersion: 2
-        x: 300
+        x: 704
         y: 0
-        width: 8
-        height: 12
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_12
       rect:
         serializedVersion: 2
-        x: 332
+        x: 768
         y: 0
-        width: 15
-        height: 13
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,10 +518,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_13
       rect:
         serializedVersion: 2
-        x: 340
-        y: 17
-        width: 22
-        height: 15
+        x: 832
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -540,10 +540,10 @@ TextureImporter:
       name: Green-Blob-Dissasemble_14
       rect:
         serializedVersion: 2
-        x: 362
+        x: 896
         y: 0
-        width: 12
-        height: 13
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,649 +558,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_15
-      rect:
-        serializedVersion: 2
-        x: 397
-        y: 0
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d91d80952a62637b0800000000000000
-      internalID: -5244962237306056291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_16
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 6
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5adc1afc6a502820800000000000000
-      internalID: 2891410384871021146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_17
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 035ed87bd90bcfe70800000000000000
-      internalID: 9150382734345889072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_18
-      rect:
-        serializedVersion: 2
-        x: 471
-        y: 0
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fcb51c345773e0bc0800000000000000
-      internalID: -3815050857548784689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_19
-      rect:
-        serializedVersion: 2
-        x: 538
-        y: 0
-        width: 18
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7dd2a0a89620d1da0800000000000000
-      internalID: -5972614878512665129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_20
-      rect:
-        serializedVersion: 2
-        x: 603
-        y: 0
-        width: 17
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3867dada4f05a6010800000000000000
-      internalID: 1182846863954245251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_21
-      rect:
-        serializedVersion: 2
-        x: 665
-        y: 0
-        width: 19
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a0e8f0709d703df0800000000000000
-      internalID: -202523923907551065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_22
-      rect:
-        serializedVersion: 2
-        x: 732
-        y: 0
-        width: 16
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13877b19c5c08ab40800000000000000
-      internalID: 5451620940653230129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_23
-      rect:
-        serializedVersion: 2
-        x: 802
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3161e3b15e4dadf10800000000000000
-      internalID: 2295381040568342035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_24
-      rect:
-        serializedVersion: 2
-        x: 866
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 121a70fc8e00997b0800000000000000
-      internalID: -5217137693426212575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_25
-      rect:
-        serializedVersion: 2
-        x: 930
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53486984f73e2cff0800000000000000
-      internalID: -17201312737885131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_26
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 0
-        width: 13
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd6d30112b4bc3c40800000000000000
-      internalID: 5493464322367805151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_27
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 910383cde7fb5c660800000000000000
-      internalID: 7405535713862103065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_28
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 84f3bfba8545dba10800000000000000
-      internalID: 1926788955403665224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_29
-      rect:
-        serializedVersion: 2
-        x: 492
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2505a06b13ab1e10800000000000000
-      internalID: 2169506983489897770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_30
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a4e3b9517162dd00800000000000000
-      internalID: 995965607066461347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_31
-      rect:
-        serializedVersion: 2
-        x: 556
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b7dba0f5ff623a70800000000000000
-      internalID: 8805223323558205368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_32
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 001e4b86ab1644230800000000000000
-      internalID: 3622127453561217280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_33
-      rect:
-        serializedVersion: 2
-        x: 620
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cc94547abce95260800000000000000
-      internalID: 7086955774203960518
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_34
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b5f06b8b4569c5f0800000000000000
-      internalID: -735945688963025480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_35
-      rect:
-        serializedVersion: 2
-        x: 684
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbc08451c65405840800000000000000
-      internalID: 5210741099383491773
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_36
-      rect:
-        serializedVersion: 2
-        x: 717
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca29059ae3f0b8460800000000000000
-      internalID: 7244901187358593708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_37
-      rect:
-        serializedVersion: 2
-        x: 748
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53ef9df6935351210800000000000000
-      internalID: 1303006187999591989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_38
-      rect:
-        serializedVersion: 2
-        x: 781
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f9d9b6d2763e44e0800000000000000
-      internalID: -1995597718021875208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_39
-      rect:
-        serializedVersion: 2
-        x: 812
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46146b9fa0445ad80800000000000000
-      internalID: -8240105129274621596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_40
-      rect:
-        serializedVersion: 2
-        x: 845
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a43412df9c84b420800000000000000
-      internalID: 2644893499225552038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_41
-      rect:
-        serializedVersion: 2
-        x: 876
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 836faca7d72e83580800000000000000
-      internalID: -8847072439410428360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_42
-      rect:
-        serializedVersion: 2
-        x: 909
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe3f48501895e1d90800000000000000
-      internalID: -7125159149775293457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Green-Blob-Dissasemble_43
-      rect:
-        serializedVersion: 2
-        x: 940
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a5067ae551bd8140800000000000000
-      internalID: 4723626566745458086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 60531a26d7769a5428d504652d866d66
     internalID: 0
     vertices: []
     indices: 
@@ -1217,38 +579,9 @@ TextureImporter:
       Green-Blob-Dissasemble_12: 717896540563240170
       Green-Blob-Dissasemble_13: -4704215257104532520
       Green-Blob-Dissasemble_14: -479024503464843518
-      Green-Blob-Dissasemble_15: -5244962237306056291
-      Green-Blob-Dissasemble_16: 2891410384871021146
-      Green-Blob-Dissasemble_17: 9150382734345889072
-      Green-Blob-Dissasemble_18: -3815050857548784689
-      Green-Blob-Dissasemble_19: -5972614878512665129
       Green-Blob-Dissasemble_2: -545258500999071853
-      Green-Blob-Dissasemble_20: 1182846863954245251
-      Green-Blob-Dissasemble_21: -202523923907551065
-      Green-Blob-Dissasemble_22: 5451620940653230129
-      Green-Blob-Dissasemble_23: 2295381040568342035
-      Green-Blob-Dissasemble_24: -5217137693426212575
-      Green-Blob-Dissasemble_25: -17201312737885131
-      Green-Blob-Dissasemble_26: 5493464322367805151
-      Green-Blob-Dissasemble_27: 7405535713862103065
-      Green-Blob-Dissasemble_28: 1926788955403665224
-      Green-Blob-Dissasemble_29: 2169506983489897770
       Green-Blob-Dissasemble_3: 1587888371629017280
-      Green-Blob-Dissasemble_30: 995965607066461347
-      Green-Blob-Dissasemble_31: 8805223323558205368
-      Green-Blob-Dissasemble_32: 3622127453561217280
-      Green-Blob-Dissasemble_33: 7086955774203960518
-      Green-Blob-Dissasemble_34: -735945688963025480
-      Green-Blob-Dissasemble_35: 5210741099383491773
-      Green-Blob-Dissasemble_36: 7244901187358593708
-      Green-Blob-Dissasemble_37: 1303006187999591989
-      Green-Blob-Dissasemble_38: -1995597718021875208
-      Green-Blob-Dissasemble_39: -8240105129274621596
       Green-Blob-Dissasemble_4: 686640992384107803
-      Green-Blob-Dissasemble_40: 2644893499225552038
-      Green-Blob-Dissasemble_41: -8847072439410428360
-      Green-Blob-Dissasemble_42: -7125159149775293457
-      Green-Blob-Dissasemble_43: 4723626566745458086
       Green-Blob-Dissasemble_5: 6245069608067403014
       Green-Blob-Dissasemble_6: 4444411384307551961
       Green-Blob-Dissasemble_7: -6139141720828104653

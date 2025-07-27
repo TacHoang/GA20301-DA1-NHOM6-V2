@@ -210,7 +210,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -262,10 +262,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 0
         y: 0
-        width: 18
-        height: 22
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,10 +284,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_1
       rect:
         serializedVersion: 2
-        x: 85
+        x: 64
         y: 0
-        width: 18
-        height: 22
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,10 +306,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_2
       rect:
         serializedVersion: 2
-        x: 147
-        y: 13
-        width: 25
-        height: 14
+        x: 128
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_3
       rect:
         serializedVersion: 2
-        x: 212
-        y: 21
-        width: 17
-        height: 11
+        x: 192
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_4
       rect:
         serializedVersion: 2
-        x: 271
+        x: 256
         y: 0
-        width: 26
-        height: 29
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +372,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_5
       rect:
         serializedVersion: 2
-        x: 146
-        y: 5
-        width: 13
-        height: 9
+        x: 320
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_6
       rect:
         serializedVersion: 2
-        x: 158
-        y: 10
-        width: 6
-        height: 6
+        x: 384
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,10 +416,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_7
       rect:
         serializedVersion: 2
-        x: 161
-        y: 6
-        width: 11
-        height: 8
+        x: 448
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +438,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_8
       rect:
         serializedVersion: 2
-        x: 206
-        y: 3
-        width: 10
-        height: 15
+        x: 512
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +460,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_9
       rect:
         serializedVersion: 2
-        x: 214
-        y: 4
-        width: 7
-        height: 9
+        x: 576
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -482,10 +482,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_10
       rect:
         serializedVersion: 2
-        x: 223
+        x: 640
         y: 0
-        width: 19
-        height: 17
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,10 +504,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_11
       rect:
         serializedVersion: 2
-        x: 232
-        y: 10
-        width: 12
-        height: 8
+        x: 704
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,10 +526,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_12
       rect:
         serializedVersion: 2
-        x: 304
-        y: 5
-        width: 11
-        height: 9
+        x: 768
+        y: 0
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +548,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_13
       rect:
         serializedVersion: 2
-        x: 330
+        x: 832
         y: 0
-        width: 32
-        height: 15
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,10 +570,10 @@ TextureImporter:
       name: Blue-Blob-Dissasemble_14
       rect:
         serializedVersion: 2
-        x: 404
+        x: 896
         y: 0
-        width: 22
-        height: 13
+        width: 64
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,869 +588,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_15
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 1
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8f96cdbf6d2d8c00800000000000000
-      internalID: 904429058119868301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_16
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 0
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9a38402ad7c64220800000000000000
-      internalID: 2469881185317698204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_17
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 0
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d57011dd90beca4e0800000000000000
-      internalID: -1968940509471635619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_18
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 0
-        width: 17
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8829abd971a141580800000000000000
-      internalID: -8857425878398102904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_19
-      rect:
-        serializedVersion: 2
-        x: 372
-        y: 0
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03122231cb6ed96e0800000000000000
-      internalID: -1829052178193309392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_20
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 0
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d7c94b35d5a99d820800000000000000
-      internalID: 2943553557090311293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_21
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 0
-        width: 21
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fab634437b1dc040800000000000000
-      internalID: 4669418570532698868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_22
-      rect:
-        serializedVersion: 2
-        x: 461
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a4abb31aec6f48d0800000000000000
-      internalID: -2859947485747764058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_23
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 0
-        width: 16
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 391dc59233b4f7ae0800000000000000
-      internalID: -1549437063682797165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_24
-      rect:
-        serializedVersion: 2
-        x: 489
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a7724da1525c7c2c0800000000000000
-      internalID: -4411340546831538310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_25
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 697bdfce68e8ada90800000000000000
-      internalID: -7288356336792914026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_26
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12c0da1b206fabb30800000000000000
-      internalID: 4304022885337205793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_27
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 0
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 388e7df7d46c28e80800000000000000
-      internalID: -8177755937191761789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_28
-      rect:
-        serializedVersion: 2
-        x: 553
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bfd108f702e54fe0800000000000000
-      internalID: -1205308801398218831
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_29
-      rect:
-        serializedVersion: 2
-        x: 563
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 773b733ce1f21b620800000000000000
-      internalID: 2788061453489779575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_30
-      rect:
-        serializedVersion: 2
-        x: 589
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2ae17fedf5af41a0800000000000000
-      internalID: -6823052400380483028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_31
-      rect:
-        serializedVersion: 2
-        x: 597
-        y: 0
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15f9264edc03cdd20800000000000000
-      internalID: 3304569887441198929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_32
-      rect:
-        serializedVersion: 2
-        x: 617
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8e586c8ca10631d0800000000000000
-      internalID: -3371505430438584693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_33
-      rect:
-        serializedVersion: 2
-        x: 627
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc512842fa92cdb80800000000000000
-      internalID: -8368768175352703541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_34
-      rect:
-        serializedVersion: 2
-        x: 653
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d44858d6815b54dd0800000000000000
-      internalID: -2502394901413133235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_35
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 0
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d46043b280962cc0800000000000000
-      internalID: -3736139949829757741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_36
-      rect:
-        serializedVersion: 2
-        x: 681
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35760bdcd9c8fc1c0800000000000000
-      internalID: -4481208494821709997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_37
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: faaa22579ddf4aa10800000000000000
-      internalID: 1919938451581610671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_38
-      rect:
-        serializedVersion: 2
-        x: 717
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b80a5c0fe007dd1e0800000000000000
-      internalID: -2171456235851374453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_39
-      rect:
-        serializedVersion: 2
-        x: 725
-        y: 0
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17fe51c20dd3e8e70800000000000000
-      internalID: 9119294259773960049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_40
-      rect:
-        serializedVersion: 2
-        x: 745
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 47243ab7e5a46a790800000000000000
-      internalID: -7519240758186786188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_41
-      rect:
-        serializedVersion: 2
-        x: 755
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9222f7b4ade8f18c0800000000000000
-      internalID: -4026342473625296343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_42
-      rect:
-        serializedVersion: 2
-        x: 781
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3edafa21a906e9ce0800000000000000
-      internalID: -1396572619583541789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_43
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 0
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0cb1d24a7385a610800000000000000
-      internalID: 1631855001121963022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_44
-      rect:
-        serializedVersion: 2
-        x: 809
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e34fa41f48252dad0800000000000000
-      internalID: -2678988097394641858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_45
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd5d6f7d6fee835f0800000000000000
-      internalID: -776608191768767011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_46
-      rect:
-        serializedVersion: 2
-        x: 845
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d7b8f3fed52ff850800000000000000
-      internalID: 6412886033905006550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_47
-      rect:
-        serializedVersion: 2
-        x: 853
-        y: 0
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77aae07e1ef3c0b20800000000000000
-      internalID: 3101924482828118647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_48
-      rect:
-        serializedVersion: 2
-        x: 873
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f007fc50627bd110800000000000000
-      internalID: 1286747876746526968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_49
-      rect:
-        serializedVersion: 2
-        x: 883
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ec6371b1258789f0800000000000000
-      internalID: -466257656652010263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_50
-      rect:
-        serializedVersion: 2
-        x: 909
-        y: 0
-        width: 8
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a8ef3796a1fee780800000000000000
-      internalID: -8651712136327731032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_51
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 0
-        width: 18
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 771698411ed3359a0800000000000000
-      internalID: -6245580221311262345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_52
-      rect:
-        serializedVersion: 2
-        x: 937
-        y: 0
-        width: 10
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d9023802c2871c50800000000000000
-      internalID: 6635916345826478552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blue-Blob-Dissasemble_53
-      rect:
-        serializedVersion: 2
-        x: 947
-        y: 0
-        width: 9
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f08da0395500eba0800000000000000
-      internalID: -6061839217813782279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f2d1e534a7a4fd14b9fa3dfa6692f6ff
     internalID: 0
     vertices: []
     indices: 
@@ -1467,49 +609,10 @@ TextureImporter:
       Blue-Blob-Dissasemble_12: 9211237939348449738
       Blue-Blob-Dissasemble_13: 9100404606867790213
       Blue-Blob-Dissasemble_14: 4479597456683564676
-      Blue-Blob-Dissasemble_15: 904429058119868301
-      Blue-Blob-Dissasemble_16: 2469881185317698204
-      Blue-Blob-Dissasemble_17: -1968940509471635619
-      Blue-Blob-Dissasemble_18: -8857425878398102904
-      Blue-Blob-Dissasemble_19: -1829052178193309392
       Blue-Blob-Dissasemble_2: -8362134331247734731
-      Blue-Blob-Dissasemble_20: 2943553557090311293
-      Blue-Blob-Dissasemble_21: 4669418570532698868
-      Blue-Blob-Dissasemble_22: -2859947485747764058
-      Blue-Blob-Dissasemble_23: -1549437063682797165
-      Blue-Blob-Dissasemble_24: -4411340546831538310
-      Blue-Blob-Dissasemble_25: -7288356336792914026
-      Blue-Blob-Dissasemble_26: 4304022885337205793
-      Blue-Blob-Dissasemble_27: -8177755937191761789
-      Blue-Blob-Dissasemble_28: -1205308801398218831
-      Blue-Blob-Dissasemble_29: 2788061453489779575
       Blue-Blob-Dissasemble_3: 7846843288522619083
-      Blue-Blob-Dissasemble_30: -6823052400380483028
-      Blue-Blob-Dissasemble_31: 3304569887441198929
-      Blue-Blob-Dissasemble_32: -3371505430438584693
-      Blue-Blob-Dissasemble_33: -8368768175352703541
-      Blue-Blob-Dissasemble_34: -2502394901413133235
-      Blue-Blob-Dissasemble_35: -3736139949829757741
-      Blue-Blob-Dissasemble_36: -4481208494821709997
-      Blue-Blob-Dissasemble_37: 1919938451581610671
-      Blue-Blob-Dissasemble_38: -2171456235851374453
-      Blue-Blob-Dissasemble_39: 9119294259773960049
       Blue-Blob-Dissasemble_4: 2575316843544160390
-      Blue-Blob-Dissasemble_40: -7519240758186786188
-      Blue-Blob-Dissasemble_41: -4026342473625296343
-      Blue-Blob-Dissasemble_42: -1396572619583541789
-      Blue-Blob-Dissasemble_43: 1631855001121963022
-      Blue-Blob-Dissasemble_44: -2678988097394641858
-      Blue-Blob-Dissasemble_45: -776608191768767011
-      Blue-Blob-Dissasemble_46: 6412886033905006550
-      Blue-Blob-Dissasemble_47: 3101924482828118647
-      Blue-Blob-Dissasemble_48: 1286747876746526968
-      Blue-Blob-Dissasemble_49: -466257656652010263
       Blue-Blob-Dissasemble_5: 1040650266132303752
-      Blue-Blob-Dissasemble_50: -8651712136327731032
-      Blue-Blob-Dissasemble_51: -6245580221311262345
-      Blue-Blob-Dissasemble_52: 6635916345826478552
-      Blue-Blob-Dissasemble_53: -6061839217813782279
       Blue-Blob-Dissasemble_6: -394624604607486862
       Blue-Blob-Dissasemble_7: -262734170175031244
       Blue-Blob-Dissasemble_8: -6915305460094938092

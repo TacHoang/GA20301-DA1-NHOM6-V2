@@ -174545,8 +174545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 5267878033292869232, guid: 1130cffd2c964924993db099eed18cc1, type: 3}
-  - {fileID: 1464845919463838691, guid: 1b945219ea4b69249b667f1df55ed470, type: 3}
+  - {fileID: 3673977494044566795, guid: 682cac1a5f4602f4aae6f9ff2c091127, type: 3}
   - {fileID: 4489583296085819174, guid: 35e6734834e58154cb05c67eb3e4641b, type: 3}
   spawnPoints:
   - point: {fileID: 1864845159}
@@ -174678,7 +174677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 629150f319d576244b7c7a4549f53da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Map1Lv2
+  targetScene: Map3Lv2
   loadingCanvas: {fileID: 1568795153}
 --- !u!95 &1956462045
 Animator:
