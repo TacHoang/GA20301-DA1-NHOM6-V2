@@ -310,7 +310,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firePos: {fileID: 5570988037623343185}
   TridentFire: {fileID: 6725955350040570563, guid: 904394aba95e8b14cb3951fc95387dbe, type: 3}
-  shotDelay: 2
+  shotDelay: 0.6
 --- !u!1 &5169820011614864972
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +472,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.037962914, y: -0.40809822}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -482,7 +482,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.1666666, y: 1.3333334}
+  m_Size: {x: 0.7111187, y: 0.8872709}
   m_EdgeRadius: 0
 --- !u!50 &274529860120823505
 Rigidbody2D:
@@ -549,9 +549,6 @@ MonoBehaviour:
   rb: {fileID: 274529860120823505}
   ngang: 0
   doc: 0
-  mauhientai: 0
-  mautoida: 10
-  canvas: {fileID: 0}
   anim: {fileID: 3355654606955088956}
 --- !u!114 &4354995612355391793
 MonoBehaviour:
@@ -567,3 +564,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthFillImage: {fileID: 0}
+  gameOverSceneName: UILOSE

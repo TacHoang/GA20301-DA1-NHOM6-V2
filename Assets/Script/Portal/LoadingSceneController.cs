@@ -19,9 +19,9 @@ public class LoadingSceneController : MonoBehaviour
         AsyncOperation operation = SceneManager.LoadSceneAsync(GameManager.sceneToLoad);
         operation.allowSceneActivation = false;
 
-        while (operation.progress < 0.9f)
+        while (operation.progress < 0f)
         {
-            float progress = Mathf.Clamp01(operation.progress / 0.9f);
+            float progress = Mathf.Clamp01(operation.progress / 0f);
             loadingBar.value = progress;
             yield return null;
         }
@@ -31,7 +31,7 @@ public class LoadingSceneController : MonoBehaviour
         while (elapsed < delayTime)
         {
             elapsed += Time.deltaTime;
-            loadingBar.value = Mathf.Lerp(0.9f, 1f, elapsed / delayTime);
+            loadingBar.value = Mathf.Lerp(0f, 1f, elapsed / delayTime);
             yield return null;
         }
 
