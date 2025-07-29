@@ -16,8 +16,15 @@ public class GameUI : MonoBehaviour
     // Hàm gọi khi ấn nút "Quit"
     public void OnQuitButtonClicked()
     {
-          Debug.Log("oke r");
+        Debug.Log("oke r");
         Application.Quit(); // Thoát game (chỉ hoạt động khi build ra file .exe)
         Debug.Log("Thoát game"); // Hiện log khi test trong Editor
+    }
+    
+    // Hàm gọi khi ấn nút "Main Menu"
+    public void OnMainMenuButtonClicked()
+    {
+        Time.timeScale = 1f; // Đảm bảo game không bị pause
+        SceneManager.LoadScene("UIWIN"); // Đổi tên scene menu chính của bạn
     }
 }
