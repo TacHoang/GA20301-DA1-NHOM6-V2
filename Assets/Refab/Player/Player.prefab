@@ -151,8 +151,8 @@ MonoBehaviour:
   orbPrefab: {fileID: 6187867350969122902, guid: d23efd70ad5159e42b3194433aa3204c, type: 3}
   meteorDelay: 0.2
   orbDelay: 0.5
-  meteorSpeed: 10
-  orbSpeed: 5
+  meteorSpeed: 12
+  orbSpeed: 8
   meteorLifetime: 0.8
   orbLifetime: 6
   cooldownTime: 30
@@ -342,6 +342,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6604007774615945996}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5552440392172442975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 552874262239875164}
+  - component: {fileID: 7649794157218637238}
+  m_Layer: 8
+  m_Name: C2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &552874262239875164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5552440392172442975}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 340641917026106527}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7649794157218637238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5552440392172442975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98b93e0b5bbdf747a180d55971c5bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  circlePrefab: {fileID: 4128139455402202083, guid: 1a8b2714f9a7bca45ad0abd71d843dee, type: 3}
+  cooldownTime: 6
+  cooldownText: {fileID: 0}
+  skillIcon: {fileID: 0}
+  canUseSkill: 1
 --- !u!1 &7057907423851668029
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,7 +407,7 @@ GameObject:
   - component: {fileID: 9069030519294062993}
   - component: {fileID: 4354995612355391793}
   m_Layer: 8
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,7 +422,7 @@ Transform:
   m_GameObject: {fileID: 7057907423851668029}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.76, y: 5.85, z: 0}
+  m_LocalPosition: {x: -26.6, y: 5.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -381,6 +430,7 @@ Transform:
   - {fileID: 6604007774615945996}
   - {fileID: 2248721376053021818}
   - {fileID: 3791551279567260093}
+  - {fileID: 552874262239875164}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4557402512165501984
