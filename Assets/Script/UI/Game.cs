@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class Game : MonoBehaviour
 {
-    [SerializeField] private GameObject gameUi;
+    
 
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject gameOverMenu;
