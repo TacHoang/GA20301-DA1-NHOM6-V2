@@ -48,34 +48,30 @@ public class EnemyHealth : MonoBehaviour
         // Gọi anim Die
         if (animator != null)
             animator.SetTrigger("Die");
-        
-        // 2. Gọi âm thanh chết
-        if (dieSound != null && audioSource != null)
-            {
-                audioSource.clip = dieSound;
-                audioSource.volume = dieVolume;
-                audioSource.Play();
-            }
+
+        // Gọi âm thanh chết từ vị trí hiện tại
+        if (dieSound != null)
+            AudioSource.PlayClipAtPoint(dieSound, transform.position, 2.5f); // trên mức 1
 
 
-        // Gắn cờ chết cho script Enemy
+        // Gắn cờ chết
         Enemy enemy = GetComponent<Enemy>();
         if (enemy != null)
             enemy.isDead = true;
 
-        // Gọi CoinManager
+        // CoinManager
         if (CoinManager.Instance != null)
             CoinManager.Instance.SpawnCoinsAt(transform.position);
 
-        // Vô hiệu hóa collider + vật lý
+        // Vô hiệu hóa va chạm & vật lý
         Collider2D col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
 
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null) rb.linearVelocity = Vector2.zero;
 
-        // Hủy sau thời gian anim
-        Destroy(gameObject, 0.8f); // 1 giây = thời lượng anim chết
+        // Hủy sau 1 giây (hoặc thời lượng anim chết)
+        Destroy(gameObject, 1f);
     }
 }
 

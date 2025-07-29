@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
@@ -11,9 +12,8 @@ public class Enemy : MonoBehaviour
     public float patrolChangeTime = 2f;
 
     [Header("Damage Settings")]
-    public int damageTaken = 50;
-    public float attackRange = 1f;
     public float attackCooldown = 1f;
+    public float attackDuration = 0.5f;
 
     [HideInInspector]
     public bool isDead = false;
@@ -24,18 +24,33 @@ public class Enemy : MonoBehaviour
     private float patrolTimer;
     private float lastAttackTime = 0f;
 
+    private Animator animator;
+    public GameObject damageZone;
+    private bool isAttacking = false;
+    private bool playerInAttackZone = false;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         patrolTimer = patrolChangeTime;
         PickNewPatrolDirection();
+
+        if (damageZone != null)
+            damageZone.SetActive(false);
     }
 
     void FixedUpdate()
     {
         if (isDead || player == null) return;
+
+        if (isAttacking)
+        {
+            FlipSprite(player.position.x - transform.position.x);
+            return;
+        }
 
         float dist = Vector2.Distance(transform.position, player.position);
 
@@ -44,7 +59,10 @@ public class Enemy : MonoBehaviour
         else
             Patrol();
 
-        TryAttackPlayer();
+        if (playerInAttackZone && Time.time - lastAttackTime >= attackCooldown)
+        {
+            StartCoroutine(Attack());
+        }
     }
 
     void ChasePlayer()
@@ -63,13 +81,6 @@ public class Enemy : MonoBehaviour
         FlipSprite(patrolDirection.x);
     }
 
-    void PickNewPatrolDirection()
-    {
-        float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
-        patrolDirection = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
-        patrolTimer = patrolChangeTime;
-    }
-
     void MoveTowards(Vector2 target, float moveSpeed)
     {
         Vector2 dir = (target - (Vector2)transform.position).normalized;
@@ -78,26 +89,47 @@ public class Enemy : MonoBehaviour
         FlipSprite(dir.x);
     }
 
+    void PickNewPatrolDirection()
+    {
+        float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
+        patrolDirection = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+        patrolTimer = patrolChangeTime;
+    }
+
     void FlipSprite(float xDir)
     {
         if (xDir < -0.05f) transform.localScale = new Vector3(-1, 1, 1);
         else if (xDir > 0.05f) transform.localScale = new Vector3(1, 1, 1);
     }
 
-    void TryAttackPlayer()
+    IEnumerator Attack()
     {
-        if (isDead || player == null || Time.time - lastAttackTime < attackCooldown) return;
+        isAttacking = true;
+        animator.SetTrigger("Attack");
+        EnableDamageZone();
 
-        float distance = Vector2.Distance(transform.position, player.position);
-        if (distance <= attackRange)
-        {
-            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(damageTaken);
-                lastAttackTime = Time.time;
-            }
-        }
+        yield return new WaitForSeconds(attackDuration);
+
+        DisableDamageZone();
+        lastAttackTime = Time.time;
+        isAttacking = false;
+    }
+
+    public void SetPlayerInAttackZone(bool value)
+    {
+        playerInAttackZone = value;
+    }
+
+    void EnableDamageZone()
+    {
+        if (damageZone != null)
+            damageZone.SetActive(true);
+    }
+
+    void DisableDamageZone()
+    {
+        if (damageZone != null)
+            damageZone.SetActive(false);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -110,7 +142,5 @@ public class Enemy : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }

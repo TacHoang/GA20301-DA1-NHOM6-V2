@@ -9,6 +9,7 @@ TagManager:
   - xp
   - Trident
   - C5
+  - DamageZone
   layers:
   - Default
   - TransparentFX
