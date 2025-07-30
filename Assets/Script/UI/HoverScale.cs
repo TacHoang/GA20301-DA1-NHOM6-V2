@@ -16,22 +16,6 @@ public class HoverScaleColor : MonoBehaviour, IPointerEnterHandler, IPointerExit
         origColor = img?.color ?? Color.white;
     }
 
-    void OnEnable() {
-        tScale?.Kill();
-        tColor?.Kill();
-        transform.localScale = orig;
-        if (img) img.color = origColor;
-        EventSystem.current.SetSelectedGameObject(null);
-    }
-
-    void OnDisable() {
-        tScale?.Kill();
-        tColor?.Kill();
-        transform.localScale = orig;
-        if (img) img.color = origColor;
-        EventSystem.current.SetSelectedGameObject(null);
-    }
-
     public void OnPointerEnter(PointerEventData e)
     {
         tScale?.Kill(); tColor?.Kill();
