@@ -7,7 +7,6 @@ public class C2TakeDame : MonoBehaviour
     public float duration = 4f;
     public float damageInterval = 0.5f;
     private AudioSource audio;
-
     private Transform player;
 
     private Dictionary<Collider2D, float> nextDamageTimes = new Dictionary<Collider2D, float>();
@@ -22,25 +21,29 @@ public class C2TakeDame : MonoBehaviour
 
     void Update()
     {
+        // theo dõi vị trí player
         if (player != null)
-        {
             transform.position = player.position;
-        }
 
-        foreach (var col in enemiesInside)
+        // xử lý damage với vòng for ngược (từ cuối về đầu)
+        for (int i = enemiesInside.Count - 1; i >= 0; i--)
         {
-            if (col == null) continue;
+            var col = enemiesInside[i];
+            if (col == null)
+            {
+                // nếu collider null (đã bị destroy), xóa khỏi list
+                enemiesInside.RemoveAt(i);
+                nextDamageTimes.Remove(col);
+                continue;
+            }
 
-            float nextTime;
-            if (!nextDamageTimes.TryGetValue(col, out nextTime)) nextTime = 0f;
-
+            float nextTime = nextDamageTimes.TryGetValue(col, out float nt) ? nt : 0f;
             if (Time.time >= nextTime)
             {
                 EnemyHealth enemy = col.GetComponent<EnemyHealth>();
                 if (enemy != null)
                 {
                     enemy.TakeDamage((int)damage);
-
                     nextDamageTimes[col] = Time.time + damageInterval;
                 }
             }
@@ -58,16 +61,15 @@ public class C2TakeDame : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (enemiesInside.Contains(other)) enemiesInside.Remove(other);
-        if (nextDamageTimes.ContainsKey(other)) nextDamageTimes.Remove(other);
+        if (enemiesInside.Contains(other))
+            enemiesInside.Remove(other);
+        if (nextDamageTimes.ContainsKey(other))
+            nextDamageTimes.Remove(other);
     }
+
     void OnDestroy()
     {
         if (audio != null && audio.isPlaying)
-        {
-            audio.Stop(); // Tự tắt âm thanh khi vòng bị huỷ
-        }
+            audio.Stop();
     }
-
-
 }
