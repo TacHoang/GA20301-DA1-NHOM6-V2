@@ -447,8 +447,8 @@ Canvas:
   m_GameObject: {fileID: 576070855}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 1475504043}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -493,6 +493,7 @@ GameObject:
   - component: {fileID: 1070456546}
   - component: {fileID: 1070456545}
   - component: {fileID: 1070456544}
+  - component: {fileID: 1070456547}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -614,6 +615,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070456542}
   m_CullTransparentMesh: 1
+--- !u!114 &1070456547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070456542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbacf0090aa41ba43877af699daa309c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 1070456545}
 --- !u!1 &1165028351
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,6 +658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Map1Lv1
+  loadingCanvas: {fileID: 0}
 --- !u!4 &1165028353
 Transform:
   m_ObjectHideFlags: 0
