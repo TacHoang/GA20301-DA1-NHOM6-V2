@@ -71,7 +71,7 @@ public class EnemyHealth : MonoBehaviour
         if (rb != null) rb.linearVelocity = Vector2.zero;
 
         // Hủy sau 1 giây (hoặc thời lượng anim chết)
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 0.5f);
     }
 }
 
