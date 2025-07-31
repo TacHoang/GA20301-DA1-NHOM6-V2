@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 995156319}
-  requiredKills: 2
+  requiredKills: 10
   currentKills: 0
 --- !u!4 &166621253
 Transform:
@@ -46118,8 +46118,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: TheMagicGirl
   dialogues:
-  - cac cac cac cac
-  - "gi\u1EBFt 60 con Enemy cho tao"
+  - "C\u1ED1t truy\u1EC7n \u0111\u1EA7u ti\xEAn"
+  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 10 con qu\xE1i v\u1EADt \u0111\u1EC3 qua m\xE0n!!"
   dialogueTextUI: {fileID: 1888116371}
   dialoguePanel: {fileID: 1562064952}
   player: {fileID: 502262896551848956}
