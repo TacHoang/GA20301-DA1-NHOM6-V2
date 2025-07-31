@@ -52,6 +52,11 @@ public class EnemyHealth : MonoBehaviour
         // Gọi âm thanh chết từ vị trí hiện tại
         if (dieSound != null)
             AudioSource.PlayClipAtPoint(dieSound, transform.position, 2.5f); // trên mức 1
+        QuestManager qm = FindObjectOfType<QuestManager>();
+        if (qm != null)
+        {
+            qm.AddKill(); // Tăng 1 kill duy nhất
+        }
 
 
         // Gắn cờ chết

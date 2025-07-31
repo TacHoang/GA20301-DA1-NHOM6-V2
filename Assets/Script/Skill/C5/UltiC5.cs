@@ -26,7 +26,7 @@ public class Uiti : MonoBehaviour
     public Text cooldownText;
     public Image skillIcon;
     private GameObject orbInstance;
-
+    public bool canUseSkill = true;
     void Start()
     {
 
@@ -35,7 +35,7 @@ public class Uiti : MonoBehaviour
     void Update()
     {
         // Kích hoạt kỹ năng bằng phím "1"
-        if (Input.GetKeyDown(KeyCode.Alpha5) && CanActivateSkill())
+        if (Input.GetKeyDown(KeyCode.Alpha5) && CanActivateSkill() && canUseSkill)
         {
             StartCoroutine(ActivateSkill());
         }

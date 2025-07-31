@@ -15,7 +15,7 @@ public class C3 : MonoBehaviour
 
     private float cooldownTimer = 0f;
     private bool canCast = true;
-
+    public bool canUseSkill = true;
     void Update()
     {
         if (!canCast)
@@ -38,7 +38,7 @@ public class C3 : MonoBehaviour
 
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha3) && canCast)
+        if (Input.GetKeyDown(KeyCode.Alpha3) && canCast && canUseSkill)
         {
             ActivateLaser(); // không gán cooldown ở đây nữa
         }

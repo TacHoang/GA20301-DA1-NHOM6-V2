@@ -47,12 +47,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: coin
-    uniqueID: 1878950683
-    locked: 0
-  - name: Enemy
-    uniqueID: 3062521393
-    locked: 0
   - name: DownGround
     uniqueID: 3332734333
     locked: 0
@@ -61,6 +55,15 @@ TagManager:
     locked: 0
   - name: UpGround
     uniqueID: 820979583
+    locked: 0
+  - name: Enemy
+    uniqueID: 3062521393
+    locked: 0
+  - name: coin
+    uniqueID: 1878950683
+    locked: 0
+  - name: Npc
+    uniqueID: 464199809
     locked: 0
   - name: C5
     uniqueID: 3430380217
@@ -82,6 +85,9 @@ TagManager:
     locked: 0
   - name: C5Coul
     uniqueID: 1133482857
+    locked: 0
+  - name: NpcTalk
+    uniqueID: 1968973143
     locked: 0
   m_RenderingLayers:
   - Default

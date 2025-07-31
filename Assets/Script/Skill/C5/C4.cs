@@ -13,6 +13,7 @@ public class C4 : MonoBehaviour
     public Image skillIcon;
 
     private float cooldownTimer = 0f;
+    public bool canUseSkill = true;
 
     void Update()
     {
@@ -37,7 +38,7 @@ public class C4 : MonoBehaviour
 
 
         // Kích hoạt kỹ năng bằng phím 4
-        if (Input.GetKeyDown(KeyCode.Alpha4) && cooldownTimer <= 0f)
+        if (Input.GetKeyDown(KeyCode.Alpha4) && cooldownTimer <= 0f && canUseSkill)
         {
             ActivateC4();
             cooldownTimer = cooldownTime;
