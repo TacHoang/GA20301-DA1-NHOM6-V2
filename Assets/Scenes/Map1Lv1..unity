@@ -187457,8 +187457,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorNormal: {fileID: 2800000, guid: 8520f4fe224b6a84bb4dfec94611853f, type: 3}
-  cursorShoot: {fileID: 2800000, guid: e0ad32a544fb6dc4099e70ec3b205289, type: 3}
-  cursorReload: {fileID: 2800000, guid: 62e18635a8f7b22438b250fbd3f13c31, type: 3}
+  cursorShoot: {fileID: 2800000, guid: 8520f4fe224b6a84bb4dfec94611853f, type: 3}
+  cursorReload: {fileID: 2800000, guid: 8520f4fe224b6a84bb4dfec94611853f, type: 3}
 --- !u!4 &1955936261
 Transform:
   m_ObjectHideFlags: 0
