@@ -67023,6 +67023,7 @@ GameObject:
   - component: {fileID: 458231274}
   - component: {fileID: 458231276}
   - component: {fileID: 458231275}
+  - component: {fileID: 458231277}
   m_Layer: 5
   m_Name: "n\xFAt"
   m_TagString: Untagged
@@ -67091,6 +67092,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458231273}
   m_CullTransparentMesh: 1
+--- !u!225 &458231277
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458231273}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &481157637
 GameObject:
   m_ObjectHideFlags: 0
