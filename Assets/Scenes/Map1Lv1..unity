@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 995156319}
-  requiredKills: 1
+  requiredKills: 10
   currentKills: 0
 --- !u!4 &166621253
 Transform:
@@ -46100,7 +46100,8 @@ Transform:
   m_LocalPosition: {x: -13.998226, y: 5.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 804060816}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &339560847
@@ -180631,12 +180632,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804060815}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 56.34177, y: -22.35, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 70.34, y: -27.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 339560846}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &812812468
 GameObject:
@@ -187607,8 +187608,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 464199809
-  m_SortingLayer: 6
+  m_SortingLayerID: -1232445903
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -1160010366554915182, guid: 8587282df9fff3b4e9da8c9315fd4ee9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -192342,4 +192343,3 @@ SceneRoots:
   - {fileID: 733137211}
   - {fileID: 166621253}
   - {fileID: 1662086465}
-  - {fileID: 804060816}
