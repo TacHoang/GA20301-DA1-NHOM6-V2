@@ -53,7 +53,7 @@ TagManager:
   - name: ForeGround
     uniqueID: 1584230565
     locked: 0
-  - name: UpGround
+  - name: Player
     uniqueID: 820979583
     locked: 0
   - name: Enemy
@@ -65,10 +65,10 @@ TagManager:
   - name: Npc
     uniqueID: 464199809
     locked: 0
-  - name: C5
+  - name: UpGround
     uniqueID: 3430380217
     locked: 0
-  - name: Player
+  - name: C5
     uniqueID: 200770439
     locked: 0
   - name: xp

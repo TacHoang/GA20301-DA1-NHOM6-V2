@@ -50,6 +50,7 @@ MonoBehaviour:
   fireSound: {fileID: 0}
   cooldownText: {fileID: 0}
   laserIcon: {fileID: 0}
+  canUseSkill: 1
 --- !u!114 &349018579922506378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +159,7 @@ MonoBehaviour:
   cooldownTime: 30
   cooldownText: {fileID: 0}
   skillIcon: {fileID: 0}
+  canUseSkill: 1
 --- !u!1 &2914217211617293307
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +209,7 @@ MonoBehaviour:
   cooldownTime: 10
   cooldownText: {fileID: 0}
   skillIcon: {fileID: 0}
+  canUseSkill: 1
 --- !u!1 &3388684515185780416
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,8 +682,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 200770439
-  m_SortingLayer: 7
+  m_SortingLayerID: 820979583
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1047889022768391324, guid: ef8d4551188c7844980150a1e569e7b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -819,4 +822,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthFillImage: {fileID: 0}
-  gameOverSceneName: UILOSE
+  gameManager: {fileID: 0}
