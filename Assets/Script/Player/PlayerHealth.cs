@@ -11,8 +11,7 @@ public class PlayerHealth : MonoBehaviour
     [Header("UI Image Fill")]
     public Image healthFillImage;
 
-    [Header("Scene khi chết")]
-    public string gameOverSceneName = "UILOSE";
+    [SerializeField] private GameManagerLv2 gameManager;
     void Start()
     {
         // Nếu GameManager chưa có máu => gán max
@@ -20,12 +19,16 @@ public class PlayerHealth : MonoBehaviour
         {
             GameManager.Instance.playerHealth = maxHealth;
         }
-
+        gameManager = FindAnyObjectByType<GameManagerLv2>();
         // Lấy máu từ GameManager
         currentHealth = GameManager.Instance.playerHealth;
         UpdateHealthUI();
     }
 
+    public void Update()
+    {
+        if (gameManager.IsGameOver()) return;
+    }
     public void TakeDamage(int amount)
     {
         currentHealth = Mathf.Max(0, currentHealth - amount);
@@ -51,6 +54,6 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player đã chết.");
-        SceneManager.LoadScene(gameOverSceneName);
+        gameManager.GameOver();
     }
 }
