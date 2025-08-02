@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Boss1Run
+  m_Name: Boss1walk
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -28,21 +28,21 @@ AnimationClip:
       value: {fileID: -6693976738416901944, guid: 3b42e38d282f23c4fab1c4e36955eb21, type: 3}
     - time: 0.28333333
       value: {fileID: 6270988069128106912, guid: cd999bf272c34ff4c84bdaa63210ef76, type: 3}
-    - time: 0.36666667
+    - time: 0.38333333
       value: {fileID: -7521193429440156453, guid: b3da25a7fb7327b449da192d7c6e8e53, type: 3}
     - time: 0.46666667
       value: {fileID: 5475897988305757671, guid: 42396024df1a2fe409501c9de3beac88, type: 3}
-    - time: 0.55
+    - time: 0.56666666
       value: {fileID: 9016736692722721256, guid: f6aacf6b3ed6be74691c0ca3b394c6c8, type: 3}
     - time: 0.65
       value: {fileID: 2364821767462233777, guid: 87d3535e84be8f8439dc701fdc5c3506, type: 3}
-    - time: 0.73333335
+    - time: 0.75
       value: {fileID: -12724011249891694, guid: 3c0d7bfeddc0ef7438ac22a279407725, type: 3}
-    - time: 0.8333333
+    - time: 0.85
       value: {fileID: -4437989961327654749, guid: 7dcf6cb32f84a764fa4b4afec495110f, type: 3}
-    - time: 0.9166667
+    - time: 0.93333334
       value: {fileID: 3895375480168752786, guid: bd3fa2c1f4ebcd14193c26e55312f273, type: 3}
-    - time: 1.0166667
+    - time: 1.0333333
       value: {fileID: -8727165328034226426, guid: 7880488d79ed0a64b8bfbb1580298e60, type: 3}
     attribute: m_Sprite
     path: 
@@ -83,7 +83,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.0333333
+    m_StopTime: 1.05
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
