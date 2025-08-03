@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
-
     [Header("Máu")]
     public int maxHealth = 100;
     private int currentHealth;
@@ -16,8 +15,6 @@ public class EnemyHealth : MonoBehaviour
     public AudioClip dieSound;
     [Range(0f, 1f)] public float dieVolume = 1f;
     private AudioSource audioSource;
-
-
 
 
     void Start()
@@ -48,7 +45,6 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
-
         // Gọi anim Die
         if (animator != null)
             animator.SetTrigger("Die");
@@ -71,7 +67,6 @@ public class EnemyHealth : MonoBehaviour
         // CoinManager
         if (CoinManager.Instance != null)
             CoinManager.Instance.SpawnCoinsAt(transform.position);
-
 
         // Vô hiệu hóa va chạm & vật lý
         Collider2D col = GetComponent<Collider2D>();
