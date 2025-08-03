@@ -1,10 +1,15 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossController : MonoBehaviour
 {
+    [Header("Chuyển động & Tấn công")]
     public float moveSpeed = 2f;
     public float detectionRange = 6f;
     public GameObject damageZone;
+
+    [Header("UI")]
+    public GameObject BosshealthBarCanvas; // Gán Canvas chứa Slider thanh máu (World Space)
 
     private Transform player;
     private Rigidbody2D rb;
@@ -22,6 +27,7 @@ public class BossController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         DisableDamageZone();
+
     }
 
     void Update()
@@ -29,17 +35,15 @@ public class BossController : MonoBehaviour
         float xDiff = player.position.x - transform.position.x;
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        // Lật hướng toàn bộ Boss (bao gồm các object con)
-        // Trước: scale.x = 1 là phải → scale.x = -1 là trái
+        // Lật hướng Boss
         if (Mathf.Abs(xDiff) > 0.1f)
         {
             Vector3 scale = transform.localScale;
-            scale.x = xDiff > 0 ? -1 : 1;  // 🛠️ Đảo ngược lại hướng
+            scale.x = xDiff > 0 ? -1 : 1;
             transform.localScale = scale;
         }
 
-
-        // Xác định trạng thái hiện tại
+        // Xác định trạng thái
         if (isPlayerInAttackZone)
         {
             currentState = State.Attack;
@@ -51,6 +55,21 @@ public class BossController : MonoBehaviour
         else
         {
             currentState = State.Idle;
+        }
+
+        // Hiện/ẩn thanh máu tùy theo khoảng cách
+        if (BosshealthBarCanvas != null)
+        {
+            if (distanceToPlayer <= detectionRange)
+            {
+                if (!BosshealthBarCanvas.activeSelf)
+                    BosshealthBarCanvas.SetActive(true);
+            }
+            else
+            {
+                if (BosshealthBarCanvas.activeSelf)
+                    BosshealthBarCanvas.SetActive(false);
+            }
         }
     }
 
@@ -87,7 +106,7 @@ public class BossController : MonoBehaviour
         }
     }
 
-    // Gọi từ animation event ở cuối animation đánh
+    // Gọi từ Animation Event
     public void OnAttackFinished()
     {
         DisableDamageZone();
@@ -104,7 +123,7 @@ public class BossController : MonoBehaviour
         }
     }
 
-    // Gọi từ BossAttackSensor (Trigger zone)
+    // Gọi từ BossAttackSensor (Trigger)
     public void SetAttacking(bool value)
     {
         isPlayerInAttackZone = value;
