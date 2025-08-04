@@ -69014,8 +69014,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584540215}
-  - component: {fileID: 584540216}
   - component: {fileID: 584540217}
+  - component: {fileID: 584540218}
   m_Layer: 9
   m_Name: telebot
   m_TagString: Untagged
@@ -69038,8 +69038,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1320630619}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!70 &584540216
-CapsuleCollider2D:
+--- !u!114 &584540217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584540214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fd1d7355724494084c90cdbd71ffe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &584540218
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -69072,21 +69084,18 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 5.428178, y: 1.276866}
-  m_Size: {x: 15.049894, y: 15.049894}
-  m_Direction: 0
---- !u!114 &584540217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584540214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fd1d7355724494084c90cdbd71ffe9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Offset: {x: 5.81488, y: 0.9682808}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 15.064298, y: 25.732628}
+  m_EdgeRadius: 0
 --- !u!1 &612331424
 GameObject:
   m_ObjectHideFlags: 0
@@ -69182,7 +69191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &638177542
 RectTransform:
   m_ObjectHideFlags: 0
@@ -69196,7 +69205,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1385255768}
-  m_Father: {fileID: 1046689563}
+  m_Father: {fileID: 1320630619}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -207030,39 +207039,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1046689562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1046689563}
-  m_Layer: 0
-  m_Name: Boss
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1046689563
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046689562}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.849985, y: -10.30643, z: -0.056848906}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 638177542}
-  - {fileID: 1320630619}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1144978448
 GameObject:
   m_ObjectHideFlags: 0
@@ -207969,7 +207945,6 @@ GameObject:
   - component: {fileID: 1320630621}
   - component: {fileID: 1320630620}
   - component: {fileID: 1320630625}
-  - component: {fileID: 1320630626}
   m_Layer: 9
   m_Name: Boss2
   m_TagString: Enemy
@@ -207986,13 +207961,14 @@ Transform:
   m_GameObject: {fileID: 1320630618}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.329985, y: -1.3335705, z: 0.056848906}
+  m_LocalPosition: {x: 6.4799995, y: -11.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 584540215}
   - {fileID: 1771193129}
-  m_Father: {fileID: 1046689563}
+  - {fileID: 638177542}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1320630620
 MonoBehaviour:
@@ -208008,11 +207984,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   detectionRange: 15
   teleportOffsetX: 1.5
-  teleportDelay: 0.5
+  teleportDelay: 0.8
   damageZone: {fileID: 101426729}
-  bossHealthBarCanvas: {fileID: 638177541}
+  BosshealthBarCanvas: {fileID: 638177541}
   teleportZone: {fileID: 584540214}
   attackZone: {fileID: 1771193128}
+  isDead: 0
 --- !u!50 &1320630621
 Rigidbody2D:
   serializedVersion: 5
@@ -208170,7 +208147,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320630618}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4864557446c74fc4681d501015fd79db, type: 3}
   m_Name: 
@@ -208179,22 +208156,7 @@ MonoBehaviour:
   healthBar: {fileID: 638177543}
   dieSound: {fileID: 0}
   dieVolume: 1
---- !u!114 &1320630626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320630618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 025be7771215b1946b8a9cc5ac42864f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  healthBar: {fileID: 638177543}
-  dieSound: {fileID: 0}
-  dieVolume: 1
+  BosshealthBarCanvas: {fileID: 638177541}
 --- !u!1 &1321998793
 GameObject:
   m_ObjectHideFlags: 0
@@ -210600,4 +210562,4 @@ SceneRoots:
   - {fileID: 1338764445}
   - {fileID: 909939240}
   - {fileID: 916531767}
-  - {fileID: 1046689563}
+  - {fileID: 1320630619}

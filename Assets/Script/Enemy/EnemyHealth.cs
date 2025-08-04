@@ -16,8 +16,8 @@ public class EnemyHealth : MonoBehaviour
     public AudioClip dieSound;
     [Range(0f, 1f)] public float dieVolume = 1f;
     private AudioSource audioSource;
-
-
+    [Header("UI Boss")]
+    public GameObject BosshealthBarCanvas;
 
 
     void Start()
@@ -42,12 +42,24 @@ public class EnemyHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+
             Die();
         }
     }
 
+
     void Die()
     {
+         if (BosshealthBarCanvas != null)
+    {
+            Debug.Log("đã ẩn thánh máu");
+        BosshealthBarCanvas.SetActive(false);
+        Debug.Log("🧨 Đã tắt bossHealthBarCanvas: " + BosshealthBarCanvas.name);
+    }
+    else
+    {
+        Debug.LogWarning("⚠️ bossHealthBarCanvas chưa được gán!");
+    }
 
         // Gọi anim Die
         if (animator != null)
@@ -61,7 +73,6 @@ public class EnemyHealth : MonoBehaviour
         {
             qm.AddKill(); // Tăng 1 kill duy nhất
         }
-
 
         // Gắn cờ chết
         Enemy enemy = GetComponent<Enemy>();
@@ -81,7 +92,7 @@ public class EnemyHealth : MonoBehaviour
         if (rb != null) rb.linearVelocity = Vector2.zero;
 
         // Hủy sau 1 giây (hoặc thời lượng anim chết)
-        Destroy(gameObject, 0.5f);
+        Destroy(gameObject, 1f);
     }
 }
 
