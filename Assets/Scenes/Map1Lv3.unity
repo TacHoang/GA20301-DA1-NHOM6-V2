@@ -179293,7 +179293,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 63436046}
-  m_Father: {fileID: 324305114}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -179676,7 +179676,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1548630436}
-  - {fileID: 228028410}
   - {fileID: 725847369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -179696,7 +179695,7 @@ MonoBehaviour:
   healthBar: {fileID: 228028406}
   dieSound: {fileID: 0}
   dieVolume: 1
-  BosshealthBarCanvas: {fileID: 725847368}
+  BosshealthBarCanvas: {fileID: 228028405}
 --- !u!1 &353134614
 GameObject:
   m_ObjectHideFlags: 0
@@ -322348,4 +322347,5 @@ SceneRoots:
   - {fileID: 1588788898}
   - {fileID: 993142412}
   - {fileID: 1482342002}
+  - {fileID: 228028410}
   - {fileID: 324305114}

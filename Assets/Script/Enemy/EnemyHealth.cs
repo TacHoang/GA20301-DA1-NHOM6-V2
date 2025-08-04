@@ -66,8 +66,13 @@ public class EnemyHealth : MonoBehaviour
             animator.SetTrigger("Die");
 
         // Gọi âm thanh chết từ vị trí hiện tại
-        if (dieSound != null)
-            AudioSource.PlayClipAtPoint(dieSound, transform.position, 2.5f); // trên mức 1
+        if (dieSound != null && audioSource != null)
+        {
+            audioSource.clip = dieSound;
+            audioSource.volume = dieVolume; // chỉnh trong Inspector
+            audioSource.Play();
+        }
+
         QuestManager qm = FindObjectOfType<QuestManager>();
         if (qm != null)
         {
