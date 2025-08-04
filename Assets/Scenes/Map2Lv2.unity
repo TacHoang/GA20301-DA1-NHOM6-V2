@@ -303023,6 +303023,25 @@ MonoBehaviour:
   - "C\u1ED1t truy\u1EC7n ti\xEAu di\u1EC7t nh\u1EEFng tay ai c\u1EE7a ch\xFAa t\u1EC3
     di\u1EC7t ch\u1EE7ng"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 50 con qu\xE1i v\u1EADt!!"
+  postQuestDialogues:
+  - "T\xF4i r\u1EA5t k\xEDnh ph\u1EE5c b\u1EA1n v\u1EC1 \u0111\u1ED9 ki\xEAn tr\xEC
+    v\xE0 c\u1ED1 g\u1EAFng qua t\u1EEBng m\xE0n ch\u01A1i"
+  - "B\u1EA1n c\xE0ng ng\xE0y c\xE0ng ti\u1EBFn b\u1ED9"
+  - "V\u01B0\u1EE3t qua m\u1ED9t b\u1EADc cao h\u01A1n"
+  - "\u0110\u1ED1i v\u1EDBi nh\u1EEFng s\u1EF1 ti\u1EBFn b\u1ED9 c\u1EE7a b\u1EA1n"
+  - "\u0110\u01B0\u01A1ng nhi\xEAn t\xF4i c\u0169ng mu\u1ED1n b\u1EA1n m\u1EA1nh
+    h\u01A1n n\u1EEFa "
+  - "\u0110\u1EC3 \u0111\u01B0\u01A1ng \u0111\u1EA7u v\u1EDBi t\xEAn tr\xF9m th\u1EE9
+    2 khi qua m\xE0n ti\u1EBFp theo"
+  - "Cho n\xEAn....."
+  - "T\xF4i t\u1EB7ng cho b\u1EA1n k\u1EF9 n\u0103ng s\u1ED1 2"
+  - "K\u1EF9 n\u0103ng c\xF3 t\xEAn l\xE0 \"V\xF9ng t\u1EEB tr\u01B0\u1EDDng\""
+  - "Khi qu\xE1i v\u1EADt \u0111i v\xE0o trong v\xF9ng n\xE0y c\u1EE9 m\u1ED7i 0.5
+    gi\xE2y s\xE1t th\u01B0\u01A1ng k\u1EF9 n\u0103ng g\xE2y ra 10 s\xE1t th\u01B0\u01A1ng"
+  - "Th\u1EDDi gian h\u1ED3i chi\xEAu cho k\u1EF9 n\u0103ng n\xE0y l\xE0 6 gi\xE2y"
+  - "B\u1EA1n s\u1EBD c\xF3 th\u1EC3 s\u1EED d\u1EE5ng k\u1EF9 n\u0103ng n\xE0y sau
+    khi qua m\xE0n ti\u1EBFp theo"
+  - "V\xE0......"
   dialogueTextUI: {fileID: 393106482}
   dialoguePanel: {fileID: 539941225}
   player: {fileID: 1806310565}

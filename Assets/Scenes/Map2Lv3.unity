@@ -68236,6 +68236,27 @@ MonoBehaviour:
   - "C\u1ED1t truy\u1EC7n c\xF3 th\xEAm ng\u1ECDn l\u1EEDa duy nh\u1EA5t \u0111\u01B0\u1EE3c
     ph\xE1t s\xE1ng"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 60 con qu\xE1i v\u1EADt!!"
+  postQuestDialogues:
+  - "Th\u1EADt t\u1ED1t!!!"
+  - "B\u1EA1n \u0111\xE3 h\u1EA1 g\u1EE5c t\xEAn tr\xF9m th\u1EE9 2"
+  - "D\xF9 r\u1EA5t kh\xF3 kh\u0103n b\u1EA1n v\u1EABn v\u01B0\u1EE3t qua "
+  - "V\u1EDBi l\u1EA1i sau khi qua m\xE0n n\xE0y th\xEC s\u1EBD r\u1EA5t kh\xF3 kh\u0103n
+    g\u1EB7p nhi\u1EC1u nguy hi\u1EC3m"
+  - "Cho n\xEAn....."
+  - "T\xF4i s\u1EBD cho b\u1EA1n th\xEAm 1 k\u1EF9 n\u0103ng m\u1EDBi v\xE0 \u0111\xF3
+    l\xE0 k\u1EF9 n\u0103ng s\u1ED1 3"
+  - "K\u1EF9 n\u0103ng c\xF3 t\xEAn l\xE0 \"Tia \xE1nh s\xE1ng\""
+  - "\"Tia \xE1nh s\xE1ng\" b\u1EAFn theo 1 \u0111\u1EEBng th\u1EB3ng xuy\xEAn qua
+    t\u1EA5t c\u1EA3 v\u1EADt th\u1EC3 g\xE2y 100 s\xE1t th\u01B0\u01A1ng"
+  - "Th\u1EDDi gian h\u1ED3i chi\xEAu cho k\u1EF9 n\u0103ng n\xE0y l\xE0 8 gi\xE2y"
+  - "B\u1EA1n c\u1EA7n b\u1EA5m ph\xEDm 3 \u0111\u1EC3 s\u1EED d\u1EE5ng k\u1EF9
+    n\u0103ng"
+  - "V\u1EADy khi c\xF3 k\u1EF9 n\u0103ng n\xE0y b\u1EA1n c\xF3 th\u1EC3 m\u1EA1nh
+    th\xEAm"
+  - "V\xEC khi b\u1EA1n qua m\xE0n ch\u01A1i n\xE0y, qu\xE1i v\u1EADt v\xE0 c\u1EA1m
+    b\u1EABy ng\xE0y c\xE0ng nhi\u1EC1u h\u01A1n"
+  - "H\xE3y s\u1EED d\u1EE5ng cho th\u1EADt t\u1ED1t"
+  - "V\xE0............"
   dialogueTextUI: {fileID: 238495021}
   dialoguePanel: {fileID: 378397087}
   player: {fileID: 1624740252}
