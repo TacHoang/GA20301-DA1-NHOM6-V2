@@ -303566,7 +303566,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -1464435127
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &1138804555
 GameObject:
@@ -305225,6 +305225,14 @@ MonoBehaviour:
   dialogues:
   - "C\u1ED1t truy\u1EC7n h\u1EA5p th\u1EE5 s\u1EE9c m\u1EA1nh t\u1ED1i th\u01B0\u1EE3ng"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 40 con qu\xE1i v\u1EADt!!"
+  postQuestDialogues:
+  - "V\u1EABn nh\u01B0 l\xFAc tr\u01B0\u1EDBc c\u1EE7a nh\u1EEFng m\xE0n v\u1EEBa
+    qua"
+  - "Ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5 t\u1ED1t nh\u01B0 m\u1ECDi khi "
+  - "R\u1EA5t \u0111\xFAng \u0111\u1EAFn khi tin t\u01B0\u1EDFng b\u1EA1n"
+  - "H\xE3y lu\xF4n n\xE2ng cao s\u1EE9c m\u1EA1nh b\u1EA3n th\xE2n \u0111\u1ED1i
+    \u0111\u1EA7u v\u1EDBi nh\u1EEFng th\u1EED th\xE1ch \u0111\u1EA7y cam go!!"
+  - "V\xE0........"
   dialogueTextUI: {fileID: 270838919}
   dialoguePanel: {fileID: 28746404}
   player: {fileID: 1286189321}

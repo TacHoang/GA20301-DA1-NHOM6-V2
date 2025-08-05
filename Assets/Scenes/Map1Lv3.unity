@@ -179287,17 +179287,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228028405}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.056848906}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 63436046}
-  m_Father: {fileID: 1349842920}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -40.469986, y: 11.33357}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &276216058
@@ -179671,13 +179671,13 @@ Transform:
   m_GameObject: {fileID: 324305107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.159985, y: -0.51356983, z: 0.056848906}
+  m_LocalPosition: {x: 11.309999, y: -10.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1548630436}
   - {fileID: 725847369}
-  m_Father: {fileID: 1349842920}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &324305116
 MonoBehaviour:
@@ -179695,6 +179695,7 @@ MonoBehaviour:
   healthBar: {fileID: 228028406}
   dieSound: {fileID: 0}
   dieVolume: 1
+  BosshealthBarCanvas: {fileID: 228028405}
 --- !u!1 &353134614
 GameObject:
   m_ObjectHideFlags: 0
@@ -180128,7 +180129,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -1464435127
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &432157273
 GameObject:
@@ -180262,7 +180263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 1583497782}
-  requiredKills: 30
+  requiredKills: 1
   currentKills: 0
 --- !u!4 &432243496
 Transform:
@@ -314641,8 +314642,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725847368}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.1, y: -0.76, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.1000004, y: -0.7600002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -314999,7 +315000,7 @@ Transform:
   m_GameObject: {fileID: 789100621}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 49, y: -9.3, z: 0}
+  m_LocalPosition: {x: 46.3, y: -11.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -319849,39 +319850,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342360068}
   m_CullTransparentMesh: 1
---- !u!1 &1349842919
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1349842920}
-  m_Layer: 0
-  m_Name: Boss
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1349842920
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349842919}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.849985, y: -10.30643, z: -0.056848906}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 324305114}
-  - {fileID: 228028410}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1374181059
 GameObject:
   m_ObjectHideFlags: 0
@@ -320694,7 +320662,7 @@ Transform:
   m_GameObject: {fileID: 1588788897}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.19, y: -9.759999, z: 0}
+  m_LocalPosition: {x: 43.88, y: -12.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -320973,6 +320941,28 @@ MonoBehaviour:
   - "C\xF4t truy\u1EC7n ti\u1EBFn \u0111\u1EBFn con \u0111\u01B0\u1EDDng gi\u1EA3i
     c\u1EE9u"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 30 con qu\xE1i v\u1EADt!!"
+  postQuestDialogues:
+  - "Hay l\u1EAFm!!!"
+  - "B\u1EA1n \u0111\xE3 ti\xEAu di\u1EC7t \u0111\u01B0\u1EE3c t\xEAn tr\xF9m \u0111\xF3!!"
+  - "D\xF9 c\xF3 ch\xFAt kh\xF3 kh\u0103n nh\u01B0ng b\u1EA1n v\u1EABn ho\xE0n th\xE0nh
+    t\u1ED1t nhi\u1EC7m c\u1EE5 c\u1EE7a m\xECnh"
+  - "Theo nh\u01B0 l\u1EDDi h\u1EE9a \u1EDF m\xE0n ch\u01A1i tr\u01B0\u1EDBc"
+  - "M\xECnh s\u1EBD t\u1EB7ng b\u1EA1n k\u1EF9 n\u0103ng \u0111\u1EA7u ti\xEAn \u0111\u1EC3
+    c\xF3 th\u1EC3 t\u0103ng s\u1EE9c m\u1EA1nh c\u1EE7a b\u1EA3n th\xE2n"
+  - "K\u1EF9 n\u0103ng n\xE0y c\xF3 t\xEAn l\xE0 \"S\xF3ng si\xEAu \xE2m\" "
+  - "V\u1EDBi b\u1EAFn ra 4 s\xF3ng si\xEAu \xE2m ra 4 h\u01B0\u1EDBng h\xECnh d\u1EA5u
+    c\u1ED9ng xuy\xEAn qua t\u1EA5t c\u1EA3 v\u1EADt th\u1EC3"
+  - "K\u1EF9 n\u0103ng n\xE0y g\xE2y 50 s\xE1t th\u01B0\u01A1ng khi m\u1ED7i con
+    qu\xE1i v\xE2t tr\xFAng v\xE0o"
+  - "V\u1EDBi k\u1EF9 n\u0103ng \"S\xF3ng si\xEAu \xE2m\" n\xE0y b\u1EA1n s\u1EBD
+    s\u1EED d\u1EE5ng \u0111\u01B0\u1EE3c khi qua m\xE0n"
+  - "Th\u1EDDi gian h\u1ED3i chi\xEAu cho k\u1EF9 n\u0103ng n\xE0y l\xE0 5 gi\xE2y"
+  - "B\u1EA1n c\u1EA7n b\u1EA5m ph\xEDm 1 \u0111\u1EC3 s\u1EED d\u1EE5ng k\u1EF9
+    n\u0103ng"
+  - "Ch\xFAc b\u1EA1n s\u1EED d\u1EE5ng k\u1EF9 n\u0103ng n\xE0y th\u1EADt t\u1ED1t
+    \u0111\u1EC3 gi\u1EA3i ph\xF3ng th\u1EBF gi\u1EDDi n\xE0y v\u1EC1 b\xECnh y\xEAn
+    nh\u01B0u tr\u01B0\u1EDBc"
+  - "V\xE0........."
   dialogueTextUI: {fileID: 603226607}
   dialoguePanel: {fileID: 1145004237}
   player: {fileID: 644948919}
@@ -322379,4 +322369,5 @@ SceneRoots:
   - {fileID: 1588788898}
   - {fileID: 993142412}
   - {fileID: 1482342002}
-  - {fileID: 1349842920}
+  - {fileID: 228028410}
+  - {fileID: 324305114}

@@ -8,7 +8,7 @@ public class Boss2 : MonoBehaviour
     public float teleportDelay = 0.5f;
 
     public GameObject damageZone;
-    public GameObject bossHealthBarCanvas;
+    public GameObject BosshealthBarCanvas;
 
     public GameObject teleportZone;
     public GameObject attackZone;
@@ -17,6 +17,8 @@ public class Boss2 : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer spr;
+
+    public bool isDead = false; // ✅ Thêm biến trạng thái chết
 
     enum State { Idle, Chase, Attack }
     private State currState = State.Idle;
@@ -34,25 +36,35 @@ public class Boss2 : MonoBehaviour
         anim = GetComponent<Animator>();
         spr = GetComponent<SpriteRenderer>();
 
-        if (damageZone) damageZone.SetActive(false);
-        if (bossHealthBarCanvas) bossHealthBarCanvas.SetActive(false);
-
         if (player == null)
             Debug.LogError("[Boss2] Không tìm thấy player!");
     }
 
     void Update()
     {
-        float dist = player == null ? Mathf.Infinity : Vector2.Distance(transform.position, player.position);
+        if (isDead) return; // ✅ Nếu đã chết, bỏ qua mọi xử lý
 
-        bossHealthBarCanvas?.SetActive(dist <= detectionRange);
+        float distanceToPlayer = player == null ? Mathf.Infinity : Vector2.Distance(transform.position, player.position);
+
+        if (BosshealthBarCanvas != null)
+        {
+            if (distanceToPlayer <= detectionRange)
+            {
+                if (!BosshealthBarCanvas.activeSelf)
+                    BosshealthBarCanvas.SetActive(true);
+            }
+            else
+            {
+                if (BosshealthBarCanvas.activeSelf)
+                    BosshealthBarCanvas.SetActive(false);
+            }
+        }
 
         if (player != null)
         {
             bool faceLeft = player.position.x < transform.position.x;
             spr.flipX = faceLeft;
 
-            // flip tất cả object con theo boss
             foreach (Transform child in transform)
             {
                 Vector3 scale = child.localScale;
@@ -60,6 +72,8 @@ public class Boss2 : MonoBehaviour
                 child.localScale = scale;
             }
         }
+
+        float dist = Vector2.Distance(transform.position, player.position);
 
         if (inTeleportZone)
             currState = State.Attack;

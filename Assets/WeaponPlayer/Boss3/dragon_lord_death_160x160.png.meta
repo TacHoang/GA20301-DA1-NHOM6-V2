@@ -1,112 +1,172 @@
 fileFormatVersion: 2
-guid: ed7010006a3e21543ae66e6d9dc8851a
+guid: 6aee3de77d590a345b76faf1188afcb9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5341597898538695221
-    second: Laser_sheet_0
+      213: -3339886984816589032
+    second: dragon_lord_death_160x160_0
   - first:
-      213: -8978408729274254430
-    second: Laser_sheet_1
+      213: 3212760403310068482
+    second: dragon_lord_death_160x160_1
   - first:
-      213: 797768032434522389
-    second: Laser_sheet_2
+      213: -6328035338768787176
+    second: dragon_lord_death_160x160_2
   - first:
-      213: 7394835561953233644
-    second: Laser_sheet_3
+      213: 2325737058521249265
+    second: dragon_lord_death_160x160_3
   - first:
-      213: -4469117517395524942
-    second: Laser_sheet_4
+      213: 5910647636267756830
+    second: dragon_lord_death_160x160_4
   - first:
-      213: -5041315827434484139
-    second: Laser_sheet_5
+      213: 7721430448751228086
+    second: dragon_lord_death_160x160_5
   - first:
-      213: -274854406761784476
-    second: Laser_sheet_6
+      213: 9142495277750400812
+    second: dragon_lord_death_160x160_6
   - first:
-      213: -1702599639152044942
-    second: Laser_sheet_7
+      213: 1000061314168849970
+    second: dragon_lord_death_160x160_7
   - first:
-      213: -2656773159261285837
-    second: Laser_sheet_8
+      213: -1324461767515945372
+    second: dragon_lord_death_160x160_8
   - first:
-      213: 4487909370968573847
-    second: Laser_sheet_9
+      213: -6435487919641257751
+    second: dragon_lord_death_160x160_9
   - first:
-      213: -6701801219439810234
-    second: Laser_sheet_10
+      213: -6488955057311078939
+    second: dragon_lord_death_160x160_10
   - first:
-      213: 7473293220430665474
-    second: Laser_sheet_11
+      213: 6715883641081232975
+    second: dragon_lord_death_160x160_11
   - first:
-      213: -1336750148893057986
-    second: Laser_sheet_12
+      213: -6155123953979503761
+    second: dragon_lord_death_160x160_12
   - first:
-      213: -1950424157889047715
-    second: Laser_sheet_13
+      213: 1899252389435776722
+    second: dragon_lord_death_160x160_13
   - first:
-      213: 4238861351130170196
-    second: Laser_sheet_14
+      213: -39678045052987989
+    second: dragon_lord_death_160x160_14
   - first:
-      213: -6911181621799430481
-    second: Laser_sheet_15
+      213: -1084405154947091231
+    second: dragon_lord_death_160x160_15
   - first:
-      213: 5003634226846182804
-    second: Laser_sheet_16
+      213: -186140998331517716
+    second: dragon_lord_death_160x160_16
   - first:
-      213: 2896512351283971568
-    second: Laser_sheet_17
+      213: -6243270040775971815
+    second: dragon_lord_death_160x160_17
   - first:
-      213: 3134540479172978662
-    second: Laser_sheet_18
+      213: 5821750408257637106
+    second: dragon_lord_death_160x160_18
   - first:
-      213: 7541565570370268797
-    second: Laser_sheet_19
+      213: 2140012554011527855
+    second: dragon_lord_death_160x160_19
   - first:
-      213: 1561237600651558630
-    second: Laser_sheet_20
+      213: -2781783880933606142
+    second: dragon_lord_death_160x160_20
   - first:
-      213: 6809442395095684782
-    second: Laser_sheet_21
+      213: 4105217256624313822
+    second: dragon_lord_death_160x160_21
   - first:
-      213: -2683619221520823459
-    second: Laser_sheet_22
+      213: 4590355783084939356
+    second: dragon_lord_death_160x160_22
   - first:
-      213: -8523935217686447671
-    second: Laser_sheet_23
+      213: -1780755181207258868
+    second: dragon_lord_death_160x160_23
   - first:
-      213: -8266026193964414411
-    second: Laser_sheet_24
+      213: 6617928476763743044
+    second: dragon_lord_death_160x160_24
   - first:
-      213: -8924404907818905018
-    second: Laser_sheet_25
+      213: 5453069466227854509
+    second: dragon_lord_death_160x160_25
   - first:
-      213: 596613336412172416
-    second: Laser_sheet_26
+      213: -658583593698993746
+    second: dragon_lord_death_160x160_26
   - first:
-      213: 6935722184500306475
-    second: Laser_sheet_27
+      213: 3189274848086608793
+    second: dragon_lord_death_160x160_27
   - first:
-      213: 7548045601679250679
-    second: Laser_sheet_28
+      213: 1597129442755113661
+    second: dragon_lord_death_160x160_28
   - first:
-      213: 8242567290148564425
-    second: Laser_sheet_29
+      213: -6212128326925370947
+    second: dragon_lord_death_160x160_29
   - first:
-      213: -2896346578816126121
-    second: Laser_sheet_30
+      213: 1924361959215567851
+    second: dragon_lord_death_160x160_30
   - first:
-      213: -5404797237292399070
-    second: Laser_sheet_31
+      213: -9043330972183005793
+    second: dragon_lord_death_160x160_31
   - first:
-      213: -3450780355966905698
-    second: Laser_sheet_32
+      213: 8608325382706037642
+    second: dragon_lord_death_160x160_32
   - first:
-      213: 9059945912988972295
-    second: Laser_sheet_33
+      213: 3090665427913097731
+    second: dragon_lord_death_160x160_33
   - first:
-      213: 2291947357849232512
-    second: Laser_sheet_34
+      213: -4614391865117337648
+    second: dragon_lord_death_160x160_34
+  - first:
+      213: 5535832073047646737
+    second: dragon_lord_death_160x160_35
+  - first:
+      213: 477337851115237995
+    second: dragon_lord_death_160x160_36
+  - first:
+      213: -757074393980468503
+    second: dragon_lord_death_160x160_37
+  - first:
+      213: 6797576030604827974
+    second: dragon_lord_death_160x160_38
+  - first:
+      213: 1182159388753286813
+    second: dragon_lord_death_160x160_39
+  - first:
+      213: 7612176502543558477
+    second: dragon_lord_death_160x160_40
+  - first:
+      213: -2091603599802735631
+    second: dragon_lord_death_160x160_41
+  - first:
+      213: -6001897415534536655
+    second: dragon_lord_death_160x160_42
+  - first:
+      213: -4792665826715134240
+    second: dragon_lord_death_160x160_43
+  - first:
+      213: 6195701612757782892
+    second: dragon_lord_death_160x160_44
+  - first:
+      213: 6220827964031994352
+    second: dragon_lord_death_160x160_45
+  - first:
+      213: 3427562325536701877
+    second: dragon_lord_death_160x160_46
+  - first:
+      213: 1640696104692370921
+    second: dragon_lord_death_160x160_47
+  - first:
+      213: 3772430483198890153
+    second: dragon_lord_death_160x160_48
+  - first:
+      213: -3743778588739263850
+    second: dragon_lord_death_160x160_49
+  - first:
+      213: -3775768426284925933
+    second: dragon_lord_death_160x160_50
+  - first:
+      213: -6070884265765243725
+    second: dragon_lord_death_160x160_51
+  - first:
+      213: -90894647274963617
+    second: dragon_lord_death_160x160_52
+  - first:
+      213: -7060616124439522623
+    second: dragon_lord_death_160x160_53
+  - first:
+      213: 2360435054369676182
+    second: dragon_lord_death_160x160_54
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +199,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -153,7 +213,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -202,13 +262,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laser_sheet_0
+      name: dragon_lord_death_160x160_0
       rect:
         serializedVersion: 2
-        x: 46
-        y: 1362
-        width: 12
-        height: 10
+        x: 0
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bc5c0a42305ded5b0800000000000000
-      internalID: -5341597898538695221
+      spriteID: 8178e089b7656a1d0800000000000000
+      internalID: -3339886984816589032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_1
+      name: dragon_lord_death_160x160_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1246
-        width: 38
-        height: 41
+        x: 160
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ab775394d8466380800000000000000
-      internalID: -8978408729274254430
+      spriteID: 203ccbb9094069c20800000000000000
+      internalID: 3212760403310068482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_2
+      name: dragon_lord_death_160x160_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1181
-        width: 7
-        height: 6
+        x: 320
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5190c6a7ccd321b00800000000000000
-      internalID: 797768032434522389
+      spriteID: 8195192036d4e28a0800000000000000
+      internalID: -6328035338768787176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_3
+      name: dragon_lord_death_160x160_3
       rect:
         serializedVersion: 2
-        x: 65
-        y: 1180
-        width: 7
-        height: 7
+        x: 480
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +343,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cea06aa93cbbf9660800000000000000
-      internalID: 7394835561953233644
+      spriteID: 1f5fe1e488da64020800000000000000
+      internalID: 2325737058521249265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_4
+      name: dragon_lord_death_160x160_4
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1156
-        width: 22
-        height: 22
+        x: 640
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +365,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b20a2cdb418af1c0800000000000000
-      internalID: -4469117517395524942
+      spriteID: e1ded3095b6d60250800000000000000
+      internalID: 5910647636267756830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_5
+      name: dragon_lord_death_160x160_5
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1146
-        width: 8
-        height: 7
+        x: 800
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +387,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55e863907f5a90ab0800000000000000
-      internalID: -5041315827434484139
+      spriteID: 6b4b3bf4518082b60800000000000000
+      internalID: 7721430448751228086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_6
+      name: dragon_lord_death_160x160_6
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1146
-        width: 8
-        height: 6
+        x: 960
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +409,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46b53009f558f2cf0800000000000000
-      internalID: -274854406761784476
+      spriteID: c27bffe140ba0ee70800000000000000
+      internalID: 9142495277750400812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_7
+      name: dragon_lord_death_160x160_7
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1079
-        width: 9
-        height: 8
+        x: 1120
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +431,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 27452a126a62f58e0800000000000000
-      internalID: -1702599639152044942
+      spriteID: 23605a8777ee0ed00800000000000000
+      internalID: 1000061314168849970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_8
+      name: dragon_lord_death_160x160_8
       rect:
         serializedVersion: 2
-        x: 63
-        y: 1079
-        width: 9
-        height: 8
+        x: 1280
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +453,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 332507943ee312bd0800000000000000
-      internalID: -2656773159261285837
+      spriteID: 46640ac2a019e9de0800000000000000
+      internalID: -1324461767515945372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_9
+      name: dragon_lord_death_160x160_9
       rect:
         serializedVersion: 2
-        x: 42
-        y: 1056
-        width: 22
-        height: 22
+        x: 1440
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +475,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7978ab08bc1484e30800000000000000
-      internalID: 4487909370968573847
+      spriteID: 9e8177175dd80b6a0800000000000000
+      internalID: -6435487919641257751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_10
+      name: dragon_lord_death_160x160_10
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1046
-        width: 9
-        height: 8
+        x: 1600
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 649a2007c4b6ef2a0800000000000000
-      internalID: -6701801219439810234
+      spriteID: 5e5af7d51c992f5a0800000000000000
+      internalID: -6488955057311078939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_11
+      name: dragon_lord_death_160x160_11
       rect:
         serializedVersion: 2
-        x: 63
-        y: 1046
-        width: 9
-        height: 8
+        x: 1760
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +519,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 207da1ab69876b760800000000000000
-      internalID: 7473293220430665474
+      spriteID: f4ef08bd69c933d50800000000000000
+      internalID: 6715883641081232975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_12
+      name: dragon_lord_death_160x160_12
       rect:
         serializedVersion: 2
-        x: 34
-        y: 977
-        width: 11
-        height: 10
+        x: 1920
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +541,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3c57cd62d8e27de0800000000000000
-      internalID: -1336750148893057986
+      spriteID: f6bcd86006b949aa0800000000000000
+      internalID: -6155123953979503761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_13
+      name: dragon_lord_death_160x160_13
       rect:
         serializedVersion: 2
-        x: 42
-        y: 956
-        width: 22
-        height: 22
+        x: 2080
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +563,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d53deabef83bee4e0800000000000000
-      internalID: -1950424157889047715
+      spriteID: 2de912b4cff7b5a10800000000000000
+      internalID: 1899252389435776722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_14
+      name: dragon_lord_death_160x160_14
       rect:
         serializedVersion: 2
-        x: 61
-        y: 977
-        width: 11
-        height: 10
+        x: 2240
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +585,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4530f3eb0f573da30800000000000000
-      internalID: 4238861351130170196
+      spriteID: ba51c3b3709037ff0800000000000000
+      internalID: -39678045052987989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_15
+      name: dragon_lord_death_160x160_15
       rect:
         serializedVersion: 2
-        x: 34
-        y: 946
-        width: 11
-        height: 10
+        x: 2400
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa6df669eec8610a0800000000000000
-      internalID: -6911181621799430481
+      spriteID: 1e4b6cac14b63f0f0800000000000000
+      internalID: -1084405154947091231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_16
+      name: dragon_lord_death_160x160_16
       rect:
         serializedVersion: 2
-        x: 61
-        y: 946
-        width: 11
-        height: 10
+        x: 2560
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +629,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49d2725a1da707540800000000000000
-      internalID: 5003634226846182804
+      spriteID: ce4305c8fb1ba6df0800000000000000
+      internalID: -186140998331517716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_17
+      name: dragon_lord_death_160x160_17
       rect:
         serializedVersion: 2
-        x: 36
-        y: 877
-        width: 9
-        height: 8
+        x: 2720
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +651,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f500d913aa723820800000000000000
-      internalID: 2896512351283971568
+      spriteID: 91ca5b6e9f27b59a0800000000000000
+      internalID: -6243270040775971815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_18
+      name: dragon_lord_death_160x160_18
       rect:
         serializedVersion: 2
-        x: 42
-        y: 856
-        width: 22
-        height: 22
+        x: 2880
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +673,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e7203355ff108b20800000000000000
-      internalID: 3134540479172978662
+      spriteID: 2fa8e2fb6230bc050800000000000000
+      internalID: 5821750408257637106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_19
+      name: dragon_lord_death_160x160_19
       rect:
         serializedVersion: 2
-        x: 61
-        y: 877
-        width: 9
-        height: 8
+        x: 3040
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +695,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7e6c38ede509a860800000000000000
-      internalID: 7541565570370268797
+      spriteID: faacbb0641ad2bd10800000000000000
+      internalID: 2140012554011527855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_20
+      name: dragon_lord_death_160x160_20
       rect:
         serializedVersion: 2
-        x: 36
-        y: 848
-        width: 9
-        height: 8
+        x: 3200
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +717,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6eeb1d47351aaa510800000000000000
-      internalID: 1561237600651558630
+      spriteID: 20d7b0f7c4e1569d0800000000000000
+      internalID: -2781783880933606142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_21
+      name: dragon_lord_death_160x160_21
       rect:
         serializedVersion: 2
-        x: 61
-        y: 848
-        width: 9
-        height: 8
+        x: 3360
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +739,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea6d926c7cfff7e50800000000000000
-      internalID: 6809442395095684782
+      spriteID: ed555e23859a8f830800000000000000
+      internalID: 4105217256624313822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_22
+      name: dragon_lord_death_160x160_22
       rect:
         serializedVersion: 2
-        x: 38
-        y: 777
-        width: 7
-        height: 6
+        x: 3520
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +761,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5b47d4598ed1cad0800000000000000
-      internalID: -2683619221520823459
+      spriteID: c581073934834bf30800000000000000
+      internalID: 4590355783084939356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_23
+      name: dragon_lord_death_160x160_23
       rect:
         serializedVersion: 2
-        x: 42
-        y: 756
-        width: 22
-        height: 22
+        x: 3680
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +783,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c97b5dc416e4b980800000000000000
-      internalID: -8523935217686447671
+      spriteID: c097438f89c7947e0800000000000000
+      internalID: -1780755181207258868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_24
+      name: dragon_lord_death_160x160_24
       rect:
         serializedVersion: 2
-        x: 61
-        y: 777
-        width: 7
-        height: 6
+        x: 3840
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +805,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53a4dacc8fc294d80800000000000000
-      internalID: -8266026193964414411
+      spriteID: 443e176e2ea97db50800000000000000
+      internalID: 6617928476763743044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_25
+      name: dragon_lord_death_160x160_25
       rect:
         serializedVersion: 2
-        x: 38
-        y: 750
-        width: 7
-        height: 6
+        x: 4000
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +827,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64293b51505262480800000000000000
-      internalID: -8924404907818905018
+      spriteID: dac4a06b9c13dab40800000000000000
+      internalID: 5453069466227854509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_26
+      name: dragon_lord_death_160x160_26
       rect:
         serializedVersion: 2
-        x: 61
-        y: 750
-        width: 7
-        height: 6
+        x: 4160
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +849,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 080bb112ba8974800800000000000000
-      internalID: 596613336412172416
+      spriteID: ea9dbaaf5bd3cd6f0800000000000000
+      internalID: -658583593698993746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_27
+      name: dragon_lord_death_160x160_27
       rect:
         serializedVersion: 2
-        x: 39
-        y: 651
-        width: 28
-        height: 31
+        x: 4320
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +871,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b22efeb6492a04060800000000000000
-      internalID: 6935722184500306475
+      spriteID: 99b4a4ba394924c20800000000000000
+      internalID: 3189274848086608793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_28
+      name: dragon_lord_death_160x160_28
       rect:
         serializedVersion: 2
-        x: 61
-        y: 677
-        width: 6
-        height: 6
+        x: 4480
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +893,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f49a84cb7b00c860800000000000000
-      internalID: 7548045601679250679
+      spriteID: db27cb724c42a2610800000000000000
+      internalID: 1597129442755113661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_29
+      name: dragon_lord_death_160x160_29
       rect:
         serializedVersion: 2
-        x: 29
-        y: 544
-        width: 271
-        height: 46
+        x: 4640
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +915,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cd2f86874b736270800000000000000
-      internalID: 8242567290148564425
+      spriteID: db9b87e23361ac9a0800000000000000
+      internalID: -6212128326925370947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_30
+      name: dragon_lord_death_160x160_30
       rect:
         serializedVersion: 2
-        x: 35
-        y: 449
-        width: 265
-        height: 34
+        x: 4800
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +937,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7533f3fc12c1ec7d0800000000000000
-      internalID: -2896346578816126121
+      spriteID: be391569105b4ba10800000000000000
+      internalID: 1924361959215567851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_31
+      name: dragon_lord_death_160x160_31
       rect:
         serializedVersion: 2
-        x: 38
-        y: 353
-        width: 262
-        height: 28
+        x: 4960
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +959,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2268c2c6c8d4ef4b0800000000000000
-      internalID: -5404797237292399070
+      spriteID: f957eb8f462af7280800000000000000
+      internalID: -9043330972183005793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_32
+      name: dragon_lord_death_160x160_32
       rect:
         serializedVersion: 2
-        x: 38
-        y: 253
-        width: 262
-        height: 28
+        x: 5120
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +981,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9252bc9c8d5c10d0800000000000000
-      internalID: -3450780355966905698
+      spriteID: a830c23a35ae67770800000000000000
+      internalID: 8608325382706037642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_33
+      name: dragon_lord_death_160x160_33
       rect:
         serializedVersion: 2
-        x: 40
-        y: 154
-        width: 260
-        height: 25
+        x: 5280
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +1003,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 705b5f36ec46bbd70800000000000000
-      internalID: 9059945912988972295
+      spriteID: 3024756e4df34ea20800000000000000
+      internalID: 3090665427913097731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_sheet_34
+      name: dragon_lord_death_160x160_34
       rect:
         serializedVersion: 2
-        x: 40
-        y: 54
-        width: 260
-        height: 25
+        x: 5440
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,8 +1025,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 084af7c8af1aecf10800000000000000
-      internalID: 2291947357849232512
+      spriteID: 0d79a39fb0366ffb0800000000000000
+      internalID: -4614391865117337648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_lord_death_160x160_35
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112283ab0f933dc40800000000000000
+      internalID: 5535832073047646737
       vertices: []
       indices: 
       edges: []
@@ -975,7 +1057,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 266e8c7afc791da4a9c674b788b17627
     internalID: 0
     vertices: []
     indices: 
@@ -985,41 +1067,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Laser_sheet_0: -5341597898538695221
-      Laser_sheet_1: -8978408729274254430
-      Laser_sheet_10: -6701801219439810234
-      Laser_sheet_11: 7473293220430665474
-      Laser_sheet_12: -1336750148893057986
-      Laser_sheet_13: -1950424157889047715
-      Laser_sheet_14: 4238861351130170196
-      Laser_sheet_15: -6911181621799430481
-      Laser_sheet_16: 5003634226846182804
-      Laser_sheet_17: 2896512351283971568
-      Laser_sheet_18: 3134540479172978662
-      Laser_sheet_19: 7541565570370268797
-      Laser_sheet_2: 797768032434522389
-      Laser_sheet_20: 1561237600651558630
-      Laser_sheet_21: 6809442395095684782
-      Laser_sheet_22: -2683619221520823459
-      Laser_sheet_23: -8523935217686447671
-      Laser_sheet_24: -8266026193964414411
-      Laser_sheet_25: -8924404907818905018
-      Laser_sheet_26: 596613336412172416
-      Laser_sheet_27: 6935722184500306475
-      Laser_sheet_28: 7548045601679250679
-      Laser_sheet_29: 8242567290148564425
-      Laser_sheet_3: 7394835561953233644
-      Laser_sheet_30: -2896346578816126121
-      Laser_sheet_31: -5404797237292399070
-      Laser_sheet_32: -3450780355966905698
-      Laser_sheet_33: 9059945912988972295
-      Laser_sheet_34: 2291947357849232512
-      Laser_sheet_4: -4469117517395524942
-      Laser_sheet_5: -5041315827434484139
-      Laser_sheet_6: -274854406761784476
-      Laser_sheet_7: -1702599639152044942
-      Laser_sheet_8: -2656773159261285837
-      Laser_sheet_9: 4487909370968573847
+      dragon_lord_death_160x160_0: -3339886984816589032
+      dragon_lord_death_160x160_1: 3212760403310068482
+      dragon_lord_death_160x160_10: -6488955057311078939
+      dragon_lord_death_160x160_11: 6715883641081232975
+      dragon_lord_death_160x160_12: -6155123953979503761
+      dragon_lord_death_160x160_13: 1899252389435776722
+      dragon_lord_death_160x160_14: -39678045052987989
+      dragon_lord_death_160x160_15: -1084405154947091231
+      dragon_lord_death_160x160_16: -186140998331517716
+      dragon_lord_death_160x160_17: -6243270040775971815
+      dragon_lord_death_160x160_18: 5821750408257637106
+      dragon_lord_death_160x160_19: 2140012554011527855
+      dragon_lord_death_160x160_2: -6328035338768787176
+      dragon_lord_death_160x160_20: -2781783880933606142
+      dragon_lord_death_160x160_21: 4105217256624313822
+      dragon_lord_death_160x160_22: 4590355783084939356
+      dragon_lord_death_160x160_23: -1780755181207258868
+      dragon_lord_death_160x160_24: 6617928476763743044
+      dragon_lord_death_160x160_25: 5453069466227854509
+      dragon_lord_death_160x160_26: -658583593698993746
+      dragon_lord_death_160x160_27: 3189274848086608793
+      dragon_lord_death_160x160_28: 1597129442755113661
+      dragon_lord_death_160x160_29: -6212128326925370947
+      dragon_lord_death_160x160_3: 2325737058521249265
+      dragon_lord_death_160x160_30: 1924361959215567851
+      dragon_lord_death_160x160_31: -9043330972183005793
+      dragon_lord_death_160x160_32: 8608325382706037642
+      dragon_lord_death_160x160_33: 3090665427913097731
+      dragon_lord_death_160x160_34: -4614391865117337648
+      dragon_lord_death_160x160_35: 5535832073047646737
+      dragon_lord_death_160x160_4: 5910647636267756830
+      dragon_lord_death_160x160_5: 7721430448751228086
+      dragon_lord_death_160x160_6: 9142495277750400812
+      dragon_lord_death_160x160_7: 1000061314168849970
+      dragon_lord_death_160x160_8: -1324461767515945372
+      dragon_lord_death_160x160_9: -6435487919641257751
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

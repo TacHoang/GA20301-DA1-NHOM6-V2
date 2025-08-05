@@ -164109,7 +164109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 1681304193}
-  requiredKills: 20
+  requiredKills: 1
   currentKills: 0
 --- !u!4 &484240686
 Transform:
@@ -298074,7 +298074,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -1464435127
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!1 &852288911
 GameObject:
@@ -303733,6 +303733,16 @@ MonoBehaviour:
   dialogues:
   - "C\u1ED1t truy\u1EC7n ti\u1EBFp t\u1EE5c"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 20 con qu\xE1i v\u1EADt \u0111\u1EC3 qua m\xE0n!!"
+  postQuestDialogues:
+  - "B\u1EA1n \u0111\xE3 t\u1ED1t h\u01A1n l\u1EA7n tr\u01B0\u1EDBc v\u1EABn ho\xE0n
+    th\xE0nh nhi\u1EC7m v\u1EE5 m\u1ED9t c\xE1ch d\u1EBD d\xE0ng"
+  - "S\u1EF1 ti\u1EBFn \u0111\u1ED9 c\u1EE7a b\u1EA1n \u0111\xE3 \u0111\u01B0\u1EE3c
+    ghi nh\u1EADn"
+  - "M\xECnh s\u1EBD c\xF3 m\u1ED9t m\xF3n qu\xE0 s\u1EBD d\xE0nh t\u1EB7ng cho b\u1EA1n....."
+  - "Nh\u01B0ng sau khi b\u1EA1n ch\u1EA1m tr\xE1n v\u1EDBi k\u1EBB h\xF9ng m\u1EA1nh
+    \u1EDF c\u1EA5p \u0111\u1ED9 ti\u1EBFp theo"
+  - "Th\xEC m\xF3n qu\xE0 \u0111\xF3 s\u1EBD \u0111\u01B0\u1EE3c trao cho b\u1EA1n!!"
+  - "V\xE0........"
   dialogueTextUI: {fileID: 1233085299}
   dialoguePanel: {fileID: 1187659943}
   player: {fileID: 1191666306}

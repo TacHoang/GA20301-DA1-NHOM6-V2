@@ -1,23 +1,32 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-
+using System.Collections;
 public class Npc : MonoBehaviour
 {
+    [Header("Thông tin NPC")]
     public string npcName;
-    public string[] dialogues;
+    public string[] dialogues;             // Hội thoại lần đầu
+    public string[] postQuestDialogues;    // Hội thoại sau khi hoàn thành
+
+    [Header("UI")]
     public Text dialogueTextUI;
     public GameObject dialoguePanel;
+
+    [Header("Thiết lập nhiệm vụ")]
     public Transform player;
     public Transform teleportTarget;
     public GameObject portal;
     public float watchDistance = 5f;
+
+    [Header("Quản lý kỹ năng")]
     public SkillManager skillManager;
 
     private int dialogueIndex = 0;
+    private int postDialogueIndex = 0;
     private bool isTalking = false;
     private bool questGiven = false;
     private bool questCompleted = false;
-    private bool showingWarning = false;
+    private bool showingPostQuest = false;
 
     void Start()
     {
@@ -31,14 +40,9 @@ public class Npc : MonoBehaviour
     {
         if (isTalking && Input.GetMouseButtonDown(0))
         {
-            if (showingWarning)
+            if (showingPostQuest)
             {
-                dialogueTextUI.text = "";
-                dialoguePanel.SetActive(false);
-                isTalking = false;
-                showingWarning = false;
-                Time.timeScale = 1;
-                skillManager?.UnlockAllSkills();
+                ContinuePostQuestDialogue();
             }
             else
             {
@@ -64,31 +68,23 @@ public class Npc : MonoBehaviour
     {
         isTalking = true;
         Time.timeScale = 0;
+        dialoguePanel.SetActive(true);
+        skillManager?.LockAllSkills();
 
         if (!questGiven)
         {
             dialogueIndex = 0;
-            dialoguePanel.SetActive(true);
             ShowDialogue(dialogues[dialogueIndex]);
-            skillManager?.LockAllSkills();
+        }
+        else if (!questCompleted)
+        {
+            ShowDialogue(npcName + ": Bạn chưa hoàn thành nhiệm vụ.");
         }
         else
         {
-            dialoguePanel.SetActive(true);
-
-            if (!questCompleted)
-            {
-                dialogueTextUI.text = npcName + ": Bạn chưa hoàn thành nhiệm vụ.";
-            }
-            else
-            {
-                dialogueTextUI.text = npcName + ": Bạn đã hoàn thành nhiệm vụ, cổng dịch chuyển qua màn đã mở!";
-                TeleportToTarget();
-                ActivatePortal();
-            }
-
-            showingWarning = true;
-            skillManager?.LockAllSkills();
+            postDialogueIndex = 0;
+            ShowDialogue(postQuestDialogues[postDialogueIndex]);
+            showingPostQuest = true;
         }
     }
 
@@ -105,9 +101,29 @@ public class Npc : MonoBehaviour
         }
     }
 
-    void ShowDialogue(string text)
+    void ContinuePostQuestDialogue()
     {
-        dialogueTextUI.text = npcName + ": " + text;
+        postDialogueIndex++;
+        if (postDialogueIndex < postQuestDialogues.Length)
+        {
+            ShowDialogue(postQuestDialogues[postDialogueIndex]);
+        }
+        else
+        {
+            ShowFinalMessage(); // ✅ Hiển thị câu kết thúc cố định
+        }
+    }
+
+    void ShowFinalMessage()
+    {
+        ShowDialogue(" Bạn đã hoàn thành nhiệm vụ, cổng dịch chuyển qua màn đã mở!");
+        StartCoroutine(WaitAndEndPostQuestDialogue());
+    }
+
+    IEnumerator WaitAndEndPostQuestDialogue()
+    {
+        yield return new WaitForSecondsRealtime(2.5f); // ✅ Dùng thời gian thực
+        EndPostQuestDialogue();
     }
 
     void EndDialogue()
@@ -125,16 +141,27 @@ public class Npc : MonoBehaviour
         }
     }
 
+    void EndPostQuestDialogue()
+    {
+        dialoguePanel.SetActive(false);
+        dialogueTextUI.text = "";
+        isTalking = false;
+        showingPostQuest = false;
+        Time.timeScale = 1;
+        skillManager?.UnlockAllSkills();
+        ActivatePortal();
+    }
+
+    void ShowDialogue(string text)
+    {
+        dialogueTextUI.text = npcName + ": " + text;
+    }
+
     void GiveQuest()
     {
         questGiven = true;
         Debug.Log("📜 Nhiệm vụ đã giao!");
-
-        QuestManager qm = FindObjectOfType<QuestManager>();
-        if (qm != null)
-        {
-            qm.StartQuestDisplay(); // ✅ Hiển thị text nhiệm vụ
-        }
+        FindObjectOfType<QuestManager>()?.StartQuestDisplay();
     }
 
     public void MarkQuestComplete()
