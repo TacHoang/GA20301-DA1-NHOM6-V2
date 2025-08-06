@@ -1,15 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Rendering.LookDev;
-using Unity.Cinemachine;
+
 
 public class TakeDameC3 : MonoBehaviour
 {
     [Header("Cấu hình sát thương")]
     public int damageAmount = 50;
-    public GameObject soundEffectPrefab;
-    public float laserLifeTime = 0.5f;
+      public float laserLifeTime = 0.5f;
     public float fadeDuration = 0.5f;
 
     private SpriteRenderer sr;
@@ -46,13 +44,7 @@ public class TakeDameC3 : MonoBehaviour
 
             hitEnemies.Add(other.gameObject);
 
-            // 🔊 Phát âm va chạm nếu có
-            if (soundEffectPrefab != null)
-            {
-                Instantiate(soundEffectPrefab, transform.position, Quaternion.identity);
-            }
-
-            // 🎥 Rung màn hình
+             // 🎥 Rung màn hình
         }
     }
     public void Begin()
@@ -78,7 +70,7 @@ public class TakeDameC3 : MonoBehaviour
     IEnumerator FadeOut()
     {
         float t = 0f;
-        Color originalColor = sr.color;
+       Color originalColor = sr.color;
 
         while (t < fadeDuration)
         {
