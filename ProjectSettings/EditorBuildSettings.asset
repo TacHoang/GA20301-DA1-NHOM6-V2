@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Map 1 Lv 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/UIWIN.unity
+    path: Assets/Scenes/Menu.unity
     guid: d72fd97fea33f1740a7b9a25f58f8223
+  - enabled: 1
+    path: Assets/Scenes/Map01.unity
+    guid: 38b284ea68f246841bb33e495d7fce3b
   - enabled: 1
     path: Assets/Scenes/Map1Lv1..unity
     guid: 9dac6a195472db64183382006bfeae70
@@ -44,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: c2c8e35f15ac117449c178f2ea0ffd74
+  - enabled: 1
+    path: Assets/Scenes/UIWIn.unity
+    guid: f6257fa2c7020b549899820381908090
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

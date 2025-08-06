@@ -58,6 +58,6 @@ public class GameUI : MonoBehaviour
     public void OnMainMenuButtonClicked()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("UIWIN");
+        SceneManager.LoadScene("Menu");
     }
 }
