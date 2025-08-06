@@ -89715,6 +89715,7 @@ MonoBehaviour:
   - "C\xF4t truy\u1EC7n ti\u1EBFn \u0111\u1EBFn con \u0111\u01B0\u1EDDng gi\u1EA3i
     c\u1EE9u"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 30 con qu\xE1i v\u1EADt!!"
+  postQuestDialogues: []
   dialogueTextUI: {fileID: 23856224}
   dialoguePanel: {fileID: 1379229959}
   player: {fileID: 1942491404}

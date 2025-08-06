@@ -187969,7 +187969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1966371947
 Transform:
   m_ObjectHideFlags: 0
@@ -192580,6 +192580,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1043044768557410841, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2157107567016351009, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: fireSound
       value: 
@@ -192592,6 +192596,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 525346882}
+    - target: {fileID: 2804749525563587234, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2853094349178829002, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: skillIcon
       value: 
@@ -192600,6 +192608,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 1376397630}
+    - target: {fileID: 2914217211617293307, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2915949696473509586, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: skillIcon
       value: 
@@ -192608,6 +192620,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 2118901653}
+    - target: {fileID: 3620862013347877914, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 
@@ -192616,6 +192632,10 @@ PrefabInstance:
       propertyPath: healthFillImage
       value: 
       objectReference: {fileID: 1391067033}
+    - target: {fileID: 5552440392172442975, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7057907423851668029, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_Name
       value: Player
