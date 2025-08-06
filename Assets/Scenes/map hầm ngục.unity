@@ -493236,6 +493236,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 1132341676}
+    - target: {fileID: 2157107567016351009, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: cooldownTime
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2853094349178829002, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: skillIcon
       value: 

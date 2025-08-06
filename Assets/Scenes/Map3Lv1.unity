@@ -35596,6 +35596,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 342016846}
+    - target: {fileID: 2157107567016351009, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: cooldownTime
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2804749525563587234, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_IsActive
       value: 0
