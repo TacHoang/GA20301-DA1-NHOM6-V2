@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Rendering.LookDev;
-using Unity.Cinemachine;
+
 
 public class TakeDameC3 : MonoBehaviour
 {
@@ -71,7 +70,7 @@ public class TakeDameC3 : MonoBehaviour
     IEnumerator FadeOut()
     {
         float t = 0f;
-        Color originalColor = sr.color;
+       Color originalColor = sr.color;
 
         while (t < fadeDuration)
         {
