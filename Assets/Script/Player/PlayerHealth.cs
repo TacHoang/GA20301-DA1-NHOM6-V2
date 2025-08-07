@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -12,42 +13,57 @@ public class PlayerHealth : MonoBehaviour
     public Image healthFillImage;
 
     [SerializeField] private GameManagerLv2 gameManager;
+
     void Start()
     {
-        // Nếu GameManager chưa có máu => gán max
         if (GameManager.Instance.playerHealth <= 0 || GameManager.Instance.playerHealth > maxHealth)
         {
             GameManager.Instance.playerHealth = maxHealth;
         }
+
         gameManager = FindAnyObjectByType<GameManagerLv2>();
-        // Lấy máu từ GameManager
+
         currentHealth = GameManager.Instance.playerHealth;
-        UpdateHealthUI();
+        UpdateHealthUI(true); // Gán fill ban đầu không tween
     }
 
-    public void Update()
+    void Update()
     {
         if (gameManager.IsGameOver()) return;
     }
+
     public void TakeDamage(int amount)
     {
         currentHealth = Mathf.Max(0, currentHealth - amount);
-
-        // Cập nhật máu vào GameManager
         GameManager.Instance.playerHealth = currentHealth;
-
         UpdateHealthUI();
-
         if (currentHealth <= 0)
             Die();
     }
 
-    void UpdateHealthUI()
+    public void Heal(int amount)
+    {
+        int oldHealth = currentHealth;
+        currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
+        GameManager.Instance.playerHealth = currentHealth;
+        UpdateHealthUI(); // sẽ tween trong này
+    }
+
+    void UpdateHealthUI(bool instant = false)
     {
         if (healthFillImage != null)
         {
-            float fillAmount = (float)currentHealth / maxHealth;
-            healthFillImage.fillAmount = fillAmount;
+            float targetFill = (float)currentHealth / maxHealth;
+
+            if (instant)
+            {
+                healthFillImage.fillAmount = targetFill;
+            }
+            else
+            {
+                // Tween từ fill hiện tại đến fill mới
+                healthFillImage.DOFillAmount(targetFill, 0.4f).SetEase(Ease.OutCubic);
+            }
         }
     }
 

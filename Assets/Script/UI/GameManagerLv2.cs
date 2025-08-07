@@ -20,27 +20,37 @@ public class GameManagerLv2 : MonoBehaviour
     {
         isGameOver = true;
         Time.timeScale = 0;
+
+    GameManager.Instance?.ResetData();         // ← reset máu và vàng
+    CoinManager.Instance?.ResetCoin();         // ← reset UI hiển thị vàng
         gameOverUi.SetActive(true);
     }
     public void RestarGameMap1Lv1()
     {
         isGameOver = false;
-     
         Time.timeScale = 1;
+        
+    GameManager.Instance?.ResetData();         // ← reset máu và vàng
+    CoinManager.Instance?.ResetCoin();         // ← reset UI hiển thị vàng
         SceneManager.LoadScene("Map1Lv1.");
+
     }
     public void RestarGameMap1Lv2()
     {
         isGameOver = false;
-
         Time.timeScale = 1;
+        
+        GameManager.Instance?.ResetData();         // ← reset máu và vàng
+        CoinManager.Instance?.ResetCoin();         // ← reset UI hiển thị vàng
         SceneManager.LoadScene("Map1Lv2");
     }
     public void RestarGameMap1Lv3()
     {
         isGameOver = false;
-
         Time.timeScale = 1;
+        
+    GameManager.Instance?.ResetData();         // ← reset máu và vàng
+    CoinManager.Instance?.ResetCoin();         // ← reset UI hiển thị vàng
         SceneManager.LoadScene("Map1Lv3");
     }
     public void RestarGameMap2Lv1()
@@ -48,6 +58,9 @@ public class GameManagerLv2 : MonoBehaviour
         isGameOver = false;
 
         Time.timeScale = 1;
+        
+    GameManager.Instance?.ResetData();         // ← reset máu và vàng
+    CoinManager.Instance?.ResetCoin();         // ← reset UI hiển thị vàng
         SceneManager.LoadScene("Map2Lv1");
     }
     public void RestarGameMap2Lv2()
@@ -55,6 +68,9 @@ public class GameManagerLv2 : MonoBehaviour
         isGameOver = false;
 
         Time.timeScale = 1;
+        
+    GameManager.Instance?.ResetData();         // ← reset máu và vàng
+    CoinManager.Instance?.ResetCoin();         // ← reset UI hiển thị vàng
         SceneManager.LoadScene("Map2Lv2");
     }
     public void RestarGameMap2Lv3()
@@ -62,6 +78,9 @@ public class GameManagerLv2 : MonoBehaviour
         isGameOver = false;
 
         Time.timeScale = 1;
+        
+    GameManager.Instance?.ResetData();         // ← reset máu và vàng
+    CoinManager.Instance?.ResetCoin();         // ← reset UI hiển thị vàng
         SceneManager.LoadScene("Map2Lv3");
     }
     public void MainMenu()

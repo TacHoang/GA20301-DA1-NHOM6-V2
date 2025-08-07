@@ -51,18 +51,29 @@ public class PauseMenuTween : MonoBehaviour
     }
 
     public void OnResumeClicked() => TogglePause();
+    
 
     public void OnRestartClicked()
     {
         TogglePause();
+        GameManager.Instance?.ResetData();       // Reset máu và vàng (GameManager)
+        CoinManager.Instance?.ResetCoin();       // Reset UI hiển thị vàng
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void OnQuitClicked()
     {
         TogglePause();
-        SceneManager.LoadScene("MainMenu");
+
+    #if UNITY_EDITOR
+        // Nếu đang chạy trong Unity Editor, dừng chế độ Play
+        UnityEditor.EditorApplication.isPlaying = false;
+    #else
+        // Nếu build game, thoát game
+        Application.Quit();
+    #endif
     }
+
 
     private void TogglePause()
     {

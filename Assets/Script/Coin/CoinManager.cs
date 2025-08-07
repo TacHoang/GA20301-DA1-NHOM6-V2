@@ -6,9 +6,8 @@ public class CoinManager : MonoBehaviour
 {
     public static CoinManager Instance;
 
-    [Header("Coin Settings")]
-    public int coinCount = 0;
-    public string coinTextObjectName = "CoinText"; // Tên GameObject chứa Text
+    [Header("UI Settings")]
+    public string coinTextObjectName = "CoinText";
     private Text coinText;
 
     [Header("Coin Prefab")]
@@ -20,7 +19,7 @@ public class CoinManager : MonoBehaviour
 
     [Header("Drop Settings")]
     [Range(0f, 100f)]
-    public float coinDropChance = 70f; // % cơ hội rơi coin (vd: 70%)
+    public float coinDropChance = 70f;
 
     private void Awake()
     {
@@ -68,7 +67,13 @@ public class CoinManager : MonoBehaviour
 
     public void AddCoins(int amount)
     {
-        coinCount += amount;
+        GameManager.Instance.playerGold += amount;
+        UpdateCoinUI();
+    }
+
+    public void ResetCoin()
+    {
+        GameManager.Instance.playerGold = 0;
         UpdateCoinUI();
     }
 
@@ -76,21 +81,16 @@ public class CoinManager : MonoBehaviour
     {
         if (coinText != null)
         {
-            coinText.text = coinCount.ToString("D2"); // Hiển thị: 00, 01, 99...
+            coinText.text = GameManager.Instance.playerGold.ToString("D2");
         }
     }
 
     public void SpawnCoinsAt(Vector3 position)
     {
-        // Kiểm tra % có rơi coin không
         float roll = Random.Range(0f, 100f);
-        if (roll <= coinDropChance)
+        if (roll <= coinDropChance && coinPrefab != null)
         {
-            if (coinPrefab != null)
-            {
-                Instantiate(coinPrefab, position, Quaternion.identity);
-                // Không cộng xu ở đây, chỉ cộng khi player nhặt
-            }
+            Instantiate(coinPrefab, position, Quaternion.identity);
         }
     }
 }

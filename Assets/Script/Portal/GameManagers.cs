@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public int playerHealth = 100;
     public int playerGold = 0;
 
-    public static string sceneToLoad; // ✅ THÊM DÒNG NÀY
+    public static string sceneToLoad;
 
     void Awake()
     {
@@ -20,5 +20,11 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void ResetData()
+    {
+        playerHealth = 100;
+        playerGold = 0;
     }
 }

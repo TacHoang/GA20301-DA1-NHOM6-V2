@@ -84,10 +84,13 @@ public class EnemyHealth : MonoBehaviour
         if (enemy != null)
             enemy.isDead = true;
 
+         // Thêm dòng này để spawn máu
+        if (HealthManager.Instance != null)
+            HealthManager.Instance.SpawnHealthAt(transform.position);
+
         // CoinManager
         if (CoinManager.Instance != null)
             CoinManager.Instance.SpawnCoinsAt(transform.position);
-
 
         // Vô hiệu hóa va chạm & vật lý
         Collider2D col = GetComponent<Collider2D>();
