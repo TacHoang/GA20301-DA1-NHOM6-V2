@@ -419,7 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 311258c45cf39bc45b1e1781ba4430f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   detectionRange: 5
   patrolSpeed: 1
   patrolChangeTime: 2
@@ -443,6 +443,7 @@ MonoBehaviour:
   healthBar: {fileID: 7349696005250252126}
   dieSound: {fileID: 8300000, guid: 604ec484ca4e70941b4093445b3c5a6d, type: 3}
   dieVolume: 1
+  BosshealthBarCanvas: {fileID: 0}
 --- !u!95 &4319941601548578905
 Animator:
   serializedVersion: 7

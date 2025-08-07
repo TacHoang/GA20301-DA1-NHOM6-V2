@@ -179508,7 +179508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90608c5cd69ff07479ba09308102b53d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 5
   detectionRange: 15
   damageZone: {fileID: 1548630432}
   BosshealthBarCanvas: {fileID: 228028405}
@@ -179671,7 +179671,7 @@ Transform:
   m_GameObject: {fileID: 324305107}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.309999, y: -10.82, z: 0}
+  m_LocalPosition: {x: 14.21, y: -10.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

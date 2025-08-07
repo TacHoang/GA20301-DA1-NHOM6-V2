@@ -163784,6 +163784,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &385820809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 385820810}
+  m_Layer: 0
+  m_Name: Spawner1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &385820810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385820809}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.7, y: 13.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1431013413}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &392975712
 GameObject:
   m_ObjectHideFlags: 0
@@ -304026,11 +304057,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefabs:
-  - {fileID: 7879878697818273291, guid: 5897371709f7e4c4d91c6ca72b12fc8e, type: 3}
   - {fileID: 3967082309096581143, guid: 305287b368be13e46abf9fc33a4ee9b1, type: 3}
-  - {fileID: 7254061150862416794, guid: 5ab468e59043bbf49856df4efac19122, type: 3}
+  - {fileID: 7879878697818273291, guid: 5897371709f7e4c4d91c6ca72b12fc8e, type: 3}
+  - {fileID: 8297180340426883501, guid: 8c601c32fffa02544acaf8ce177107f1, type: 3}
+  - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
   - {fileID: 6026359408954618122, guid: 42b7f596226428e4fb435f4779324130, type: 3}
-  - {fileID: 7725345633131260909, guid: e5ccf10517b01cd4e9a20f38ee363de1, type: 3}
   spawnPoints:
   - point: {fileID: 1378590456}
     maxEnemies: 10
@@ -304044,6 +304075,9 @@ MonoBehaviour:
   - point: {fileID: 662578576}
     maxEnemies: 10
     enemies: []
+  - point: {fileID: 385820810}
+    maxEnemies: 10
+    enemies: []
   offsetRange: 1
   checkRadius: 2
 --- !u!4 &1431013413
@@ -304055,11 +304089,12 @@ Transform:
   m_GameObject: {fileID: 1431013411}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.343513, y: -4.6062865, z: 0.10566068}
+  m_LocalPosition: {x: 8.5, y: -6.6, z: 0.10566068}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1378590456}
+  - {fileID: 385820810}
   - {fileID: 1537740594}
   - {fileID: 284107904}
   - {fileID: 662578576}
@@ -305986,7 +306021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8bc165407b0a884c8aeb902635dc89a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverUi: {fileID: 0}
+  gameOverUi: {fileID: 470870746}
 --- !u!4 &2054654570
 Transform:
   m_ObjectHideFlags: 0
