@@ -46209,7 +46209,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: TheMagicGirl
   dialogues:
-  - "C\u1ED1t truy\u1EC7n \u0111\u1EA7u ti\xEAn"
+  - "Xin ch\xE0o ng\u01B0\u1EDDi h\xF9ng!!"
+  - "B\u1EA1n \u0111\xE3 \u0111\u1EBFn n\u01A1i n\xE0y cho n\xEAn b\u1EA1n c\u1EA7n
+    ph\u1EA3i th\u1EC3 hi\u1EC7n s\u1EE9c m\u1EA1nh c\u1EE7a m\xECnh"
+  - "\u0110\u1EC3 tr\u1EDF n\xEAn ng\xE0y c\xE0ng m\u1EA1nh "
+  - "V\xEC nh\u1EEFng t\xEAn l\xE2u la c\u1EE7a t\xEAn tr\xF9m \u1EDF kh\u1EAFp m\u1ECDi
+    n\u01A1i"
+  - "Nh\u1EEFng t\xEAn \u0111\xF3 c\u0169ng kh\xE1 nguy hi\u1EC3m \u0111\u1EA5y "
+  - "Cho n\xEAn......"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 10 con qu\xE1i v\u1EADt \u0111\u1EC3 qua m\xE0n!!"
   postQuestDialogues:
   - "C\u1EA3m \u01A1n b\u1EA1n \u0111\xE3 ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5 m\xECnh
@@ -47155,7 +47162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -13.89}
+  m_AnchoredPosition: {x: -24, y: -11}
   m_SizeDelta: {x: 100, y: 72.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &677428138
@@ -47171,7 +47178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.3679244, b: 0.3679244, a: 1}
+  m_Color: {r: 1, g: 0.3679244, b: 0.3679244, a: 0.9411765}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -192334,14 +192341,14 @@ RectTransform:
   m_GameObject: {fileID: 2083353321}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14710121, y: 0.3221331, z: 0.14710121}
+  m_LocalScale: {x: 0.1471012, y: 0.3221331, z: 0.1471012}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 677428137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.4000001, y: -14.303787}
+  m_AnchoredPosition: {x: 2.7, y: -14.489563}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083353323

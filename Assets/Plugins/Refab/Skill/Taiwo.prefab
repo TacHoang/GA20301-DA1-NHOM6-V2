@@ -76,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1516857717
-  m_SortingLayer: 8
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 9010874943486876641, guid: 7fc0daba1418ec946adf82253c5fd49b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -150,3 +150,4 @@ MonoBehaviour:
   moveSpeed: 15
   timeDestroy: 1
   damage: 20
+  hitSoundPrefab: {fileID: 4278493011126863747, guid: c52cc26ac199c7c4ba04f64ee0c67741, type: 3}

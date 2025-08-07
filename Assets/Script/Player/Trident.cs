@@ -6,13 +6,17 @@ public class Trident : MonoBehaviour
     [SerializeField] private GameObject TridentFire;    // Prefab đạn (đinh ba bay)
     [SerializeField] private float shotDelay = 2f;      // Delay giữa các lần bắn
     private float nextShot;
-
+    [SerializeField] private AudioClip shootSound;   // Âm thanh khi bắn
+    private AudioSource audioSource;
     void Update()
     {
         RotateGun();
         Shoot();
     }
-
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     void RotateGun()
     {
         Vector3 displacement = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -26,6 +30,12 @@ public class Trident : MonoBehaviour
         {
             nextShot = Time.time + shotDelay;
             Instantiate(TridentFire, firePos.position, firePos.rotation); // Bắn đinh ba bay ra
+            if (audioSource != null && shootSound != null)
+            {
+                audioSource.PlayOneShot(shootSound);
+            }
+
+
         }
     }
 }

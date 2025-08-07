@@ -56436,7 +56436,7 @@ GameObject:
   - component: {fileID: 339560845}
   - component: {fileID: 339560844}
   - component: {fileID: 339560848}
-  - component: {fileID: 339560847}
+  - component: {fileID: 339560849}
   m_Layer: 0
   m_Name: Npc
   m_TagString: Untagged
@@ -56536,47 +56536,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &339560847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339560843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c04dcf3b5cf34b64c93d0a85e19362a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcName: TheMagicGirl
-  dialogues:
-  - "Ta \u0111\xE3 ch\u1EDD ng\u01B0\u01A1i t\u1EEB r\u1EA5t l\xE2u r\u1ED3i..."
-  - "V\xF9ng \u0111\u1EA5t n\xE0y t\u1EEBng r\u1EF1c r\u1EE1 \xE1nh s\xE1ng, nh\u01B0ng
-    gi\u1EDD \u0111\xE2y ch\u1EC9 c\xF2n l\u1EA1i t\xE0n t\xEDch v\xE0 b\xF3ng t\u1ED1i. 
-    M\u1ED7i khu v\u1EF1c b\u1ECB phong \u1EA5n b\u1EDFi m\u1ED9t th\u1EBF l\u1EF1c
-    kh\xE1c nhau \u2013 ch\xFAng l\xE0 t\xE0n d\u01B0 c\u1EE7a m\u1ED9t l\u1EDDi
-    nguy\u1EC1n c\u1ED5 x\u01B0a."
-  - "\u0110\u1EC3 kh\xF4i ph\u1EE5c l\u1EA1i tr\u1EADt t\u1EF1, ng\u01B0\u01A1i ph\u1EA3i
-    v\u01B0\u1EE3t qua t\u1EEBng \u1EA3i, \u0111\xE1nh b\u1EA1i k\u1EBB canh gi\u1EEF
-    v\xE0 gi\u1EA3i ph\xF3ng v\xF9ng \u0111\u1EA5t. Nh\u01B0ng h\xE3y c\u1EA9n th\u1EADn\u2026
-    c\xE0ng ti\u1EBFn s\xE2u, b\xF3ng t\u1ED1i c\xE0ng m\u1EA1nh. "
-  - "Ng\u01B0\u01A1i \u0111\xE3 s\u1EB5n s\xE0ng b\u01B0\u1EDBc v\xE0o con \u0111\u01B0\u1EDDng
-    kh\xF4ng th\u1EC3 quay \u0111\u1EA7u ch\u1EE9?\""
-  - "B\u1EA1n di chuy\u1EC3n b\u1EB1ng c\xE1c ph\xEDm A, S, D, W. \u0110\xE1nh b\u1EB1ng
-    \u1EA5n chu\u1ED9t tr\xE1i."
-  - "C\xE1c k\u1EF9 n\u0103ng s\u1EBD \u1EDF c\xE1c ph\xEDm 1, 2, 3, 4, 5 v\xE0 hi\u1EC7n
-    t\u1EA1i \u0111ang kh\xF3a v\xE0 khi v\u01B0\u1EE3t \u1EA3i s\u1EBD \u0111\u01B0\u1EE3c
-    nh\u1EADn "
-  postQuestDialogues:
-  - "V\xE0........"
-  - "B\xE2y gi\u1EDD ch\xFAng ta c\xF9ng b\u1EAFt \u0111\u1EA7u game th\xF4i !!!"
-  dialogueTextUI: {fileID: 1888116371}
-  dialoguePanel: {fileID: 1562064952}
-  player: {fileID: 502262896551848956}
-  teleportTarget: {fileID: 804060816}
-  portal: {fileID: 1956462043}
-  watchDistance: 5
-  skillManager: {fileID: 733137210}
 --- !u!61 &339560848
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56623,6 +56582,55 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.6, y: 3.0417833}
   m_EdgeRadius: 0
+--- !u!114 &339560849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339560843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f038c9da9b1e67d4db7267d64da0b87c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcName: TheMagicGirl
+  dialogues:
+  - "\u1ED2!! M\u1ED9t ng\u01B0\u1EDDi m\u1EDBi"
+  - "B\u1EA1n \u0111\xE3 \u0111\u01B0\u1EE3c tri\u1EC7u h\u1ED3i \u0111\u1EBFn \u0111\xE2y
+    nh\u1EC9"
+  - "T\xF4i \u0111\xE3 ch\u1EDD b\u1EA1n r\u1EA5t l\xE2u r\u1ED3i \u0111\u1EA5y"
+  - "M\u1ED9t v\u1ECB anh h\u1EEBng c\xF3 kh\u1EA3 n\u0103ng gi\u1EA3i c\u1EE9u th\u1EBF
+    gi\u1EDBi n\xE0y"
+  - "M\u1ED9t th\u1EBF gi\u1EDBi \u0111\u1EA7y hi\u1EC3m nguy v\xE0 b\u1ECB t\xEAn
+    tr\xF9m chi\u1EBFm gi\u1EEF n\u01A1i n\xE0y"
+  - "T\xF4i mong b\u1EA1n c\xF3 th\u1EC3 l\xE0m cho th\u1EBF gi\u1EDBi n\xE0y \u0111\u01B0\u1EE3c
+    b\xECnh y\xEAn"
+  - "T\xF4i s\u1EBD h\u1ED7 tr\u1EE3 cho b\u1EA1n nh\u1EEFng k\u1EF9 n\u0103ng \u0111\u1ED9c
+    quy\u1EC1n"
+  - "Khi v\u01B0\u1EE3t qua t\u1EEBng khu v\u1EF1c t\u1EEB d\u1EC5 \u0111\u1EBFn
+    kh\xF3"
+  - "L\u01B0u \xFD th\u1EBF gi\u1EDBi n\xE0y ch\u1EC9 c\xF3 m\xECnh b\u1EA1n c\xF3
+    th\u1EC3 \u0111\xE1nh b\u1EA1i \u0111\u01B0\u1EE3c t\xEAn tr\xF9m \u0111\xF3"
+  - "V\xEC v\u1EADy h\xE3y c\u1EA9n th\u1EADn n\u1EBFu kh\xF4ng b\u1EA1n s\u1EBD
+    m\u1EA5t t\u1EA5t c\u1EA3"
+  - "V\xE0 \"\u0111i l\u1EA1i t\u1EEB \u0111\u1EA7u\" "
+  - "Y\xEAn t\xE2m t\xF4i v\u1EABn lu\xF4n h\u1ED7 tr\u1EE3 b\u1EA1n h\u1EBFt m\xECnh
+    d\xF9 b\u1EA1n c\xF3 tr\u1EDF l\u1EA1i n\u01A1i xu\u1EA5t ph\xE1t \u0111i n\u1EEFa"
+  - "V\u1EADy l\xE0 t\xF4i \u0111\xE3 ph\u1ED5 bi\u1EBFn v\u1EA5n \u0111\u1EC1 xong
+    ch\u1EAFc l\xE0 b\u1EA1n \u0111\xE3 hi\u1EC3u r\u1ED3i"
+  - "V\xE0 t\xF4i s\u1EBD l\xE0 ng\u01B0\u1EDDi h\u01B0\u1EDBng d\u1EABn c\u1EE7a
+    b\u1EA1n cho \u0111\u1EBFn khi b\u1EA1n \u0111\xE1nh b\u1EA1i t\xEAn tr\xF9m
+    \u0111\xF3"
+  - "H\xE3y ti\u1EBFn \u0111\u1EBFn n\u01A1i cu\u1ED1i \u0111i\u1EC3m c\u1EE7a th\u1EC3
+    gi\u1EDBi n\xE0y ti\xEAu di\u1EC7t t\xEAn tr\xF9m \u0111em \u0111\u1EBFn b\xECnh
+    y\xEAn cho n\u01A1i n\xE0y"
+  - "C\u1ED0 L\xCAN T\xD4I TIN T\u01AF\u1EDENG B\u1EA0N L\xC0M \u0110\u01AF\u1EE2C!!!"
+  dialogueTextUI: {fileID: 1888116371}
+  dialoguePanel: {fileID: 1562064952}
+  player: {fileID: 502262896551848956}
+  portal: {fileID: 1956462043}
+  watchDistance: 5
 --- !u!1 &378411021
 GameObject:
   m_ObjectHideFlags: 0
@@ -191204,7 +191212,7 @@ Transform:
   m_GameObject: {fileID: 804060815}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 5.5, z: 0}
+  m_LocalPosition: {x: -8.68, y: 5.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -198590,7 +198598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 629150f319d576244b7c7a4549f53da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Map1Lv2
+  targetScene: Map1Lv1.
   loadingCanvas: {fileID: 237040876}
 --- !u!95 &1956462045
 Animator:
@@ -198715,7 +198723,7 @@ Transform:
   m_GameObject: {fileID: 1956462043}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7, y: -2.1, z: 0}
+  m_LocalPosition: {x: -2.12, y: 4.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -199098,7 +199106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5cf23c1067ee3f4a8798b16cfd3fea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinCount: 0
   coinTextObjectName: CoinText
   coinPrefab: {fileID: 7419023577443916494, guid: 6a48154fa12a8ed46879b5f593acdd1c, type: 3}
   minCoins: 20
