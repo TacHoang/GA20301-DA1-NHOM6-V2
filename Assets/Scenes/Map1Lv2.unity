@@ -304029,6 +304029,8 @@ MonoBehaviour:
   - {fileID: 7879878697818273291, guid: 5897371709f7e4c4d91c6ca72b12fc8e, type: 3}
   - {fileID: 3967082309096581143, guid: 305287b368be13e46abf9fc33a4ee9b1, type: 3}
   - {fileID: 7254061150862416794, guid: 5ab468e59043bbf49856df4efac19122, type: 3}
+  - {fileID: 6026359408954618122, guid: 42b7f596226428e4fb435f4779324130, type: 3}
+  - {fileID: 7725345633131260909, guid: e5ccf10517b01cd4e9a20f38ee363de1, type: 3}
   spawnPoints:
   - point: {fileID: 1378590456}
     maxEnemies: 10

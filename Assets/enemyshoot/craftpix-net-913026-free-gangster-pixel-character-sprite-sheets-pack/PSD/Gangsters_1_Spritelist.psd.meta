@@ -1,0 +1,2535 @@
+fileFormatVersion: 2
+guid: ca22ebd47a6cc9b4e9c2a731c583e2c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2935648627899353721
+    second: Gangsters_1_Spritelist_0
+  - first:
+      213: 7273251470352980765
+    second: Gangsters_1_Spritelist_1
+  - first:
+      213: -7160131264835660035
+    second: Gangsters_1_Spritelist_2
+  - first:
+      213: 620766315085460863
+    second: Gangsters_1_Spritelist_3
+  - first:
+      213: -2368611137208282883
+    second: Gangsters_1_Spritelist_4
+  - first:
+      213: -724560622897855319
+    second: Gangsters_1_Spritelist_5
+  - first:
+      213: -2970245689877214067
+    second: Gangsters_1_Spritelist_6
+  - first:
+      213: 4668528627269913299
+    second: Gangsters_1_Spritelist_7
+  - first:
+      213: -2029761915292419346
+    second: Gangsters_1_Spritelist_8
+  - first:
+      213: -6190173865739870978
+    second: Gangsters_1_Spritelist_9
+  - first:
+      213: -5672477553827420960
+    second: Gangsters_1_Spritelist_10
+  - first:
+      213: 1896844503727726710
+    second: Gangsters_1_Spritelist_11
+  - first:
+      213: -6006077708562519939
+    second: Gangsters_1_Spritelist_12
+  - first:
+      213: -1066783392115961929
+    second: Gangsters_1_Spritelist_13
+  - first:
+      213: -3973929239932617193
+    second: Gangsters_1_Spritelist_14
+  - first:
+      213: -8853825088539788625
+    second: Gangsters_1_Spritelist_15
+  - first:
+      213: -8566612846371317290
+    second: Gangsters_1_Spritelist_16
+  - first:
+      213: -6226925725679515299
+    second: Gangsters_1_Spritelist_17
+  - first:
+      213: -3481915090203923521
+    second: Gangsters_1_Spritelist_18
+  - first:
+      213: 7368712353101870997
+    second: Gangsters_1_Spritelist_19
+  - first:
+      213: 1888906784377729964
+    second: Gangsters_1_Spritelist_20
+  - first:
+      213: 596599091700620958
+    second: Gangsters_1_Spritelist_21
+  - first:
+      213: 3475938137362221055
+    second: Gangsters_1_Spritelist_22
+  - first:
+      213: 5615786448138812748
+    second: Gangsters_1_Spritelist_23
+  - first:
+      213: 6622850030193903820
+    second: Gangsters_1_Spritelist_24
+  - first:
+      213: -547967585049953422
+    second: Gangsters_1_Spritelist_25
+  - first:
+      213: -3171722104309748275
+    second: Gangsters_1_Spritelist_26
+  - first:
+      213: -442717987878050518
+    second: Gangsters_1_Spritelist_27
+  - first:
+      213: -6822513499153873587
+    second: Gangsters_1_Spritelist_28
+  - first:
+      213: -865164958143543485
+    second: Gangsters_1_Spritelist_29
+  - first:
+      213: -5779020104015643809
+    second: Gangsters_1_Spritelist_30
+  - first:
+      213: 7377033667800478313
+    second: Gangsters_1_Spritelist_31
+  - first:
+      213: -4370631373741212905
+    second: Gangsters_1_Spritelist_32
+  - first:
+      213: -6811442343720305950
+    second: Gangsters_1_Spritelist_33
+  - first:
+      213: -1727332198148984059
+    second: Gangsters_1_Spritelist_34
+  - first:
+      213: -1453795415528518386
+    second: Gangsters_1_Spritelist_35
+  - first:
+      213: -2777145884706706444
+    second: Gangsters_1_Spritelist_36
+  - first:
+      213: 5331257070897226606
+    second: Gangsters_1_Spritelist_37
+  - first:
+      213: 8037278303165602650
+    second: Gangsters_1_Spritelist_38
+  - first:
+      213: -1130949938845634996
+    second: Gangsters_1_Spritelist_39
+  - first:
+      213: 3370181876135649689
+    second: Gangsters_1_Spritelist_40
+  - first:
+      213: 5727018831349449201
+    second: Gangsters_1_Spritelist_41
+  - first:
+      213: 8887158938688605826
+    second: Gangsters_1_Spritelist_42
+  - first:
+      213: 7250538225376592925
+    second: Gangsters_1_Spritelist_43
+  - first:
+      213: 2031023967882109315
+    second: Gangsters_1_Spritelist_44
+  - first:
+      213: -8340816754188782788
+    second: Gangsters_1_Spritelist_45
+  - first:
+      213: -3198733592681820639
+    second: Gangsters_1_Spritelist_46
+  - first:
+      213: 8293186709958923176
+    second: Gangsters_1_Spritelist_47
+  - first:
+      213: 1297222317195437993
+    second: Gangsters_1_Spritelist_48
+  - first:
+      213: -6868691980187184542
+    second: Gangsters_1_Spritelist_49
+  - first:
+      213: 3217857676187655293
+    second: Gangsters_1_Spritelist_50
+  - first:
+      213: -5013501529510376100
+    second: Gangsters_1_Spritelist_51
+  - first:
+      213: -2772309590829475633
+    second: Gangsters_1_Spritelist_52
+  - first:
+      213: 5445634669691947650
+    second: Gangsters_1_Spritelist_53
+  - first:
+      213: -8020668213584500616
+    second: Gangsters_1_Spritelist_54
+  - first:
+      213: 595106475812334018
+    second: Gangsters_1_Spritelist_55
+  - first:
+      213: -1883195545647165783
+    second: Gangsters_1_Spritelist_56
+  - first:
+      213: 8055085770631134242
+    second: Gangsters_1_Spritelist_57
+  - first:
+      213: -3641516215844402929
+    second: Gangsters_1_Spritelist_58
+  - first:
+      213: 7615415285189339854
+    second: Gangsters_1_Spritelist_59
+  - first:
+      213: 3039346177524117822
+    second: Gangsters_1_Spritelist_60
+  - first:
+      213: -585519855207712765
+    second: Gangsters_1_Spritelist_61
+  - first:
+      213: 3302544786903581082
+    second: Gangsters_1_Spritelist_62
+  - first:
+      213: 6456908179256192215
+    second: Gangsters_1_Spritelist_63
+  - first:
+      213: 5013986959322243242
+    second: Gangsters_1_Spritelist_64
+  - first:
+      213: -4522250042265997075
+    second: Gangsters_1_Spritelist_65
+  - first:
+      213: -7974980381097620003
+    second: Gangsters_1_Spritelist_66
+  - first:
+      213: -5015273468184438820
+    second: Gangsters_1_Spritelist_67
+  - first:
+      213: 520129504594002340
+    second: Gangsters_1_Spritelist_68
+  - first:
+      213: 3114486275008181660
+    second: Gangsters_1_Spritelist_69
+  - first:
+      213: -2095159674948801793
+    second: Gangsters_1_Spritelist_70
+  - first:
+      213: -8380876148619791340
+    second: Gangsters_1_Spritelist_71
+  - first:
+      213: -4516253879548699235
+    second: Gangsters_1_Spritelist_72
+  - first:
+      213: -5408328894603384817
+    second: Gangsters_1_Spritelist_73
+  - first:
+      213: -7875573970948062502
+    second: Gangsters_1_Spritelist_74
+  - first:
+      213: 8037010244223661260
+    second: Gangsters_1_Spritelist_75
+  - first:
+      213: 4047660601500442563
+    second: Gangsters_1_Spritelist_76
+  - first:
+      213: -4978279339311248993
+    second: Gangsters_1_Spritelist_77
+  - first:
+      213: 257592341558394160
+    second: Gangsters_1_Spritelist_78
+  - first:
+      213: 1236678920538104717
+    second: Gangsters_1_Spritelist_79
+  - first:
+      213: 7393621519651704559
+    second: Gangsters_1_Spritelist_80
+  - first:
+      213: -7700758106149799342
+    second: Gangsters_1_Spritelist_81
+  - first:
+      213: -5803292568997842269
+    second: Gangsters_1_Spritelist_82
+  - first:
+      213: -4601982482135153472
+    second: Gangsters_1_Spritelist_83
+  - first:
+      213: 2512303569183073199
+    second: Gangsters_1_Spritelist_84
+  - first:
+      213: -2869749127082112215
+    second: Gangsters_1_Spritelist_85
+  - first:
+      213: -90590276091381307
+    second: Gangsters_1_Spritelist_86
+  - first:
+      213: 9115021768414439016
+    second: Gangsters_1_Spritelist_87
+  - first:
+      213: 4993844914790185990
+    second: Gangsters_1_Spritelist_88
+  - first:
+      213: 6133438548842704990
+    second: Gangsters_1_Spritelist_89
+  - first:
+      213: 2050964113278254682
+    second: Gangsters_1_Spritelist_90
+  - first:
+      213: -4226153134914073354
+    second: Gangsters_1_Spritelist_91
+  - first:
+      213: -8853198096358476204
+    second: Gangsters_1_Spritelist_92
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1153
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97acd439fd48db820800000000000000
+      internalID: 2935648627899353721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1153
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b1a7c4da7cfe460800000000000000
+      internalID: 7273251470352980765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1153
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df65d46fc8a12ac90800000000000000
+      internalID: -7160131264835660035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1153
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f757233bca76d9800800000000000000
+      internalID: 620766315085460863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1153
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df09aab58b0012fd0800000000000000
+      internalID: -2368611137208282883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1153
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a400fdc3f7d1f5f0800000000000000
+      internalID: -724560622897855319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1023
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ccb37384197c6d0800000000000000
+      internalID: -2970245689877214067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1023
+        width: 28
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da4a243d02f9c040800000000000000
+      internalID: 4668528627269913299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1023
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeaf06cca46d4d3e0800000000000000
+      internalID: -2029761915292419346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1023
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc1ba28aa5181aa0800000000000000
+      internalID: -6190173865739870978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1023
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e46db708bf4741b0800000000000000
+      internalID: -5672477553827420960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1023
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670e7d6b602f25a10800000000000000
+      internalID: 1896844503727726710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1023
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d782db7452026aca0800000000000000
+      internalID: -6006077708562519939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1023
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf44ac28260231f0800000000000000
+      internalID: -1066783392115961929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1023
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e374b3964c9d8c0800000000000000
+      internalID: -3973929239932617193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1023
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faaf426ddf4e02580800000000000000
+      internalID: -8853825088539788625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1023
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d95dbb01074d1980800000000000000
+      internalID: -8566612846371317290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 895
+        width: 36
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59812e4b048599a0800000000000000
+      internalID: -6226925725679515299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 895
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbba2566ca0cdafc0800000000000000
+      internalID: -3481915090203923521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 895
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5977ba218dce24660800000000000000
+      internalID: 7368712353101870997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 895
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3f8a866beb63a10800000000000000
+      internalID: 1888906784377729964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 895
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ed22686bb874800800000000000000
+      internalID: 596599091700620958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 895
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff745b2d1530d3030800000000000000
+      internalID: 3475938137362221055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 895
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d34c755084fed40800000000000000
+      internalID: 5615786448138812748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 895
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8846a530719eb50800000000000000
+      internalID: 6622850030193903820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 895
+        width: 33
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b3ba8726a3568f0800000000000000
+      internalID: -547967585049953422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 895
+        width: 33
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdec56fc87cbf3d0800000000000000
+      internalID: -3171722104309748275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 767
+        width: 32
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a256adce5562bd9f0800000000000000
+      internalID: -442717987878050518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 767
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4540a7ae109151a0800000000000000
+      internalID: -6822513499153873587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 772
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3470dbded015ef3f0800000000000000
+      internalID: -865164958143543485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 767
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b7e4e75dbcccfa0800000000000000
+      internalID: -5779020104015643809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 767
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9623851290d706660800000000000000
+      internalID: 7377033667800478313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 767
+        width: 30
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b3af31ce56853c0800000000000000
+      internalID: -4370631373741212905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 767
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea3f76e645e871a0800000000000000
+      internalID: -6811442343720305950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 773
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5033c3084884708e0800000000000000
+      internalID: -1727332198148984059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 769
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dc459a5c413dbe0800000000000000
+      internalID: -1453795415528518386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 767
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb6e9428889579d0800000000000000
+      internalID: -2777145884706706444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 639
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e636e1d4f0e6cf940800000000000000
+      internalID: 5331257070897226606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 639
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bd32d88062a8f60800000000000000
+      internalID: 8037278303165602650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 639
+        width: 45
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e2b5cc50f0e40f0800000000000000
+      internalID: -1130949938845634996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 640
+        width: 48
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99166837f8a45ce20800000000000000
+      internalID: 3370181876135649689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 646
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f18e88b8457a7f40800000000000000
+      internalID: 5727018831349449201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 648
+        width: 47
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ec8f2f7f7855b70800000000000000
+      internalID: 8887158938688605826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 641
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1486f9d9161f9460800000000000000
+      internalID: 7250538225376592925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 639
+        width: 54
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381eae7b985af2c10800000000000000
+      internalID: 2031023967882109315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 639
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3373f58a577f3c80800000000000000
+      internalID: -8340816754188782788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 639
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e471dbeb0db93d0800000000000000
+      internalID: -3198733592681820639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 511
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3971f9f51571370800000000000000
+      internalID: 8293186709958923176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 511
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a42313d8a00210800000000000000
+      internalID: 1297222317195437993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 544
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2625e5139018da0a0800000000000000
+      internalID: -6868691980187184542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 511
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cddeee18028ac20800000000000000
+      internalID: 3217857676187655293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 551
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d08acebe67c6ab0800000000000000
+      internalID: -5013501529510376100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 511
+        width: 49
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8533f8d17c689d0800000000000000
+      internalID: -2772309590829475633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 557
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a4a8f31e7c29b40800000000000000
+      internalID: 5445634669691947650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 540
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878670c41ccd0b090800000000000000
+      internalID: -8020668213584500616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 547
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9245ecf2e324800800000000000000
+      internalID: 595106475812334018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 537
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae4a1bf0ab8dd5e0800000000000000
+      internalID: -1883195545647165783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 383
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cb5c9a4d969cf60800000000000000
+      internalID: 8055085770631134242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 383
+        width: 28
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0905c69b4cb67dc0800000000000000
+      internalID: -3641516215844402929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 383
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca6aca8ad36fa960800000000000000
+      internalID: 7615415285189339854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 383
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3134ccce3ded2a20800000000000000
+      internalID: 3039346177524117822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 383
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308f76d3bc0dfd7f0800000000000000
+      internalID: -585519855207712765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 383
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91c43e6cfef4dd20800000000000000
+      internalID: 3302544786903581082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 383
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc21e367cb8b9950800000000000000
+      internalID: 6456908179256192215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 383
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0e7d20392459540800000000000000
+      internalID: 5013986959322243242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 383
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de07d35eb8dbd31c0800000000000000
+      internalID: -4522250042265997075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 383
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd87fdb89d235190800000000000000
+      internalID: -7974980381097620003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 383
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7dc6d4a5b266ab0800000000000000
+      internalID: -5015273468184438820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 383
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a18686570fd73700800000000000000
+      internalID: 520129504594002340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_69
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 383
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9531bf04c0e83b20800000000000000
+      internalID: 3114486275008181660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_70
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 383
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa24f2506f7ce2e0800000000000000
+      internalID: -2095159674948801793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_71
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 383
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41439feeb8521bb80800000000000000
+      internalID: -8380876148619791340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_72
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 383
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d1502560b0351c0800000000000000
+      internalID: -4516253879548699235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_73
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 383
+        width: 45
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f082fa06681c1f4b0800000000000000
+      internalID: -5408328894603384817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_74
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 255
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad20453333754b290800000000000000
+      internalID: -7875573970948062502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_75
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 255
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc470273c32398f60800000000000000
+      internalID: 8037010244223661260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_76
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 299
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf17c32fdd2c2830800000000000000
+      internalID: 4047660601500442563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_77
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 255
+        width: 51
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99cfa3215999eab0800000000000000
+      internalID: -4978279339311248993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_78
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 127
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03df27faed6239300800000000000000
+      internalID: 257592341558394160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_79
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 127
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8323ef0de0992110800000000000000
+      internalID: 1236678920538104717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_80
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 127
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee068a599b6b9660800000000000000
+      internalID: 7393621519651704559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_81
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 127
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a3bb58d49612590800000000000000
+      internalID: -7700758106149799342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_82
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 164
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a23839d720967fa0800000000000000
+      internalID: -5803292568997842269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_83
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 127
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c483c990597220c0800000000000000
+      internalID: -4601982482135153472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_84
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa36a1119ce7dd220800000000000000
+      internalID: 2512303569183073199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_85
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b88cd9f5a9c28d0800000000000000
+      internalID: -2869749127082112215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_86
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9f775bf982ebef0800000000000000
+      internalID: -90590276091381307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_87
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866ab4241001f7e70800000000000000
+      internalID: 9115021768414439016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_88
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 58
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cb571dd73bd4540800000000000000
+      internalID: 4993844914790185990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_89
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50f4732dd95e1550800000000000000
+      internalID: 6133438548842704990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_90
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 21
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e360b9efc767c10800000000000000
+      internalID: 2050964113278254682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_91
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0
+        width: 74
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc0b0b6d10b955c0800000000000000
+      internalID: -4226153134914073354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangsters_1_Spritelist_92
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 0
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4567364dc3f132580800000000000000
+      internalID: -8853198096358476204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gangsters_1_Spritelist_0: 2935648627899353721
+      Gangsters_1_Spritelist_1: 7273251470352980765
+      Gangsters_1_Spritelist_10: -5672477553827420960
+      Gangsters_1_Spritelist_11: 1896844503727726710
+      Gangsters_1_Spritelist_12: -6006077708562519939
+      Gangsters_1_Spritelist_13: -1066783392115961929
+      Gangsters_1_Spritelist_14: -3973929239932617193
+      Gangsters_1_Spritelist_15: -8853825088539788625
+      Gangsters_1_Spritelist_16: -8566612846371317290
+      Gangsters_1_Spritelist_17: -6226925725679515299
+      Gangsters_1_Spritelist_18: -3481915090203923521
+      Gangsters_1_Spritelist_19: 7368712353101870997
+      Gangsters_1_Spritelist_2: -7160131264835660035
+      Gangsters_1_Spritelist_20: 1888906784377729964
+      Gangsters_1_Spritelist_21: 596599091700620958
+      Gangsters_1_Spritelist_22: 3475938137362221055
+      Gangsters_1_Spritelist_23: 5615786448138812748
+      Gangsters_1_Spritelist_24: 6622850030193903820
+      Gangsters_1_Spritelist_25: -547967585049953422
+      Gangsters_1_Spritelist_26: -3171722104309748275
+      Gangsters_1_Spritelist_27: -442717987878050518
+      Gangsters_1_Spritelist_28: -6822513499153873587
+      Gangsters_1_Spritelist_29: -865164958143543485
+      Gangsters_1_Spritelist_3: 620766315085460863
+      Gangsters_1_Spritelist_30: -5779020104015643809
+      Gangsters_1_Spritelist_31: 7377033667800478313
+      Gangsters_1_Spritelist_32: -4370631373741212905
+      Gangsters_1_Spritelist_33: -6811442343720305950
+      Gangsters_1_Spritelist_34: -1727332198148984059
+      Gangsters_1_Spritelist_35: -1453795415528518386
+      Gangsters_1_Spritelist_36: -2777145884706706444
+      Gangsters_1_Spritelist_37: 5331257070897226606
+      Gangsters_1_Spritelist_38: 8037278303165602650
+      Gangsters_1_Spritelist_39: -1130949938845634996
+      Gangsters_1_Spritelist_4: -2368611137208282883
+      Gangsters_1_Spritelist_40: 3370181876135649689
+      Gangsters_1_Spritelist_41: 5727018831349449201
+      Gangsters_1_Spritelist_42: 8887158938688605826
+      Gangsters_1_Spritelist_43: 7250538225376592925
+      Gangsters_1_Spritelist_44: 2031023967882109315
+      Gangsters_1_Spritelist_45: -8340816754188782788
+      Gangsters_1_Spritelist_46: -3198733592681820639
+      Gangsters_1_Spritelist_47: 8293186709958923176
+      Gangsters_1_Spritelist_48: 1297222317195437993
+      Gangsters_1_Spritelist_49: -6868691980187184542
+      Gangsters_1_Spritelist_5: -724560622897855319
+      Gangsters_1_Spritelist_50: 3217857676187655293
+      Gangsters_1_Spritelist_51: -5013501529510376100
+      Gangsters_1_Spritelist_52: -2772309590829475633
+      Gangsters_1_Spritelist_53: 5445634669691947650
+      Gangsters_1_Spritelist_54: -8020668213584500616
+      Gangsters_1_Spritelist_55: 595106475812334018
+      Gangsters_1_Spritelist_56: -1883195545647165783
+      Gangsters_1_Spritelist_57: 8055085770631134242
+      Gangsters_1_Spritelist_58: -3641516215844402929
+      Gangsters_1_Spritelist_59: 7615415285189339854
+      Gangsters_1_Spritelist_6: -2970245689877214067
+      Gangsters_1_Spritelist_60: 3039346177524117822
+      Gangsters_1_Spritelist_61: -585519855207712765
+      Gangsters_1_Spritelist_62: 3302544786903581082
+      Gangsters_1_Spritelist_63: 6456908179256192215
+      Gangsters_1_Spritelist_64: 5013986959322243242
+      Gangsters_1_Spritelist_65: -4522250042265997075
+      Gangsters_1_Spritelist_66: -7974980381097620003
+      Gangsters_1_Spritelist_67: -5015273468184438820
+      Gangsters_1_Spritelist_68: 520129504594002340
+      Gangsters_1_Spritelist_69: 3114486275008181660
+      Gangsters_1_Spritelist_7: 4668528627269913299
+      Gangsters_1_Spritelist_70: -2095159674948801793
+      Gangsters_1_Spritelist_71: -8380876148619791340
+      Gangsters_1_Spritelist_72: -4516253879548699235
+      Gangsters_1_Spritelist_73: -5408328894603384817
+      Gangsters_1_Spritelist_74: -7875573970948062502
+      Gangsters_1_Spritelist_75: 8037010244223661260
+      Gangsters_1_Spritelist_76: 4047660601500442563
+      Gangsters_1_Spritelist_77: -4978279339311248993
+      Gangsters_1_Spritelist_78: 257592341558394160
+      Gangsters_1_Spritelist_79: 1236678920538104717
+      Gangsters_1_Spritelist_8: -2029761915292419346
+      Gangsters_1_Spritelist_80: 7393621519651704559
+      Gangsters_1_Spritelist_81: -7700758106149799342
+      Gangsters_1_Spritelist_82: -5803292568997842269
+      Gangsters_1_Spritelist_83: -4601982482135153472
+      Gangsters_1_Spritelist_84: 2512303569183073199
+      Gangsters_1_Spritelist_85: -2869749127082112215
+      Gangsters_1_Spritelist_86: -90590276091381307
+      Gangsters_1_Spritelist_87: 9115021768414439016
+      Gangsters_1_Spritelist_88: 4993844914790185990
+      Gangsters_1_Spritelist_89: 6133438548842704990
+      Gangsters_1_Spritelist_9: -6190173865739870978
+      Gangsters_1_Spritelist_90: 2050964113278254682
+      Gangsters_1_Spritelist_91: -4226153134914073354
+      Gangsters_1_Spritelist_92: -8853198096358476204
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
