@@ -68232,8 +68232,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: TheMagicGirl
   dialogues:
-  - "C\u1ED1t truy\u1EC7n c\xF3 th\xEAm ng\u1ECDn l\u1EEDa duy nh\u1EA5t \u0111\u01B0\u1EE3c
-    ph\xE1t s\xE1ng"
+  - "L\xE0m t\u1ED1t l\u1EAFm!!!!"
+  - "\u0110\xFAng l\xE0 k\u1EF9 n\u0103ng c\u1EE7a b\u1EA1n t\xF4i kh\xF4ng th\u1EC3
+    xem th\u01B0\u1EDDng \u0111\u01B0\u1EE3c"
+  - "M\u1ED9t ng\u01B0\u1EDDi c\xF3 s\u1EE9c m\u1EA1nh ti\u1EC1m t\xE0ng \u0111\u1EA7y
+    m\u1EA1nh m\u1EBD"
+  - "Nh\u01B0ng n\u01A1i b\u1EA1n \u0111ang \u0111\u1EE9ng \u0111\xE2y "
+  - "\u0110\xE3 b\u1ECB chi\u1EBFm gi\u1EEF b\u1EDFi t\u1EED th\u1EA7n c\u1EE7a khu
+    r\u1EEBng n\xE0y"
+  - "B\u1EA1n c\u1EA7n ph\u1EA3i ti\xEAu di\u1EC7t h\u1EAFn ta "
+  - "L\u1EA5y l\u1EA1i s\u1EF1 b\xECnh y\xEAn cho khu v\u1EF1c"
+  - "N\u1EBFu b\u1EA1n mu\u1ED1n s\u1EDF h\u1EEFu th\xEAm s\u1EE9c m\u1EA1nh "
+  - "V\u1EADy........"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 35 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
   - "Th\u1EADt t\u1ED1t!!!"
