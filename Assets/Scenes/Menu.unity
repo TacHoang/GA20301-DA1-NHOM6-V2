@@ -465,7 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d5df2659c56a840a9ff9de617a99d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Map1Lv1.
+  sceneToLoad: Map01
   loadingCanvas: {fileID: 0}
 --- !u!114 &409438185
 MonoBehaviour:
