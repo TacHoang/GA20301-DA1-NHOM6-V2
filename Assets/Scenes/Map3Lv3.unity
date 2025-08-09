@@ -10153,7 +10153,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2733319399242929328, guid: 84462f48e690386439b0461228acf11c, type: 3}
+  m_Sprite: {fileID: -799078054634920335, guid: 84462f48e690386439b0461228acf11c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -89671,7 +89671,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -91521,7 +91521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 1164066258}
-  requiredKills: 50
+  requiredKills: 20
   currentKills: 0
 --- !u!4 &1475259862
 Transform:
@@ -91574,16 +91574,10 @@ MonoBehaviour:
   - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
   spawnPoints:
   - point: {fileID: 1792971417}
-    maxEnemies: 10
+    maxEnemies: 2
     enemies: []
   - point: {fileID: 1342350765}
-    maxEnemies: 10
-    enemies: []
-  - point: {fileID: 104691038}
-    maxEnemies: 10
-    enemies: []
-  - point: {fileID: 1997714262}
-    maxEnemies: 10
+    maxEnemies: 2
     enemies: []
   offsetRange: 1
   checkRadius: 2
@@ -92696,7 +92690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd0d74f789f116d4599120c2b920f3f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 6
+  moveSpeed: 3
   detectionRange: 10
   damageZone: {fileID: 814909591}
   BosshealthBarCanvas: {fileID: 1198762702}

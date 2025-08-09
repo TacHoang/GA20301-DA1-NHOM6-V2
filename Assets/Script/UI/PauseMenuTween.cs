@@ -63,15 +63,7 @@ public class PauseMenuTween : MonoBehaviour
 
     public void OnQuitClicked()
     {
-        TogglePause();
-
-    #if UNITY_EDITOR
-        // Nếu đang chạy trong Unity Editor, dừng chế độ Play
-        UnityEditor.EditorApplication.isPlaying = false;
-    #else
-        // Nếu build game, thoát game
-        Application.Quit();
-    #endif
+        SceneManager.LoadScene("Menu");
     }
 
 

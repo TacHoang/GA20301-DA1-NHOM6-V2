@@ -489144,7 +489144,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -493685,7 +493685,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2733319399242929328, guid: 84462f48e690386439b0461228acf11c, type: 3}
+  m_Sprite: {fileID: -799078054634920335, guid: 84462f48e690386439b0461228acf11c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -494417,7 +494417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2051148074
 Transform:
   m_ObjectHideFlags: 0
@@ -494924,19 +494924,19 @@ MonoBehaviour:
   - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
   spawnPoints:
   - point: {fileID: 1667024936}
-    maxEnemies: 25
+    maxEnemies: 30
     enemies: []
   - point: {fileID: 878263910}
-    maxEnemies: 25
+    maxEnemies: 30
     enemies: []
   - point: {fileID: 572505186}
-    maxEnemies: 25
+    maxEnemies: 30
     enemies: []
   - point: {fileID: 1153812788}
-    maxEnemies: 25
+    maxEnemies: 30
     enemies: []
   - point: {fileID: 215627250}
-    maxEnemies: 25
+    maxEnemies: 30
     enemies: []
   offsetRange: 1
   checkRadius: 2
