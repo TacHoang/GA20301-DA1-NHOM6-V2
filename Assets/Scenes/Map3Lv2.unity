@@ -37878,7 +37878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 629150f319d576244b7c7a4549f53da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Map2Lv1
+  targetScene: Map3Lv3
   loadingCanvas: {fileID: 2058451647}
 --- !u!95 &426873973
 Animator:
@@ -38043,12 +38043,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: TheMagicGirl
   dialogues:
-  - "C\xF4t truy\u1EC7n ti\u1EBFn \u0111\u1EBFn con \u0111\u01B0\u1EDDng gi\u1EA3i
-    c\u1EE9u"
-  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 45 con qu\xE1i v\u1EADt!!"
+  - "B\u1EA1n th\u1EADt t\u1ED1t v\xE0 v\u1EABn lu\xF4n \u0111\u1EA1t \u0111\u01B0\u1EE3c
+    m\u1EE5c ti\xEAu c\u1EE7a t\xF4i"
+  - "T\xF4i s\u1EBD t\u1EB7ng b\u1EA1n k\u1EF9 n\u0103ng th\u1EE9 t\u01B0"
+  - "Nh\u01B0ng b\u1EAFt bu\u1ED9c b\u1EA1n ph\u1EA3i ho\xE0n th\xE0nh nhi\u1EC7m
+    v\u1EE5 c\u1EE7a t\xF4i \u0111\u1EC1 ra"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 45 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
-  - 
+  - "R\u1EA5t tuy\u1EC7t v\u1EDDi cho s\u1EF1 n\u1ED7 l\u1EF1c n\xE0y"
+  - "Theo l\u1EDDi h\u1EE9a th\xEC t\xF4i s\u1EBD t\u1EB7ng b\u1EA1n k\u1EF9 n\u0103ng
+    th\u1EE9 t\u01B0"
+  - "Theo l\u1EDDi h\u1EE9a th\xEC t\xF4i s\u1EBD t\u1EB7ng b\u1EA1n k\u1EF9 n\u0103ng
+    th\u1EE9 t\u01B0"
+  - "\u0110\xF3 l\xE0 k\u1EF9 n\u0103ng \"Tam th\u1EA1ch\""
+  - "V\u1EDBi k\u1EF9 n\u0103ng \"Tam th\u1EA1ch\" khi k\xEDch ho\u1EA1t n\xF3 s\u1EBD
+    b\u1EAFn ra 3 vi\xEAn th\u1EA1ch nh\u0169 theo h\u01B0\u1EDBng b\u1EA1n ch\u1EC9"
+  - "M\u1ED7i vi\xEAn th\u1EA1ch nh\u0169 s\u1EBD g\xE2y 70 s\xE1t th\u01B0\u1EDBng "
+  - "Tr\xFAng c\xE0ng nhi\u1EC1u s\u1EBD g\xE2y s\xE1t th\u01B0\u01A1ng c\xE0ng cao"
+  - "K\u1EF9 n\u0103ng n\xE0y c\xF3 10 gi\xE2y h\u1ED3i chi\xEAu"
+  - "B\u1EA1n h\xE3y s\u1EED d\u1EE5ng th\u1EADt t\u1ED1t v\xE0 hi\u1EC7u qu\u1EA3 "
+  - "V\xE0 c\u1EA3m \u01A1n b\u1EA1n......"
   dialogueTextUI: {fileID: 947609837}
   dialoguePanel: {fileID: 115378824}
   player: {fileID: 74679727}
@@ -38398,7 +38412,7 @@ Transform:
   m_GameObject: {fileID: 621397306}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.7, y: -19.2, z: 0}
+  m_LocalPosition: {x: 55.9, y: -7.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -172333,7 +172347,7 @@ Transform:
   m_GameObject: {fileID: 849769319}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.9, y: 3.3, z: 0}
+  m_LocalPosition: {x: 2.2, y: -10.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -177977,7 +177991,7 @@ Transform:
   m_GameObject: {fileID: 1067362054}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.5, y: -18.2, z: 0}
+  m_LocalPosition: {x: 46.9, y: -18.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -179072,7 +179086,7 @@ Transform:
   m_GameObject: {fileID: 1512704565}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04, y: 5.69, z: 0}
+  m_LocalPosition: {x: 21.7, y: 8.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -180176,16 +180190,16 @@ MonoBehaviour:
   - {fileID: 6026359408954618122, guid: 42b7f596226428e4fb435f4779324130, type: 3}
   spawnPoints:
   - point: {fileID: 1512704566}
-    maxEnemies: 20
+    maxEnemies: 30
     enemies: []
   - point: {fileID: 621397307}
-    maxEnemies: 20
+    maxEnemies: 30
     enemies: []
   - point: {fileID: 1067362055}
-    maxEnemies: 20
+    maxEnemies: 30
     enemies: []
   - point: {fileID: 849769320}
-    maxEnemies: 20
+    maxEnemies: 30
     enemies: []
   offsetRange: 1
   checkRadius: 2

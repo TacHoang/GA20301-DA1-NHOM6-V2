@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Map3Lv3.unity
     guid: e0cfe60b15d085246ab138f0ddc6a00e
   - enabled: 1
-    path: "Assets/Scenes/map h\u1EA7m ng\u1EE5c.unity"
+    path: Assets/Scenes/MapFinalBoss.unity
     guid: 3535469870c602545be96021699ccd8b
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity

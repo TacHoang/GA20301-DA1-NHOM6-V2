@@ -175185,7 +175185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 629150f319d576244b7c7a4549f53da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Map2Lv1
+  targetScene: Map3Lv2
   loadingCanvas: {fileID: 917681675}
 --- !u!95 &1297764165
 Animator:
