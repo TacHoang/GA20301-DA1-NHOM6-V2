@@ -178878,7 +178878,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 993142411}
         m_TargetAssemblyTypeName: GameManagerLv2, Assembly-CSharp
         m_MethodName: RestarGameMap1Lv1
         m_Mode: 1
