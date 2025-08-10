@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -4.657997, y: -1.279}
-  m_SizeDelta: {x: -9.324, y: -2.532}
+  m_AnchoredPosition: {x: -2.583, y: -1.279}
+  m_SizeDelta: {x: -5.215, y: -2.532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &152908986
 MonoBehaviour:
@@ -436,7 +436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingBar: {fileID: 1942600505}
-  delayTime: 4
+  delayTime: 2
 --- !u!4 &1507182257
 Transform:
   m_ObjectHideFlags: 0

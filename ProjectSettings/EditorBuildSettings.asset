@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Map 1 Lv 1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/chay.unity
+    guid: dcb8116737d455f49b84982b9e81956e
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: d72fd97fea33f1740a7b9a25f58f8223
   - enabled: 1

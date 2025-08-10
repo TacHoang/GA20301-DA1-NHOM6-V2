@@ -1,57 +1,49 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
-using System.Collections;
-using DG.Tweening; // Nếu bạn dùng DOTween
 
 public class GameUI : MonoBehaviour
 {
-    [Header("Tên màn chơi muốn chuyển đến sau khi nhấn Play")]
-    public string sceneToLoad = "Map1Lv1"; // Màn chơi chính sau khi load xong
+    [Header("Tên scene đầu tiên khi chơi mới")]
+    public string firstSceneName = "Map1Lv1";
 
-    [Header("Canvas loading có hiệu ứng fade")]
-    public GameObject loadingCanvas;
-
-    // Hàm gọi khi ấn nút "Play"
-    public void OnPlayButtonClicked()
+    public void OnPlayNewGameClicked()
     {
-        StartCoroutine(LoadWithFade());
+        // Xóa dữ liệu cũ
+        PlayerPrefs.DeleteAll();
+
+        // Đặt cờ New Game
+        GameManager.Instance.isNewGame = true;
+        GameManager.Instance.ResetData();
+
+        // Lưu scene đầu tiên để sau Continue vẫn dùng được
+        PlayerPrefs.SetString("CurrentScene", firstSceneName);
+        PlayerPrefs.Save();
+
+        LoadScene(firstSceneName);
     }
 
-    IEnumerator LoadWithFade()
+    public void OnContinueClicked()
     {
-        if (loadingCanvas != null)
+        if (PlayerPrefs.HasKey("CurrentScene"))
         {
-            loadingCanvas.SetActive(true);
-
-            // Làm mờ canvas dần lên
-            CanvasGroup cg = loadingCanvas.GetComponent<CanvasGroup>();
-            if (cg != null)
-            {
-                // Nếu không có CanvasGroup thì vẫn đợi 0.5s
-                yield return new WaitForSeconds(0.1f);
-            }
+            string savedScene = PlayerPrefs.GetString("CurrentScene");
+            GameManager.Instance.isNewGame = false;
+            LoadScene(savedScene);
         }
-
-        // Gán scene cần load để LoadingScene biết
-        GameManager.sceneToLoad = sceneToLoad;
-
-        // Chuyển sang LoadingScene
-        SceneManager.LoadScene("LoadingScene");
+        else
+        {
+            Debug.Log("Không có dữ liệu để chơi tiếp");
+        }
     }
 
-    // Hàm gọi khi ấn nút "Quit"
-    public void OnQuitButtonClicked()
+    public void OnQuitClicked()
     {
-        Debug.Log("oke r");
         Application.Quit();
-        Debug.Log("Thoát game");
     }
 
-    // Hàm gọi khi ấn nút "Main Menu"
-    public void OnMainMenuButtonClicked()
+    private void LoadScene(string sceneName)
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+        GameManager.sceneToLoad = sceneName;
+        SceneManager.LoadScene("LoadingScene");
     }
 }

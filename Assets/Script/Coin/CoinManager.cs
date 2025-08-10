@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
 
 public class CoinManager : MonoBehaviour
 {
@@ -36,7 +37,7 @@ public class CoinManager : MonoBehaviour
 
     private void Start()
     {
-        FindCoinTextAndUpdateUI();
+        StartCoroutine(FindUIAfterDelay());
     }
 
     private void OnEnable()
@@ -51,35 +52,45 @@ public class CoinManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        FindCoinTextAndUpdateUI();
+        StartCoroutine(FindUIAfterDelay());
     }
 
-    private void FindCoinTextAndUpdateUI()
+    private IEnumerator FindUIAfterDelay()
     {
+        yield return null; // đợi 1 frame
         GameObject found = GameObject.Find(coinTextObjectName);
         if (found != null)
         {
             coinText = found.GetComponent<Text>();
         }
-
+        else
+        {
+            Debug.LogWarning("Không tìm thấy UI CoinText trong scene: " + SceneManager.GetActiveScene().name);
+        }
         UpdateCoinUI();
     }
 
     public void AddCoins(int amount)
     {
-        GameManager.Instance.playerGold += amount;
-        UpdateCoinUI();
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.playerGold += amount;
+            UpdateCoinUI();
+        }
     }
 
     public void ResetCoin()
     {
-        GameManager.Instance.playerGold = 0;
-        UpdateCoinUI();
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.playerGold = 0;
+            UpdateCoinUI();
+        }
     }
 
     public void UpdateCoinUI()
     {
-        if (coinText != null)
+        if (coinText != null && GameManager.Instance != null)
         {
             coinText.text = GameManager.Instance.playerGold.ToString("D2");
         }
@@ -87,8 +98,7 @@ public class CoinManager : MonoBehaviour
 
     public void SpawnCoinsAt(Vector3 position)
     {
-        float roll = Random.Range(0f, 100f);
-        if (roll <= coinDropChance && coinPrefab != null)
+        if (Random.Range(0f, 100f) <= coinDropChance && coinPrefab != null)
         {
             Instantiate(coinPrefab, position, Quaternion.identity);
         }

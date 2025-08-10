@@ -46873,52 +46873,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &584353840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 584353842}
-  - component: {fileID: 584353841}
-  m_Layer: 0
-  m_Name: gameManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &584353841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584353840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2686f662b55285b4b81c1c2af95e7d33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerHealth: 100
-  playerGold: 0
---- !u!4 &584353842
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584353840}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.946709, y: -14.393291, z: 10.464588}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &671662283
 GameObject:
   m_ObjectHideFlags: 0
@@ -186343,6 +186297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenuPanel: {fileID: 911973800}
   duration: 1
+  saveManager: {fileID: 0}
 --- !u!114 &1568639216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187747,7 +187702,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Map1Lv2
-  loadingCanvas: {fileID: 237040876}
 --- !u!95 &1956462045
 Animator:
   serializedVersion: 7
@@ -188258,7 +188212,7 @@ MonoBehaviour:
   coinPrefab: {fileID: 7419023577443916494, guid: 6a48154fa12a8ed46879b5f593acdd1c, type: 3}
   minCoins: 20
   maxCoins: 99
-  coinDropChance: 70
+  coinDropChance: 51.9
 --- !u!4 &2026250008
 Transform:
   m_ObjectHideFlags: 0
@@ -192735,7 +192689,6 @@ SceneRoots:
   - {fileID: 1955936261}
   - {fileID: 6723849352658984969}
   - {fileID: 1956462048}
-  - {fileID: 584353842}
   - {fileID: 1009638484}
   - {fileID: 1568639219}
   - {fileID: 339560846}
