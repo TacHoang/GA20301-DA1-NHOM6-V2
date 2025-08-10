@@ -28,14 +28,8 @@ public class GameUI : MonoBehaviour
             CanvasGroup cg = loadingCanvas.GetComponent<CanvasGroup>();
             if (cg != null)
             {
-                cg.alpha = 0f;
-                cg.DOFade(1f, 0.5f);
-                yield return new WaitForSeconds(0.5f);
-            }
-            else
-            {
                 // Nếu không có CanvasGroup thì vẫn đợi 0.5s
-                yield return new WaitForSeconds(0.5f);
+                yield return new WaitForSeconds(0.1f);
             }
         }
 

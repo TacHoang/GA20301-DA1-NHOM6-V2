@@ -55874,7 +55874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &237040877
 RectTransform:
   m_ObjectHideFlags: 0
@@ -56530,7 +56530,7 @@ Transform:
   m_GameObject: {fileID: 339560843}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.998226, y: 5.51, z: 0}
+  m_LocalPosition: {x: -18.24, y: 5.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -196099,7 +196099,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1009638481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196202,7 +196202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1031920906
 RectTransform:
   m_ObjectHideFlags: 0
@@ -196262,7 +196262,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1031920909
 Canvas:
   m_ObjectHideFlags: 0
@@ -198044,7 +198044,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1807196672
 Transform:
   m_ObjectHideFlags: 0
@@ -198599,7 +198599,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Map1Lv1.
-  loadingCanvas: {fileID: 237040876}
 --- !u!95 &1956462045
 Animator:
   serializedVersion: 7
@@ -198723,7 +198722,7 @@ Transform:
   m_GameObject: {fileID: 1956462043}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.12, y: 4.92, z: 0}
+  m_LocalPosition: {x: -15.54, y: 5.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -198923,7 +198922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1985423602
 RectTransform:
   m_ObjectHideFlags: 0
@@ -203177,6 +203176,7 @@ GameObject:
   - component: {fileID: 2083353325}
   - component: {fileID: 2083353324}
   - component: {fileID: 2083353323}
+  - component: {fileID: 2083353326}
   m_Layer: 5
   m_Name: GameOver
   m_TagString: Untagged
@@ -203297,6 +203297,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083353321}
   m_CullTransparentMesh: 1
+--- !u!114 &2083353326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083353321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbacf0090aa41ba43877af699daa309c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  img: {fileID: 2083353324}
 --- !u!1 &2118901651
 GameObject:
   m_ObjectHideFlags: 0
@@ -203476,11 +203489,11 @@ PrefabInstance:
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 
-      objectReference: {fileID: 570304781}
+      objectReference: {fileID: 0}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: healthFillImage
       value: 
-      objectReference: {fileID: 1391067033}
+      objectReference: {fileID: 0}
     - target: {fileID: 5552440392172442975, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_IsActive
       value: 0

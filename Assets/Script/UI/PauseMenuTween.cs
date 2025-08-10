@@ -14,6 +14,7 @@ public class PauseMenuTween : MonoBehaviour
     private Vector2 hiddenPos, visiblePos;
     private CanvasGroup canvasGroup;
     private SkillManager skillManager;
+    
 
     void Awake()
     {
@@ -63,7 +64,11 @@ public class PauseMenuTween : MonoBehaviour
 
     public void OnQuitClicked()
     {
-        SceneManager.LoadScene("Menu");
+    #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;  // Dừng Play Mode khi đang test
+    #else
+        Application.Quit();  // Thoát ứng dụng trên bản build
+    #endif
     }
 
 
