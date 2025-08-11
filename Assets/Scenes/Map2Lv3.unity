@@ -67739,7 +67739,7 @@ MonoBehaviour:
   - "L\u1EA5y l\u1EA1i s\u1EF1 b\xECnh y\xEAn cho khu v\u1EF1c"
   - "N\u1EBFu b\u1EA1n mu\u1ED1n s\u1EDF h\u1EEFu th\xEAm s\u1EE9c m\u1EA1nh "
   - "V\u1EADy........"
-  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 35 con qu\xE1i v\u1EADt!!"
+  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 17 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
   - "Th\u1EADt t\u1ED1t!!!"
   - "B\u1EA1n \u0111\xE3 h\u1EA1 g\u1EE5c t\xEAn tr\xF9m th\u1EE9 2"
@@ -207825,7 +207825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4864557446c74fc4681d501015fd79db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1600
+  maxHealth: 800
   healthBar: {fileID: 638177543}
   dieSound: {fileID: 0}
   dieVolume: 1
@@ -207860,7 +207860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 11801705}
-  requiredKills: 35
+  requiredKills: 17
   currentKills: 0
 --- !u!4 &1321998795
 Transform:
@@ -208593,6 +208593,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 412445665}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 
@@ -209678,7 +209682,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 7879878697818273291, guid: 5897371709f7e4c4d91c6ca72b12fc8e, type: 3}
   - {fileID: 7254061150862416794, guid: 5ab468e59043bbf49856df4efac19122, type: 3}
-  - {fileID: 6026359408954618122, guid: 42b7f596226428e4fb435f4779324130, type: 3}
+  - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
   spawnPoints:
   - point: {fileID: 1584012535}
     maxEnemies: 15

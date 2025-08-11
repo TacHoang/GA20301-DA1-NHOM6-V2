@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 995156319}
-  requiredKills: 10
+  requiredKills: 5
   currentKills: 0
 --- !u!4 &166621253
 Transform:
@@ -45929,7 +45929,7 @@ MonoBehaviour:
     n\u01A1i"
   - "Nh\u1EEFng t\xEAn \u0111\xF3 c\u0169ng kh\xE1 nguy hi\u1EC3m \u0111\u1EA5y "
   - "Cho n\xEAn......"
-  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 10 con qu\xE1i v\u1EADt \u0111\u1EC3 qua m\xE0n!!"
+  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 5 con qu\xE1i v\u1EADt \u0111\u1EC3 qua m\xE0n!!"
   postQuestDialogues:
   - "C\u1EA3m \u01A1n b\u1EA1n \u0111\xE3 ho\xE0n th\xE0nh nhi\u1EC7m v\u1EE5 m\xECnh
     \u0111\u01B0a ra."

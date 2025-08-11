@@ -256,6 +256,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 135925449}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 900096336}
@@ -37328,7 +37332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 1339258242}
-  requiredKills: 45
+  requiredKills: 23
   currentKills: 0
 --- !u!4 &399912553
 Transform:
@@ -37779,7 +37783,7 @@ MonoBehaviour:
   - "T\xF4i s\u1EBD t\u1EB7ng b\u1EA1n k\u1EF9 n\u0103ng th\u1EE9 t\u01B0"
   - "Nh\u01B0ng b\u1EAFt bu\u1ED9c b\u1EA1n ph\u1EA3i ho\xE0n th\xE0nh nhi\u1EC7m
     v\u1EE5 c\u1EE7a t\xF4i \u0111\u1EC1 ra"
-  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 45 con qu\xE1i v\u1EADt!!"
+  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 23 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
   - "R\u1EA5t tuy\u1EC7t v\u1EDDi cho s\u1EF1 n\u1ED7 l\u1EF1c n\xE0y"
   - "Theo l\u1EDDi h\u1EE9a th\xEC t\xF4i s\u1EBD t\u1EB7ng b\u1EA1n k\u1EF9 n\u0103ng
@@ -179800,8 +179804,8 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 7879878697818273291, guid: 5897371709f7e4c4d91c6ca72b12fc8e, type: 3}
   - {fileID: 3967082309096581143, guid: 305287b368be13e46abf9fc33a4ee9b1, type: 3}
-  - {fileID: 8297180340426883501, guid: 8c601c32fffa02544acaf8ce177107f1, type: 3}
-  - {fileID: 6026359408954618122, guid: 42b7f596226428e4fb435f4779324130, type: 3}
+  - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
+  - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
   spawnPoints:
   - point: {fileID: 1512704566}
     maxEnemies: 30

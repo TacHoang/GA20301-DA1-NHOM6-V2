@@ -179540,7 +179540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4864557446c74fc4681d501015fd79db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 800
+  maxHealth: 400
   healthBar: {fileID: 228028406}
   dieSound: {fileID: 0}
   dieVolume: 1
@@ -179844,7 +179844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 1583497782}
-  requiredKills: 20
+  requiredKills: 10
   currentKills: 0
 --- !u!4 &432243496
 Transform:
@@ -180908,6 +180908,10 @@ PrefabInstance:
     - target: {fileID: 3620862013347877914, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
@@ -320709,7 +320713,7 @@ MonoBehaviour:
     h\u1EAFn ta"
   - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t h\u1EAFn ta"
   - "B\u1EA1n mu\u1ED1n nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng c\u1EE7a m\xECnh kh\xF4ng!!!"
-  - "V\xEC v\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 20 con qu\xE1i v\u1EADt!!"
+  - "V\xEC v\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 10 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
   - "Hay l\u1EAFm!!!"
   - "B\u1EA1n \u0111\xE3 ti\xEAu di\u1EC7t \u0111\u01B0\u1EE3c t\xEAn tr\xF9m \u0111\u1EA7u

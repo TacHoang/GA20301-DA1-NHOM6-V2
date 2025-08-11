@@ -73,7 +73,7 @@ public class NpcFirst : MonoBehaviour
     IEnumerator EndDialogueAfterDelay()
     {
         ShowDialogue("Hãy qua cổng dịch chuyển để bắt đầu. Chúc bạn may mắn!");
-        yield return new WaitForSecondsRealtime(2f);
+        yield return new WaitForSecondsRealtime(0f);
         EndDialogue();
     }
 

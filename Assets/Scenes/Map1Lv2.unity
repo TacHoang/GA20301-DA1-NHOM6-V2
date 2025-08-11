@@ -164008,7 +164008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 1681304193}
-  requiredKills: 15
+  requiredKills: 8
   currentKills: 0
 --- !u!4 &484240686
 Transform:
@@ -303233,7 +303233,7 @@ MonoBehaviour:
   - "Nh\u1EEFng t\xEAn n\xE0y khi c\xE0ng qua nhi\u1EC1u khu th\xEC c\xE0ng m\u1EA1nh
     l\xEAn"
   - "V\xE0 b\u1EA1n c\u0169ng c\u1EA7n ph\u1EA3i m\u1EA1nh h\u01A1n "
-  - "V\xEC v\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 15 con qu\xE1i v\u1EADt \u0111\u1EC3
+  - "V\xEC v\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 8 con qu\xE1i v\u1EADt \u0111\u1EC3
     qua m\xE0n!!"
   postQuestDialogues:
   - "B\u1EA1n \u0111\xE3 t\u1ED1t h\u01A1n l\u1EA7n tr\u01B0\u1EDBc v\u1EABn ho\xE0n
@@ -303984,7 +303984,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 7254061150862416794, guid: 5ab468e59043bbf49856df4efac19122, type: 3}
   - {fileID: 7879878697818273291, guid: 5897371709f7e4c4d91c6ca72b12fc8e, type: 3}
-  - {fileID: 8297180340426883501, guid: 8c601c32fffa02544acaf8ce177107f1, type: 3}
+  - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
   spawnPoints:
   - point: {fileID: 1378590456}
     maxEnemies: 10
@@ -304683,6 +304683,10 @@ PrefabInstance:
     - target: {fileID: 3620862013347877914, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager

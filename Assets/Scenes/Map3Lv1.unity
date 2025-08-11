@@ -35733,6 +35733,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1713263165}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1285154559}
@@ -176076,7 +176080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 268155946}
-  requiredKills: 40
+  requiredKills: 20
   currentKills: 0
 --- !u!4 &1430139107
 Transform:
@@ -176967,7 +176971,7 @@ MonoBehaviour:
   - "\u0110\u01B0\u01A1ng nhi\xEAn t\xF4i v\u1EABn s\u1EBD cung c\u1EA5p k\u1EF9
     n\u0103ng th\u1EE9 t\u01B0 cho b\u1EA1n"
   - "Mu\u1ED1n nh\u1EADn \u0111\u01B0\u1EE3c k\u1EF9 n\u0103ng t\u1EEB t\xF4i"
-  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 40 con qu\xE1i v\u1EADt!!"
+  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 20 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
   - "S\u1EF1 c\u1ED1 g\u1EAFng c\u1EE7a b\u1EA1n lu\xF4n \u0111\u01B0\u1EE3c \u0111\u1EC1n
     \u0111\xE1p qua t\u1EEBng khu v\u1EF1c"

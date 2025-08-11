@@ -303392,7 +303392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 765394061}
-  requiredKills: 25
+  requiredKills: 12
   currentKills: 0
 --- !u!4 &1076915185
 Transform:
@@ -304486,6 +304486,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 385694485}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 160
+      objectReference: {fileID: 0}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1557105719}
@@ -305124,7 +305128,7 @@ MonoBehaviour:
   - "N\u1EBFu b\u1EA1n mu\u1ED1n v\u01B0\u1EE3t qua n\u01A1i n\xE0y "
   - "H\xE3y s\u1EED d\u1EE5ng k\u1EF9 n\u0103ng t\xF4i \u0111\xE3 t\u1EB7ng b\u1EA1n
     \u0111\u1EC3 t\u0103ng kh\u1EA3 n\u0103ng ti\xEAu di\u1EC7t qu\xE1i v\u1EADt"
-  - "V\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 25 con qu\xE1i v\u1EADt!!"
+  - "V\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 12 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
   - "V\u1EABn nh\u01B0 l\xFAc tr\u01B0\u1EDBc c\u1EE7a nh\u1EEFng m\xE0n v\u1EEBa
     qua"
@@ -305964,7 +305968,7 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 3967082309096581143, guid: 305287b368be13e46abf9fc33a4ee9b1, type: 3}
   - {fileID: 7254061150862416794, guid: 5ab468e59043bbf49856df4efac19122, type: 3}
-  - {fileID: 8297180340426883501, guid: 8c601c32fffa02544acaf8ce177107f1, type: 3}
+  - {fileID: 2619448447327269611, guid: 6cf405dad5859b14f9d6bda2bc430c6e, type: 3}
   spawnPoints:
   - point: {fileID: 475282048}
     maxEnemies: 10

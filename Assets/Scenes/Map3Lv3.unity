@@ -89194,7 +89194,7 @@ MonoBehaviour:
   - "T\xF4i s\u1EBD h\u1ED7 tr\u1EE3 b\u1EA1n h\u1EBFt m\xECnh v\xE0 v\u1EABn lu\xF4n
     \u0111\u01B0a ph\u1EA7n th\u01B0\u1EDFng cho b\u1EA1n"
   - "L\xE0m nhi\u1EC7m v\u1EE5 t\xF4i giao v\xE0 nh\u1EADn ph\u1EA7n th\u01B0\u1EDFng"
-  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 50 con qu\xE1i v\u1EADt!!"
+  - "B\u1EA1n h\xE3y ti\xEAu di\u1EC7t 10 con qu\xE1i v\u1EADt!!"
   postQuestDialogues:
   - "M\u1ED9t s\u1EF1 ki\xEAn tr\xEC kh\xF4ng th\u1EC3 ch\u1ED1i c\xE3i \u0111\u01B0\u1EE3c"
   - "S\u1EF1 c\u1ED1 g\u1EAFng c\u1EE7a b\u1EA1n s\u1EBD \u0111\u01B0\u1EE3c \u0111\u1EC1n
@@ -91215,7 +91215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 1164066258}
-  requiredKills: 20
+  requiredKills: 10
   currentKills: 0
 --- !u!4 &1475259862
 Transform:
@@ -92399,7 +92399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4864557446c74fc4681d501015fd79db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3200
+  maxHealth: 1600
   healthBar: {fileID: 1198762703}
   dieSound: {fileID: 0}
   dieVolume: 1
@@ -93921,6 +93921,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 455229794}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 260
+      objectReference: {fileID: 0}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 

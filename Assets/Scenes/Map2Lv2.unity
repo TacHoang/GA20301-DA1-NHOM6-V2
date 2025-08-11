@@ -303292,7 +303292,7 @@ MonoBehaviour:
   - "V\xE0 b\u1EA1n s\u1EAFp nh\u1EADn k\u1EF9 n\u0103ng th\xFA hai t\u1EEB t\xF4i
     r\u1ED3i \u0111\u1EA5y!!!"
   - "\u0110\u1EC3 nh\u1EADn \u0111\u01B0\u1EE3c k\u1EF9 n\u0103ng n\xE0y...."
-  - "V\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 30 con qu\xE1i v\u1EADt!"
+  - "V\u1EADy b\u1EA1n h\xE3y ti\xEAu di\u1EC7t 15 con qu\xE1i v\u1EADt!"
   postQuestDialogues:
   - "T\xF4i r\u1EA5t k\xEDnh ph\u1EE5c b\u1EA1n v\u1EC1 \u0111\u1ED9 ki\xEAn tr\xEC
     v\xE0 c\u1ED1 g\u1EAFng qua t\u1EEBng m\xE0n ch\u01A1i"
@@ -305377,6 +305377,10 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 1996598771}
+    - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: maxHealth
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 4354995612355391793, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
       propertyPath: gameManager
       value: 
@@ -307600,7 +307604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questTextUI: {fileID: 977729363}
-  requiredKills: 30
+  requiredKills: 15
   currentKills: 0
 --- !u!4 &2138675890
 Transform:
