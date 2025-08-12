@@ -122,7 +122,7 @@ public class Npc : MonoBehaviour
 
     IEnumerator WaitAndEndPostQuestDialogue()
     {
-        yield return new WaitForSecondsRealtime(0f); // ✅ Dùng thời gian thực
+        yield return new WaitForSecondsRealtime(1f); // ✅ Dùng thời gian thực
         EndPostQuestDialogue();
     }
 

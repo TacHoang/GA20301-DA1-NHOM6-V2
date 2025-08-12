@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf33c8c8b64e6f540b54331f6c1e9a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 15
+  moveSpeed: 30
   timeDestroy: 1
-  damage: 20
+  damage: 10
   hitSoundPrefab: {fileID: 4278493011126863747, guid: c52cc26ac199c7c4ba04f64ee0c67741, type: 3}

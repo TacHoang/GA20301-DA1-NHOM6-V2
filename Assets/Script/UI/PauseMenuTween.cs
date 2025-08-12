@@ -70,7 +70,13 @@ public class PauseMenuTween : MonoBehaviour
         PlayerPrefs.Save();
         Application.Quit();
     }
-
+    //public void BackMenu()
+    //{
+        //if (SaveLoadManager.Instance != null)
+           // SaveLoadManager.Instance.SaveAllData();
+        //PlayerPrefs.Save();
+        //SceneManager.LoadScene("chay");
+    //}
 
     private void TogglePause()
     {
@@ -81,6 +87,7 @@ public class PauseMenuTween : MonoBehaviour
         else
             ResumeGame();
     }
+
 
     private void PauseGame()
     {

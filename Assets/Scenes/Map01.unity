@@ -57131,7 +57131,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8bc165407b0a884c8aeb902635dc89a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerObject: {fileID: 0}
   gameOverUi: {fileID: 1748591228}
+  deathQuoteText: {fileID: 0}
+  deathQuotes:
+  - "Ph\u1EA3n x\u1EA1 trong th\u1EBF gi\u1EDBi n\xE0y r\u1EA5t quan tr\u1ECDng......"
+  - "H\xE3y ch\u1EC9 chu\u1ED9t v\xE0 nh\u1EAFm b\u1EAFt th\u1EADt chu\u1EA9n x\xE1c...."
+  - "Kh\xF4ng n\xEAn ch\u1EE7 quan khi th\u1EA5y m\xECnh \u0111ang m\u1EA1nh l\xEAn...."
+  - "H\xE3y s\u1EED d\u1EE5ng k\u1EF9 n\u0103ng h\u1EE3p l\xFD \u0111\u1EC3 gi\xFAp
+    s\u1ED1ng x\xF3t"
+  - "K\u1EF9 n\u0103ng r\u1EA5t quan tr\u1ECDng nh\u01B0ng tr\xECnh \u0111\u1ED9
+    m\u1EDBi l\xE0 c\xE1i nh\u1EA5t..."
+  - "Nh\u1EEFng qu\xE1i v\u1EADt di chuy\u1EC3n r\u1EA5t nhanh h\xE3y tr\xE1nh n\xE9......"
 --- !u!4 &570304782
 Transform:
   m_ObjectHideFlags: 0
@@ -197769,7 +197780,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1758937412}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1568639215}
+        m_TargetAssemblyTypeName: PauseMenuTween, Assembly-CSharp
+        m_MethodName: BackMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1758937412
 MonoBehaviour:
   m_ObjectHideFlags: 0
