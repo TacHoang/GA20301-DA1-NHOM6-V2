@@ -1,14 +1,10 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class BossV2 : MonoBehaviour
 {
-
     [Header("Máu")]
     public int maxHealth = 100;
     private int currentHealth;
-
-    [Header("Thanh máu")]
-    public EnemyHealthBar healthBar;
 
     private Animator animator;
 
@@ -16,81 +12,68 @@ public class EnemyHealth : MonoBehaviour
     public AudioClip dieSound;
     [Range(0f, 1f)] public float dieVolume = 1f;
     private AudioSource audioSource;
+
     [Header("UI Boss")]
     public GameObject BosshealthBarCanvas;
-
 
     void Start()
     {
         currentHealth = maxHealth;
 
         animator = GetComponent<Animator>();
-
         audioSource = GetComponent<AudioSource>();
-        if (healthBar != null)
-            healthBar.SetHealth(currentHealth, maxHealth);
-        else
-            Debug.LogWarning("⚠️ Thiếu gán 'healthBar' cho Enemy");
     }
 
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
 
-        if (healthBar != null)
-            healthBar.SetHealth(currentHealth, maxHealth);
-
         if (currentHealth <= 0)
         {
-
             Die();
         }
     }
 
-
     void Die()
     {
-         if (BosshealthBarCanvas != null)
-    {
-            Debug.Log("đã ẩn thánh máu");
-            Destroy(BosshealthBarCanvas, 1f);
-            Debug.Log("🧨 Đã tắt bossHealthBarCanvas: " + BosshealthBarCanvas.name);
-    }
-    else
-    {
-        Debug.LogWarning("⚠️ bossHealthBarCanvas chưa được gán!");
-    }
+        // Xóa thanh máu boss hoàn toàn
+        if (BosshealthBarCanvas != null)
+        {
+            Destroy(BosshealthBarCanvas);
+            Debug.Log("🧨 Đã xóa bossHealthBarCanvas: " + BosshealthBarCanvas.name);
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ bossHealthBarCanvas chưa được gán!");
+        }
 
         // Gọi anim Die
         if (animator != null)
             animator.SetTrigger("Die");
 
-        // Gọi âm thanh chết từ vị trí hiện tại
+        // Gọi âm thanh chết
         if (dieSound != null && audioSource != null)
         {
             audioSource.clip = dieSound;
-            audioSource.volume = dieVolume; // chỉnh trong Inspector
+            audioSource.volume = dieVolume;
             audioSource.Play();
         }
 
+        // Cập nhật nhiệm vụ
         QuestManager qm = FindObjectOfType<QuestManager>();
         if (qm != null)
-        {
-            qm.AddKill(); // Tăng 1 kill duy nhất
-        }
+            qm.AddKill();
 
         // Gắn cờ chết
         Enemy enemy = GetComponent<Enemy>();
         if (enemy != null)
             enemy.isDead = true;
 
-         // Thêm dòng này để spawn máu
-        if (HealthManager.Instance != null)
-            HealthManager.Instance.SpawnHealthAt(transform.position);
+        // Spawn máu
+        HealthManager.Instance?.SpawnHealthAt(transform.position);
 
-        // CoinManager
-        if (CoinManager.Instance != null)
-            CoinManager.Instance.SpawnCoinsAt(transform.position);
+        // Spawn vàng
+        CoinManager.Instance?.SpawnCoinsAt(transform.position);
 
         // Vô hiệu hóa va chạm & vật lý
         Collider2D col = GetComponent<Collider2D>();
@@ -99,8 +82,9 @@ public class EnemyHealth : MonoBehaviour
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         if (rb != null) rb.linearVelocity = Vector2.zero;
 
-        // Hủy sau 1 giây (hoặc thời lượng anim chết)
+        // Hủy boss sau 1 giây
         Destroy(gameObject, 1f);
     }
-}
 
+
+}
