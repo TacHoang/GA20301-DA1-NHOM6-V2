@@ -203528,6 +203528,18 @@ PrefabInstance:
       propertyPath: cooldownText
       value: 
       objectReference: {fileID: 1471981785}
+    - target: {fileID: 8564532240322140102, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: fireDelay
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8564532240322140102, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: shotDelay
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069030519294062993, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: attackCooldown
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

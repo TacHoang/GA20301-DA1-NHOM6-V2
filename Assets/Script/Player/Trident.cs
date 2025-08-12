@@ -1,22 +1,28 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class Trident : MonoBehaviour
 {
-    [SerializeField] private Transform firePos;         // Nơi bắn ra đạn (empty object con của súng)
-    [SerializeField] private GameObject TridentFire;    // Prefab đạn (đinh ba bay)
-    [SerializeField] private float shotDelay = 2f;      // Delay giữa các lần bắn
+    [SerializeField] private Transform firePos;
+    [SerializeField] private GameObject TridentFire;
+    [SerializeField] private float shotDelay = 2f;
+    [SerializeField] private float fireDelay = 0.3f;
+    [SerializeField] private AudioClip shootSound;
+
     private float nextShot;
-    [SerializeField] private AudioClip shootSound;   // Âm thanh khi bắn
     private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         RotateGun();
         Shoot();
     }
-    void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
+
     void RotateGun()
     {
         Vector3 displacement = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -29,14 +35,19 @@ public class Trident : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && Time.time > nextShot)
         {
             nextShot = Time.time + shotDelay;
-            Instantiate(TridentFire, firePos.position, firePos.rotation); // Bắn đinh ba bay ra
-            if (audioSource != null && shootSound != null)
-            {
-                audioSource.PlayOneShot(shootSound);
-            }
+            StartCoroutine(FireAfterDelay());
+        }
+    }
 
+    IEnumerator FireAfterDelay()
+    {
+        yield return new WaitForSeconds(fireDelay);
 
+        Instantiate(TridentFire, firePos.position, firePos.rotation);
+
+        if (audioSource != null && shootSound != null)
+        {
+            audioSource.PlayOneShot(shootSound);
         }
     }
 }
-

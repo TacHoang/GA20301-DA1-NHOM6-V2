@@ -1,22 +1,16 @@
 fileFormatVersion: 2
-guid: 8520f4fe224b6a84bb4dfec94611853f
+guid: df48c92e62eaeb442a26d0e8d17f0ce4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4750761433519615375
-    second: Cursor_0
+      213: -547576129375206273
+    second: Miko-AttackV2_0
   - first:
-      213: -3340349168363038409
-    second: Cursor_1
+      213: -6811081626321853246
+    second: Miko-AttackV2_1
   - first:
-      213: -8894989074114120652
-    second: Cursor_2
-  - first:
-      213: 8084253176091754095
-    second: Cursor_3
-  - first:
-      213: -3647630677443473183
-    second: Cursor_4
+      213: -3551980580267644144
+    second: Miko-AttackV2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -36,7 +30,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -49,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 111
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cursor_0
+      name: Miko-AttackV2_0
       rect:
         serializedVersion: 2
-        x: 363
-        y: 620
-        width: 229
-        height: 233
+        x: 29
+        y: 26
+        width: 117
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 172107695a7e11eb0800000000000000
-      internalID: -4750761433519615375
+      spriteID: f748b19596e9668f0800000000000000
+      internalID: -547576129375206273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cursor_1
+      name: Miko-AttackV2_1
       rect:
         serializedVersion: 2
-        x: 61
-        y: 317
-        width: 227
-        height: 234
+        x: 171
+        y: 26
+        width: 139
+        height: 193
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73913f91122b4a1d0800000000000000
-      internalID: -3340349168363038409
+      spriteID: 2c465e6f85d2a71a0800000000000000
+      internalID: -6811081626321853246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cursor_2
+      name: Miko-AttackV2_2
       rect:
         serializedVersion: 2
-        x: 388
-        y: 343
-        width: 175
-        height: 181
+        x: 315
+        y: 26
+        width: 214
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,52 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43472749096ae8480800000000000000
-      internalID: -8894989074114120652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cursor_3
-      rect:
-        serializedVersion: 2
-        x: 663
-        y: 317
-        width: 233
-        height: 234
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6eb5437e69013070800000000000000
-      internalID: 8084253176091754095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cursor_4
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 17
-        width: 231
-        height: 227
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e01a2f8933016dc0800000000000000
-      internalID: -3647630677443473183
+      spriteID: 01baf004b74d4bec0800000000000000
+      internalID: -3551980580267644144
       vertices: []
       indices: 
       edges: []
@@ -235,11 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cursor_0: -4750761433519615375
-      Cursor_1: -3340349168363038409
-      Cursor_2: -8894989074114120652
-      Cursor_3: 8084253176091754095
-      Cursor_4: -3647630677443473183
+      Miko-AttackV2_0: -547576129375206273
+      Miko-AttackV2_1: -6811081626321853246
+      Miko-AttackV2_2: -3551980580267644144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
