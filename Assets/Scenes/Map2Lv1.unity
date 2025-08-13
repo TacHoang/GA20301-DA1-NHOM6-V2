@@ -304635,6 +304635,10 @@ PrefabInstance:
       propertyPath: shotDelay
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 9069030519294062993, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
+      propertyPath: attackCooldown
+      value: 0.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 2914217211617293307, guid: 2b3aeace3a987a241b64f66974f83933, type: 3}
