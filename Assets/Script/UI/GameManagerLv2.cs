@@ -38,10 +38,7 @@ public class GameManagerLv2 : MonoBehaviour
     {
         isGameOver = true;
         Time.timeScale = 0;
-        if (playerObject != null)
-        {
-            Destroy(playerObject); // Xóa người chơi
-        }
+     
 
         if (deathQuoteText != null && deathQuotes.Length > 0)
         {
