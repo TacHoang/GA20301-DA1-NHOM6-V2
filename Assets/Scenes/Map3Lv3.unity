@@ -93789,7 +93789,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1150456842}
         m_TargetAssemblyTypeName: PauseMenuTween, Assembly-CSharp
-        m_MethodName: BackMenu
+        m_MethodName: OnBackClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
