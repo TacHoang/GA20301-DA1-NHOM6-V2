@@ -76,40 +76,24 @@ public class PauseMenuTween : MonoBehaviour
     // ⏪ Back → thoát về Menu, lưu progress
 public void OnBackClicked()
 {
-    Debug.Log("▶ OnBackClicked được gọi!");
-
     isPaused = false;
 
-    try
-    {
-        SaveLoadManager.Instance?.SaveAllData();
-        PlayerPrefs.Save();
-    }
-    catch (System.Exception e)
-    {
-        Debug.LogError("❌ Lỗi khi save: " + e.Message);
-    }
+    // 1️⃣ Lưu game
+    SaveLoadManager.Instance?.SaveAllData();
+    PlayerPrefs.Save();
 
-    try
-    {
-        DOTween.Kill(pauseMenuPanel);
-    }
-    catch { }
+    // 2️⃣ Kill tween
+    DOTween.Kill(pauseMenuPanel);
 
+    // 3️⃣ Bật lại game
     Time.timeScale = 1f;
     AudioListener.pause = false;
+    skillManager?.UnlockAllSkills();
 
-    try
-    {
-        skillManager?.UnlockAllSkills();
-    }
-    catch { }
-
-    GameManager.sceneToLoad = "Menu";
-    Debug.Log("▶ sceneToLoad set = " + GameManager.sceneToLoad);
-
-    SceneManager.LoadScene("LoadingScene");
+    // 4️⃣ Load trực tiếp Menu (bỏ qua LoadingScene)
+    SceneManager.LoadScene("Menu");
 }
+
 
 
 
