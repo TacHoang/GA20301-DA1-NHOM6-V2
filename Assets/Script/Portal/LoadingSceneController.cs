@@ -1,33 +1,21 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System.Collections;
-using TMPro;  // Nhớ import thư viện TextMeshPro
+using TMPro;
 
 public class LoadingSceneController : MonoBehaviour
 {
     public Slider loadingBar;
-
-    [Header("Thời gian chờ trước khi chuyển scene (giây)")]
+    public TextMeshProUGUI loadingText;
     public float delayTime = 0.5f;
-
-    public TextMeshProUGUI loadingText; // Thêm biến TextMeshPro
 
     void Start()
     {
-        if (loadingBar == null)
-        {
-            Debug.LogError("Loading bar chưa được gán trong Inspector hoặc không tìm thấy trong scene!");
-        }
-
-        if (loadingText == null)
-        {
-            Debug.LogWarning("Loading text chưa được gán trong Inspector!");
-        }
-
         if (string.IsNullOrEmpty(GameManager.sceneToLoad))
         {
-            Debug.LogError("GameManager.sceneToLoad chưa được gán!");
+            Debug.LogError("GameManager.sceneToLoad chưa gán!");
+            return;
         }
 
         StartCoroutine(LoadAsyncScene());
@@ -41,13 +29,8 @@ public class LoadingSceneController : MonoBehaviour
         while (operation.progress < 0f)
         {
             float progress = Mathf.Clamp01(operation.progress / 0f);
-            loadingBar.value = progress;
-
-            if (loadingText != null)
-            {
-                loadingText.text = $"Loading... {(int)(progress * 100)}%";
-            }
-
+            if (loadingBar != null) loadingBar.value = progress;
+            if (loadingText != null) loadingText.text = $"Loading... {(int)(progress * 100)}%";
             yield return null;
         }
 
@@ -56,22 +39,13 @@ public class LoadingSceneController : MonoBehaviour
         {
             elapsed += Time.deltaTime;
             float progress = Mathf.Lerp(0f, 1f, elapsed / delayTime);
-            loadingBar.value = progress;
-
-            if (loadingText != null)
-            {
-                loadingText.text = $"Loading {(int)(progress * 100)}%";
-            }
-
+            if (loadingBar != null) loadingBar.value = progress;
+            if (loadingText != null) loadingText.text = $"Loading {(int)(progress * 100)}%";
             yield return null;
         }
 
-        loadingBar.value = 1f;
-
-        if (loadingText != null)
-        {
-            loadingText.text = "Loading 100%";
-        }
+        if (loadingBar != null) loadingBar.value = 1f;
+        if (loadingText != null) loadingText.text = "Loading 100%";
 
         operation.allowSceneActivation = true;
     }

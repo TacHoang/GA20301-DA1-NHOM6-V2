@@ -1,17 +1,25 @@
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class SaveLoadManager : MonoBehaviour
 {
     public static SaveLoadManager Instance;
+
+    private string saveFilePath;
     private GameManager gm;
 
-    public Vector3 defaultPosition = Vector3.zero;
-    public float autoSaveInterval = 300f;
-
-    void Awake()
+    [System.Serializable]
+    public class SaveData
     {
+        public int playerHP;
+        public int playerGold;
+        public string currentScene;
+    }
+
+    private void Awake()
+    {
+        // Singleton
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -19,81 +27,72 @@ public class SaveLoadManager : MonoBehaviour
         }
         Instance = this;
         DontDestroyOnLoad(gameObject);
-    }
 
-    void Start()
-    {
-        StartCoroutine(LoadAfterFrame());
-        StartCoroutine(AutoSaveRoutine());
-    }
-
-    IEnumerator LoadAfterFrame()
-    {
-        yield return null;
+        saveFilePath = Path.Combine(Application.persistentDataPath, "save.json");
         gm = GameManager.Instance;
-
-        if (gm == null)
-        {
-            Debug.LogError("GameManager.Instance NULL!");
-            yield break;
-        }
-
-        // Chỉ load dữ liệu nếu KHÔNG phải New Game
-        if (!gm.isNewGame)
-            LoadAllData();
-        else
-            gm.isNewGame = false;
     }
 
-    IEnumerator AutoSaveRoutine()
-    {
-        while (true)
-        {
-            yield return new WaitForSecondsRealtime(autoSaveInterval);
-            SaveAllData();
-        }
-    }
-
+    // 🔹 Lưu dữ liệu game
     public void SaveAllData()
     {
         if (gm == null) gm = GameManager.Instance;
         if (gm == null) return;
 
-        GameObject player = gm.GetPlayer();
-        if (player != null)
+        string currentScene = SceneManager.GetActiveScene().name;
+        if (currentScene == "Menu") return; // Không lưu Menu
+
+        SaveData data = new SaveData
         {
-            Vector3 pos = player.transform.position;
-            PlayerPrefs.SetFloat("PlayerX", pos.x);
-            PlayerPrefs.SetFloat("PlayerY", pos.y);
-            PlayerPrefs.SetFloat("PlayerZ", pos.z);
-        }
+            playerHP = gm.playerHealth,
+            playerGold = gm.playerGold,
+            currentScene = currentScene
+        };
 
-        PlayerPrefs.SetInt("PlayerHP", gm.playerHealth);
-        PlayerPrefs.SetInt("PlayerGold", gm.playerGold);
+        string json = JsonUtility.ToJson(data, true);
+        File.WriteAllText(saveFilePath, json);
 
-        PlayerPrefs.SetString("CurrentScene", SceneManager.GetActiveScene().name);
-
-        PlayerPrefs.Save();
-        Debug.Log("Game Saved");
+        Debug.Log("💾 Game Saved! (HP + Gold + Scene)");
     }
 
+    // 🔹 Load dữ liệu game
     public void LoadAllData()
     {
         if (gm == null) gm = GameManager.Instance;
         if (gm == null) return;
 
-        GameObject player = gm.GetPlayer();
-        if (player != null)
+        if (!File.Exists(saveFilePath))
         {
-            float x = PlayerPrefs.GetFloat("PlayerX", defaultPosition.x);
-            float y = PlayerPrefs.GetFloat("PlayerY", defaultPosition.y);
-            float z = PlayerPrefs.GetFloat("PlayerZ", defaultPosition.z);
-            player.transform.position = new Vector3(x, y, z);
+            Debug.Log("⚠️ No save file found, starting fresh.");
+            return;
         }
 
-        gm.playerHealth = PlayerPrefs.GetInt("PlayerHP", gm.playerHealth);
-        gm.playerGold = PlayerPrefs.GetInt("PlayerGold", gm.playerGold);
+        string json = File.ReadAllText(saveFilePath);
+        SaveData data = JsonUtility.FromJson<SaveData>(json);
 
-        Debug.Log("Game Loaded");
+        gm.playerHealth = data.playerHP;
+        gm.playerGold = data.playerGold;
+
+        Debug.Log("📂 Game Loaded! (HP + Gold + Scene)");
+    }
+
+    // 🔹 Lấy scene đã lưu
+    public string GetSavedScene()
+    {
+        if (!File.Exists(saveFilePath))
+            return null;
+
+        string json = File.ReadAllText(saveFilePath);
+        SaveData data = JsonUtility.FromJson<SaveData>(json);
+        return data.currentScene;
+    }
+
+    // 🔹 Xóa save (nếu cần)
+    public void DeleteSave()
+    {
+        if (File.Exists(saveFilePath))
+        {
+            File.Delete(saveFilePath);
+            Debug.Log("🗑 Save deleted.");
+        }
     }
 }

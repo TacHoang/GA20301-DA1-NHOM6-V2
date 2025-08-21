@@ -14,8 +14,9 @@ public class PauseMenuTween : MonoBehaviour
     private Vector2 hiddenPos, visiblePos;
     private CanvasGroup canvasGroup;
     private SkillManager skillManager;
-    public SaveLoadManager saveManager;  // Gán trong inspector
-    
+
+    // (Tùy chọn) nếu bạn gán trong Inspector thì sẽ ưu tiên cái này
+    public SaveLoadManager saveManager;  // Gán trong Inspector nếu muốn
 
     void Awake()
     {
@@ -43,7 +44,7 @@ public class PauseMenuTween : MonoBehaviour
         Time.timeScale = 1f;
         AudioListener.pause = false;
 
-        skillManager = FindObjectOfType<SkillManager>(); 
+        skillManager = FindObjectOfType<SkillManager>();
     }
 
     void Update()
@@ -52,31 +53,58 @@ public class PauseMenuTween : MonoBehaviour
             TogglePause();
     }
 
-    public void OnResumeClicked() => TogglePause();
-    
+    // ▶ Resume: tiếp tục game
+    public void OnResumeClicked()
+    {
+        TogglePause();
+    }
 
+    // 🔄 Restart → load lại scene hiện tại qua LoadingScene
     public void OnRestartClicked()
     {
         TogglePause();
-        GameManager.Instance?.ResetData();       // Reset máu và vàng (GameManager)
-        CoinManager.Instance?.ResetCoin();       // Reset UI hiển thị vàng
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        (saveManager != null ? saveManager : SaveLoadManager.Instance)?.SaveAllData();
+
+        GameManager.Instance?.ResetData();      
+        CoinManager.Instance?.ResetCoin();      
+
+        GameManager.sceneToLoad = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene("LoadingScene");
     }
 
+    // ⏪ Back → thoát về Menu, lưu progress
+public void OnBackClicked()
+{
+    isPaused = false;
+
+    // 1️⃣ Lưu tiến độ game vào JSON
+    SaveLoadManager.Instance?.SaveAllData();
+
+    // 2️⃣ Lưu PlayerPrefs nếu có
+    PlayerPrefs.Save();
+
+    // 3️⃣ Tắt tween đang chạy (an toàn)
+    DOTween.Kill(pauseMenuPanel);
+
+    // 4️⃣ Bật lại game
+    Time.timeScale = 1f;
+    AudioListener.pause = false;
+    skillManager?.UnlockAllSkills();
+
+    // 5️⃣ Set scene cần load → Menu
+    GameManager.sceneToLoad = "MainMenu"; // tên scene menu đúng trong Build Settings
+    SceneManager.LoadScene("LoadingScene"); 
+}
+
+
+    // ❌ Thoát hẳn game
     public void OnQuitClicked()
     {
-        if (SaveLoadManager.Instance != null)
-            SaveLoadManager.Instance.SaveAllData();
+        (saveManager != null ? saveManager : SaveLoadManager.Instance)?.SaveAllData();
         PlayerPrefs.Save();
         Application.Quit();
     }
-    //public void BackMenu()
-    //{
-        //if (SaveLoadManager.Instance != null)
-           // SaveLoadManager.Instance.SaveAllData();
-        //PlayerPrefs.Save();
-        //SceneManager.LoadScene("chay");
-    //}
 
     private void TogglePause()
     {
@@ -88,7 +116,6 @@ public class PauseMenuTween : MonoBehaviour
             ResumeGame();
     }
 
-
     private void PauseGame()
     {
         canvasGroup.interactable = true;
@@ -99,25 +126,22 @@ public class PauseMenuTween : MonoBehaviour
             .SetEase(Ease.OutBack)
             .SetUpdate(true);
 
-        canvasGroup.DOFade(1f, duration)
-            .SetUpdate(true);
+        canvasGroup.DOFade(1f, duration).SetUpdate(true);
 
         DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 0f, duration)
                .SetUpdate(true);
 
         AudioListener.pause = true;
-
-        skillManager?.LockAllSkills(); 
+        skillManager?.LockAllSkills();
     }
 
     private void ResumeGame()
     {
         pauseMenuPanel.DOAnchorPos(hiddenPos, duration)
-        .SetEase(Ease.InBack)
-        .SetUpdate(true);
-
-        canvasGroup.DOFade(0f, duration)
+            .SetEase(Ease.InBack)
             .SetUpdate(true);
+
+        canvasGroup.DOFade(0f, duration).SetUpdate(true);
 
         DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 1f, duration)
             .SetEase(Ease.Linear)

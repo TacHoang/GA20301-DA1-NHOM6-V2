@@ -197547,8 +197547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe96a52c589d16a42929cadb8e210009, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultPosition: {x: 0, y: 0, z: 0}
-  autoSaveInterval: 300
 --- !u!4 &1720294766
 Transform:
   m_ObjectHideFlags: 0
@@ -197783,7 +197781,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1568639215}
         m_TargetAssemblyTypeName: PauseMenuTween, Assembly-CSharp
-        m_MethodName: BackMenu
+        m_MethodName: OnBackClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
